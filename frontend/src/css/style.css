@@ -1,0 +1,10 @@
+.imageColumn {
+    -ms-flex: 25%; /* IE 10 */
+    flex: 25%;
+    padding: 1%;
+}
+
+.imageColumn img {
+    max-width: 25%;
+    vertical-align: middle;
+}

@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container text-center">
+                <h1>Lifelog Video Frame Query</h1>
+                <span>by Carlos Rosas and YY Teng</span>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="container">
+                            <h2>Query</h2>
+                            <div id="ro-container">
+                                <!-- <h3>Relational + Object detections</h3> -->
+                                <label for="ro-object1">Object 1: </label> <input type="text" name="ro-object1"><br>
+                                <label for="ro-relation">Relation: </label> <input type="text" name="ro-relation"><br>
+                                <label for="ro-object2">Object 2: </label> <input type="text" name="ro-object2"><br>
+                            </div>
+                            <div id="os-container" style="display: none;">
+                                <!-- <h3>Object detection + Speech Subtitle</h3> -->
+                                <label for="os-subject">Subject: </label> <input type="text" name="os-subject"><br>
+                                <label for="os-predict">Predict: </label> <input type="text" name="os-predict"><br>
+                                <label for="os-object">Object: </label> <input type="text" name="os-object"><br>
+                            </div>
+                            <div id="po-container" style="display: none;">
+                                <!-- <h3>Place + Object detections</h3> -->
+                                <label for="po-placeAttr">PlaceAttr: </label> <input type="text" name="po-placeAttr"><br>
+                                <label for="po-placeType">PlaceType: </label> <input type="text" name="po-placeType"><br>
+                                <label for="po-labelsG">LabelsG: </label> <input type="text" name="po-labelsG"><br>
+                                <label for="po-objectsG">ObjectsG: </label> <input type="text" name="po-objectsG"><br>
+                            </div>
+                            <div>
+                                <button type="submit" name="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2>Mode</h2>
+                        <div>
+                            <input type="radio" checked="true"; id="ro"> <label for="ro">RO</label><br>
+                            <input type="radio" id="os"> <label for="os">OS</label><br>
+                            <input type="radio" id="po"> <label for="po">PO</label><br>
+                        </div>
+                        <div>
+                            <a href="" download="data.json" id="download">Download Data</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <h3>Images</h3>
+                <div class="container" id="images">
+                    <div class="imageColumn" id="col-0"></div>
+                    <div class="imageColumn" id="col-1"></div>
+                    <div class="imageColumn" id="col-2"></div>
+                    <div class="imageColumn" id="col-3"></div>
+                </div>
+            </div>
+        </div>
+    <body>
+    <script type="text/javascript" src="src/js/modeToggler.js"></script>
+    <script type="text/javascript" src="src/js/imageQuery.js"></script>
+    <script type="text/javascript" src="src/js/listeners.js"></script>
+</html>
