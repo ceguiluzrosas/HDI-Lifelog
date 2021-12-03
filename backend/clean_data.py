@@ -36,7 +36,7 @@ for item in jsonData:
         classification["min_conf"] = min(confidences)
         data[imageFilename].append(classification)
 
-output_path = "data"
+output_path = "frontend/src/data"
 with open(f"{output_path}/{filename}.json", "w+") as f:
     json.dump(data, f, indent=4)
 

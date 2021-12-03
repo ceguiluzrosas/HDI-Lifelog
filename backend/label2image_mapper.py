@@ -1,7 +1,7 @@
 import json
 
 input_path = "backend"
-output_path = "data"
+output_path = "frontend/src/data"
 filename = "times_square"
 
 jsonData = None

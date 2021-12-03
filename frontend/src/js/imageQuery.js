@@ -68,7 +68,12 @@ class ImageQuery {
         }
 
         add_images(){
-            // return ;
+
+            // $.getJSON(`src/data/map_${this.mode}.json`, function(data){
+            //     console.log(data);
+            // })
+
+            return ;
             let count = 10,
                 url = 'https://storage.googleapis.com/mitribu-mobile/social/memes/',
                 rowNum = 0,
