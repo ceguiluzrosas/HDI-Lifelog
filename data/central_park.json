@@ -1,0 +1,1389 @@
+{
+    "0000000020.jpg": [
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.8626433333333333,
+            "max_conf": 0.994279,
+            "min_conf": 0.530278
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.361842,
+            "max_conf": 0.361842,
+            "min_conf": 0.361842
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.727553,
+            "max_conf": 0.727553,
+            "min_conf": 0.727553
+        }
+    ],
+    "0000000290.jpg": [
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.7725744,
+            "max_conf": 0.983101,
+            "min_conf": 0.266416
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.533632,
+            "max_conf": 0.533632,
+            "min_conf": 0.533632
+        }
+    ],
+    "0000000580.jpg": [
+        {
+            "item_name": "person",
+            "count": 2,
+            "avg_conf": 0.3624795,
+            "max_conf": 0.408161,
+            "min_conf": 0.316798
+        },
+        {
+            "item_name": "zebra",
+            "count": 1,
+            "avg_conf": 0.765411,
+            "max_conf": 0.765411,
+            "min_conf": 0.765411
+        }
+    ],
+    "0000000890.jpg": [
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.7498645000000002,
+            "max_conf": 0.99725,
+            "min_conf": 0.366355
+        }
+    ],
+    "0000001260.jpg": [
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.7255261818181818,
+            "max_conf": 0.967726,
+            "min_conf": 0.373738
+        }
+    ],
+    "0000000030.jpg": [
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.6733668333333335,
+            "max_conf": 0.997515,
+            "min_conf": 0.308004
+        },
+        {
+            "item_name": "handbag",
+            "count": 2,
+            "avg_conf": 0.497899,
+            "max_conf": 0.736207,
+            "min_conf": 0.259591
+        },
+        {
+            "item_name": "cell phone",
+            "count": 2,
+            "avg_conf": 0.31762,
+            "max_conf": 0.346029,
+            "min_conf": 0.289211
+        },
+        {
+            "item_name": "remote",
+            "count": 1,
+            "avg_conf": 0.267276,
+            "max_conf": 0.267276,
+            "min_conf": 0.267276
+        }
+    ],
+    "0000000300.jpg": [
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.8829422142857143,
+            "max_conf": 0.994573,
+            "min_conf": 0.287046
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.500883,
+            "max_conf": 0.500883,
+            "min_conf": 0.500883
+        }
+    ],
+    "0000000590.jpg": [
+        {
+            "item_name": "person",
+            "count": 3,
+            "avg_conf": 0.5112946666666667,
+            "max_conf": 0.935483,
+            "min_conf": 0.258245
+        },
+        {
+            "item_name": "zebra",
+            "count": 1,
+            "avg_conf": 0.756188,
+            "max_conf": 0.756188,
+            "min_conf": 0.756188
+        }
+    ],
+    "0000000900.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.91905325,
+            "max_conf": 0.99669,
+            "min_conf": 0.733043
+        }
+    ],
+    "0000001270.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.8061234285714286,
+            "max_conf": 0.988583,
+            "min_conf": 0.339063
+        }
+    ],
+    "0000000040.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.8121421428571429,
+            "max_conf": 0.995662,
+            "min_conf": 0.395183
+        },
+        {
+            "item_name": "handbag",
+            "count": 2,
+            "avg_conf": 0.340954,
+            "max_conf": 0.408772,
+            "min_conf": 0.273136
+        }
+    ],
+    "0000000320.jpg": [
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.7879214705882355,
+            "max_conf": 0.995011,
+            "min_conf": 0.253619
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.286584,
+            "max_conf": 0.286584,
+            "min_conf": 0.286584
+        }
+    ],
+    "0000000620.jpg": [
+        {
+            "item_name": "person",
+            "count": 3,
+            "avg_conf": 0.8089533333333333,
+            "max_conf": 0.849727,
+            "min_conf": 0.739283
+        },
+        {
+            "item_name": "zebra",
+            "count": 2,
+            "avg_conf": 0.602691,
+            "max_conf": 0.948,
+            "min_conf": 0.257382
+        }
+    ],
+    "0000000910.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.735661,
+            "max_conf": 0.992396,
+            "min_conf": 0.327485
+        }
+    ],
+    "0000001300.jpg": [
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.7217106666666666,
+            "max_conf": 0.992919,
+            "min_conf": 0.30559
+        },
+        {
+            "item_name": "elephant",
+            "count": 1,
+            "avg_conf": 0.496416,
+            "max_conf": 0.496416,
+            "min_conf": 0.496416
+        }
+    ],
+    "0000000050.jpg": [
+        {
+            "item_name": "person",
+            "count": 3,
+            "avg_conf": 0.989988,
+            "max_conf": 0.996292,
+            "min_conf": 0.978912
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.3555975,
+            "max_conf": 0.39533,
+            "min_conf": 0.315865
+        },
+        {
+            "item_name": "cell phone",
+            "count": 1,
+            "avg_conf": 0.357993,
+            "max_conf": 0.357993,
+            "min_conf": 0.357993
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.288971,
+            "max_conf": 0.288971,
+            "min_conf": 0.288971
+        }
+    ],
+    "0000000330.jpg": [
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.8369377333333332,
+            "max_conf": 0.991899,
+            "min_conf": 0.326562
+        },
+        {
+            "item_name": "skateboard",
+            "count": 1,
+            "avg_conf": 0.271695,
+            "max_conf": 0.271695,
+            "min_conf": 0.271695
+        }
+    ],
+    "0000000630.jpg": [
+        {
+            "item_name": "person",
+            "count": 3,
+            "avg_conf": 0.8204123333333332,
+            "max_conf": 0.923779,
+            "min_conf": 0.719562
+        },
+        {
+            "item_name": "zebra",
+            "count": 1,
+            "avg_conf": 0.89577,
+            "max_conf": 0.89577,
+            "min_conf": 0.89577
+        },
+        {
+            "item_name": "bench",
+            "count": 1,
+            "avg_conf": 0.263684,
+            "max_conf": 0.263684,
+            "min_conf": 0.263684
+        }
+    ],
+    "0000000920.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.9273336000000001,
+            "max_conf": 0.997658,
+            "min_conf": 0.742051
+        }
+    ],
+    "0000001310.jpg": [
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.8409066666666667,
+            "max_conf": 0.990925,
+            "min_conf": 0.580885
+        }
+    ],
+    "0000000060.jpg": [
+        {
+            "item_name": "person",
+            "count": 2,
+            "avg_conf": 0.990978,
+            "max_conf": 0.991986,
+            "min_conf": 0.98997
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.438203,
+            "max_conf": 0.438203,
+            "min_conf": 0.438203
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.301545,
+            "max_conf": 0.301545,
+            "min_conf": 0.301545
+        }
+    ],
+    "0000000340.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.8054518125000001,
+            "max_conf": 0.995024,
+            "min_conf": 0.288228
+        },
+        {
+            "item_name": "bench",
+            "count": 1,
+            "avg_conf": 0.269287,
+            "max_conf": 0.269287,
+            "min_conf": 0.269287
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.336579,
+            "max_conf": 0.336579,
+            "min_conf": 0.336579
+        }
+    ],
+    "0000000640.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.6708935,
+            "max_conf": 0.885636,
+            "min_conf": 0.435712
+        },
+        {
+            "item_name": "zebra",
+            "count": 1,
+            "avg_conf": 0.922683,
+            "max_conf": 0.922683,
+            "min_conf": 0.922683
+        },
+        {
+            "item_name": "bench",
+            "count": 1,
+            "avg_conf": 0.447966,
+            "max_conf": 0.447966,
+            "min_conf": 0.447966
+        }
+    ],
+    "0000000960.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.8718098,
+            "max_conf": 0.999359,
+            "min_conf": 0.665487
+        },
+        {
+            "item_name": "bicycle",
+            "count": 1,
+            "avg_conf": 0.630583,
+            "max_conf": 0.630583,
+            "min_conf": 0.630583
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.274096,
+            "max_conf": 0.274096,
+            "min_conf": 0.274096
+        }
+    ],
+    "0000001340.jpg": [
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.6351783333333333,
+            "max_conf": 0.993007,
+            "min_conf": 0.286694
+        }
+    ],
+    "0000000070.jpg": [
+        {
+            "item_name": "person",
+            "count": 3,
+            "avg_conf": 0.821926,
+            "max_conf": 0.941205,
+            "min_conf": 0.718116
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.420877,
+            "max_conf": 0.420877,
+            "min_conf": 0.420877
+        }
+    ],
+    "0000000350.jpg": [
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.8745587499999999,
+            "max_conf": 0.990625,
+            "min_conf": 0.303086
+        }
+    ],
+    "0000000650.jpg": [
+        {
+            "item_name": "person",
+            "count": 3,
+            "avg_conf": 0.8301153333333334,
+            "max_conf": 0.903752,
+            "min_conf": 0.784352
+        },
+        {
+            "item_name": "zebra",
+            "count": 2,
+            "avg_conf": 0.644637,
+            "max_conf": 0.930836,
+            "min_conf": 0.358438
+        }
+    ],
+    "0000000970.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.8864794,
+            "max_conf": 0.996734,
+            "min_conf": 0.533471
+        }
+    ],
+    "0000001360.jpg": [
+        {
+            "item_name": "person",
+            "count": 8,
+            "avg_conf": 0.755841125,
+            "max_conf": 0.988936,
+            "min_conf": 0.415287
+        }
+    ],
+    "0000000080.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.662686,
+            "max_conf": 0.972457,
+            "min_conf": 0.254172
+        },
+        {
+            "item_name": "bicycle",
+            "count": 1,
+            "avg_conf": 0.331912,
+            "max_conf": 0.331912,
+            "min_conf": 0.331912
+        }
+    ],
+    "0000000380.jpg": [
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.7575858571428571,
+            "max_conf": 0.98917,
+            "min_conf": 0.341367
+        }
+    ],
+    "0000000670.jpg": [
+        {
+            "item_name": "person",
+            "count": 3,
+            "avg_conf": 0.841522,
+            "max_conf": 0.966357,
+            "min_conf": 0.683863
+        },
+        {
+            "item_name": "zebra",
+            "count": 2,
+            "avg_conf": 0.7232635000000001,
+            "max_conf": 0.949222,
+            "min_conf": 0.497305
+        },
+        {
+            "item_name": "bench",
+            "count": 1,
+            "avg_conf": 0.666907,
+            "max_conf": 0.666907,
+            "min_conf": 0.666907
+        }
+    ],
+    "0000001000.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.6902442000000001,
+            "max_conf": 0.993871,
+            "min_conf": 0.273828
+        }
+    ],
+    "0000001370.jpg": [
+        {
+            "item_name": "person",
+            "count": 8,
+            "avg_conf": 0.7895872500000001,
+            "max_conf": 0.995714,
+            "min_conf": 0.560907
+        }
+    ],
+    "0000000090.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.81137525,
+            "max_conf": 0.993523,
+            "min_conf": 0.520238
+        },
+        {
+            "item_name": "bicycle",
+            "count": 1,
+            "avg_conf": 0.282939,
+            "max_conf": 0.282939,
+            "min_conf": 0.282939
+        }
+    ],
+    "0000000390.jpg": [
+        {
+            "item_name": "person",
+            "count": 13,
+            "avg_conf": 0.8274134615384615,
+            "max_conf": 0.996458,
+            "min_conf": 0.317991
+        }
+    ],
+    "0000000680.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.75978975,
+            "max_conf": 0.904312,
+            "min_conf": 0.606402
+        },
+        {
+            "item_name": "zebra",
+            "count": 2,
+            "avg_conf": 0.6921495,
+            "max_conf": 0.947125,
+            "min_conf": 0.437174
+        }
+    ],
+    "0000001010.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.8078396,
+            "max_conf": 0.981314,
+            "min_conf": 0.540256
+        }
+    ],
+    "0000001380.jpg": [
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.6335997777777778,
+            "max_conf": 0.996127,
+            "min_conf": 0.298083
+        }
+    ],
+    "0000000100.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.6705408571428572,
+            "max_conf": 0.991334,
+            "min_conf": 0.261464
+        },
+        {
+            "item_name": "bicycle",
+            "count": 1,
+            "avg_conf": 0.336158,
+            "max_conf": 0.336158,
+            "min_conf": 0.336158
+        }
+    ],
+    "0000000420.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.7276600624999999,
+            "max_conf": 0.994588,
+            "min_conf": 0.264895
+        }
+    ],
+    "0000000690.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.78734475,
+            "max_conf": 0.926005,
+            "min_conf": 0.642189
+        },
+        {
+            "item_name": "bicycle",
+            "count": 1,
+            "avg_conf": 0.375222,
+            "max_conf": 0.375222,
+            "min_conf": 0.375222
+        },
+        {
+            "item_name": "zebra",
+            "count": 2,
+            "avg_conf": 0.8512295,
+            "max_conf": 0.854139,
+            "min_conf": 0.84832
+        }
+    ],
+    "0000001020.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.726088,
+            "max_conf": 0.989565,
+            "min_conf": 0.423205
+        }
+    ],
+    "0000001400.jpg": [
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.6702509999999999,
+            "max_conf": 0.995732,
+            "min_conf": 0.317587
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.265646,
+            "max_conf": 0.265646,
+            "min_conf": 0.265646
+        }
+    ],
+    "0000000110.jpg": [
+        {
+            "item_name": "cow",
+            "count": 1,
+            "avg_conf": 0.457773,
+            "max_conf": 0.457773,
+            "min_conf": 0.457773
+        },
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.600576,
+            "max_conf": 0.995768,
+            "min_conf": 0.25425
+        },
+        {
+            "item_name": "bicycle",
+            "count": 1,
+            "avg_conf": 0.253525,
+            "max_conf": 0.253525,
+            "min_conf": 0.253525
+        }
+    ],
+    "0000000430.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.7130426249999998,
+            "max_conf": 0.992795,
+            "min_conf": 0.307006
+        }
+    ],
+    "0000000710.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.787987,
+            "max_conf": 0.960513,
+            "min_conf": 0.601794
+        },
+        {
+            "item_name": "bicycle",
+            "count": 2,
+            "avg_conf": 0.46729550000000003,
+            "max_conf": 0.655985,
+            "min_conf": 0.278606
+        },
+        {
+            "item_name": "zebra",
+            "count": 1,
+            "avg_conf": 0.569399,
+            "max_conf": 0.569399,
+            "min_conf": 0.569399
+        }
+    ],
+    "0000001030.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.7398055714285715,
+            "max_conf": 0.996593,
+            "min_conf": 0.415985
+        }
+    ],
+    "0000001410.jpg": [
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.6200008181818182,
+            "max_conf": 0.978896,
+            "min_conf": 0.268844
+        }
+    ],
+    "0000000120.jpg": [
+        {
+            "item_name": "person",
+            "count": 3,
+            "avg_conf": 0.6802616666666667,
+            "max_conf": 0.908292,
+            "min_conf": 0.320178
+        }
+    ],
+    "0000000440.jpg": [
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.6486486666666668,
+            "max_conf": 0.974122,
+            "min_conf": 0.292425
+        }
+    ],
+    "0000000720.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.627197,
+            "max_conf": 0.886562,
+            "min_conf": 0.253152
+        },
+        {
+            "item_name": "bicycle",
+            "count": 1,
+            "avg_conf": 0.918527,
+            "max_conf": 0.918527,
+            "min_conf": 0.918527
+        }
+    ],
+    "0000001060.jpg": [
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.7080045,
+            "max_conf": 0.997405,
+            "min_conf": 0.363236
+        }
+    ],
+    "0000001420.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.7618612857142858,
+            "max_conf": 0.986564,
+            "min_conf": 0.319065
+        }
+    ],
+    "0000000130.jpg": [
+        {
+            "item_name": "person",
+            "count": 3,
+            "avg_conf": 0.7567560000000001,
+            "max_conf": 0.855449,
+            "min_conf": 0.690976
+        },
+        {
+            "item_name": "zebra",
+            "count": 1,
+            "avg_conf": 0.702467,
+            "max_conf": 0.702467,
+            "min_conf": 0.702467
+        }
+    ],
+    "0000000450.jpg": [
+        {
+            "item_name": "person",
+            "count": 10,
+            "avg_conf": 0.6983720000000001,
+            "max_conf": 0.945159,
+            "min_conf": 0.268358
+        }
+    ],
+    "0000000730.jpg": [
+        {
+            "item_name": "bicycle",
+            "count": 1,
+            "avg_conf": 0.941964,
+            "max_conf": 0.941964,
+            "min_conf": 0.941964
+        },
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.7825975000000001,
+            "max_conf": 0.835601,
+            "min_conf": 0.698614
+        },
+        {
+            "item_name": "stop sign",
+            "count": 1,
+            "avg_conf": 0.36538,
+            "max_conf": 0.36538,
+            "min_conf": 0.36538
+        }
+    ],
+    "0000001070.jpg": [
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.5699993333333334,
+            "max_conf": 0.996794,
+            "min_conf": 0.283538
+        }
+    ],
+    "0000001430.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.8255091428571427,
+            "max_conf": 0.991425,
+            "min_conf": 0.495778
+        }
+    ],
+    "0000000140.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.5051,
+            "max_conf": 0.703512,
+            "min_conf": 0.262349
+        }
+    ],
+    "0000000460.jpg": [
+        {
+            "item_name": "person",
+            "count": 8,
+            "avg_conf": 0.7015045000000001,
+            "max_conf": 0.935711,
+            "min_conf": 0.422888
+        }
+    ],
+    "0000000740.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.6085882,
+            "max_conf": 0.881988,
+            "min_conf": 0.268579
+        },
+        {
+            "item_name": "motorbike",
+            "count": 1,
+            "avg_conf": 0.404134,
+            "max_conf": 0.404134,
+            "min_conf": 0.404134
+        },
+        {
+            "item_name": "bicycle",
+            "count": 2,
+            "avg_conf": 0.7326205,
+            "max_conf": 0.965902,
+            "min_conf": 0.499339
+        }
+    ],
+    "0000001100.jpg": [
+        {
+            "item_name": "person",
+            "count": 2,
+            "avg_conf": 0.9906845,
+            "max_conf": 0.996884,
+            "min_conf": 0.984485
+        }
+    ],
+    "0000001460.jpg": [
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.7701035555555555,
+            "max_conf": 0.996261,
+            "min_conf": 0.274264
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.330107,
+            "max_conf": 0.330107,
+            "min_conf": 0.330107
+        }
+    ],
+    "0000000150.jpg": [
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.4558383333333333,
+            "max_conf": 0.67987,
+            "min_conf": 0.265824
+        }
+    ],
+    "0000000470.jpg": [
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.6330094545454545,
+            "max_conf": 0.950991,
+            "min_conf": 0.270691
+        }
+    ],
+    "0000000750.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.8935582500000001,
+            "max_conf": 0.967956,
+            "min_conf": 0.79517
+        },
+        {
+            "item_name": "bicycle",
+            "count": 1,
+            "avg_conf": 0.938759,
+            "max_conf": 0.938759,
+            "min_conf": 0.938759
+        }
+    ],
+    "0000001110.jpg": [
+        {
+            "item_name": "person",
+            "count": 2,
+            "avg_conf": 0.9977674999999999,
+            "max_conf": 0.998203,
+            "min_conf": 0.997332
+        }
+    ],
+    "0000001470.jpg": [
+        {
+            "item_name": "person",
+            "count": 10,
+            "avg_conf": 0.7184196,
+            "max_conf": 0.995713,
+            "min_conf": 0.25528
+        }
+    ],
+    "0000000180.jpg": [
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.514303,
+            "max_conf": 0.870558,
+            "min_conf": 0.259668
+        }
+    ],
+    "0000000480.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.8012126,
+            "max_conf": 0.950543,
+            "min_conf": 0.304889
+        }
+    ],
+    "0000000780.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.7610315999999999,
+            "max_conf": 0.983599,
+            "min_conf": 0.516521
+        }
+    ],
+    "0000001140.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.7929527142857143,
+            "max_conf": 0.997876,
+            "min_conf": 0.522159
+        }
+    ],
+    "0000001500.jpg": [
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.7022293333333333,
+            "max_conf": 0.996511,
+            "min_conf": 0.292457
+        }
+    ],
+    "0000000190.jpg": [
+        {
+            "item_name": "person",
+            "count": 10,
+            "avg_conf": 0.7260574000000001,
+            "max_conf": 0.990559,
+            "min_conf": 0.258357
+        }
+    ],
+    "0000000490.jpg": [
+        {
+            "item_name": "person",
+            "count": 8,
+            "avg_conf": 0.520565,
+            "max_conf": 0.947642,
+            "min_conf": 0.272001
+        }
+    ],
+    "0000000790.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.8320981999999999,
+            "max_conf": 0.983455,
+            "min_conf": 0.613357
+        }
+    ],
+    "0000001150.jpg": [
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.7657392222222222,
+            "max_conf": 0.999066,
+            "min_conf": 0.277859
+        }
+    ],
+    "0000001510.jpg": [
+        {
+            "item_name": "person",
+            "count": 8,
+            "avg_conf": 0.7307427500000001,
+            "max_conf": 0.985399,
+            "min_conf": 0.303731
+        }
+    ],
+    "0000000220.jpg": [
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.829846,
+            "max_conf": 0.989973,
+            "min_conf": 0.467949
+        }
+    ],
+    "0000000500.jpg": [
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.6367691666666667,
+            "max_conf": 0.98881,
+            "min_conf": 0.260932
+        }
+    ],
+    "0000000800.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.948055,
+            "max_conf": 0.992537,
+            "min_conf": 0.905395
+        }
+    ],
+    "0000001160.jpg": [
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.7477508888888889,
+            "max_conf": 0.997289,
+            "min_conf": 0.470938
+        }
+    ],
+    "0000001540.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.8339807142857143,
+            "max_conf": 0.997144,
+            "min_conf": 0.639686
+        }
+    ],
+    "0000000230.jpg": [
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.6855440714285713,
+            "max_conf": 0.991334,
+            "min_conf": 0.348218
+        }
+    ],
+    "0000000510.jpg": [
+        {
+            "item_name": "person",
+            "count": 5,
+            "avg_conf": 0.6264067999999999,
+            "max_conf": 0.938099,
+            "min_conf": 0.265818
+        }
+    ],
+    "0000000810.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.9129085,
+            "max_conf": 0.989568,
+            "min_conf": 0.732123
+        },
+        {
+            "item_name": "elephant",
+            "count": 1,
+            "avg_conf": 0.604808,
+            "max_conf": 0.604808,
+            "min_conf": 0.604808
+        }
+    ],
+    "0000001170.jpg": [
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.7687694545454545,
+            "max_conf": 0.998714,
+            "min_conf": 0.327824
+        }
+    ],
+    "0000001550.jpg": [
+        {
+            "item_name": "person",
+            "count": 8,
+            "avg_conf": 0.8297245,
+            "max_conf": 0.994457,
+            "min_conf": 0.600286
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.293088,
+            "max_conf": 0.293088,
+            "min_conf": 0.293088
+        }
+    ],
+    "0000000240.jpg": [
+        {
+            "item_name": "person",
+            "count": 19,
+            "avg_conf": 0.6593771052631577,
+            "max_conf": 0.986539,
+            "min_conf": 0.300191
+        }
+    ],
+    "0000000520.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.82577375,
+            "max_conf": 0.875647,
+            "min_conf": 0.705314
+        },
+        {
+            "item_name": "zebra",
+            "count": 1,
+            "avg_conf": 0.541549,
+            "max_conf": 0.541549,
+            "min_conf": 0.541549
+        }
+    ],
+    "0000000840.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.6276919999999999,
+            "max_conf": 0.983374,
+            "min_conf": 0.313112
+        },
+        {
+            "item_name": "bicycle",
+            "count": 2,
+            "avg_conf": 0.3755005,
+            "max_conf": 0.4993,
+            "min_conf": 0.251701
+        }
+    ],
+    "0000001180.jpg": [
+        {
+            "item_name": "person",
+            "count": 13,
+            "avg_conf": 0.6771261538461538,
+            "max_conf": 0.996828,
+            "min_conf": 0.255864
+        }
+    ],
+    "0000001560.jpg": [
+        {
+            "item_name": "person",
+            "count": 8,
+            "avg_conf": 0.735290375,
+            "max_conf": 0.990467,
+            "min_conf": 0.388982
+        }
+    ],
+    "0000000250.jpg": [
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.8068442,
+            "max_conf": 0.984679,
+            "min_conf": 0.276464
+        }
+    ],
+    "0000000530.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.6411837142857143,
+            "max_conf": 0.97153,
+            "min_conf": 0.256176
+        }
+    ],
+    "0000000860.jpg": [
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.7277926666666666,
+            "max_conf": 0.997042,
+            "min_conf": 0.268356
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.258407,
+            "max_conf": 0.258407,
+            "min_conf": 0.258407
+        }
+    ],
+    "0000001200.jpg": [
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.625532,
+            "max_conf": 0.923945,
+            "min_conf": 0.25351
+        }
+    ],
+    "0000001570.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.7698538571428573,
+            "max_conf": 0.99738,
+            "min_conf": 0.285737
+        }
+    ],
+    "0000000260.jpg": [
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.7807133333333334,
+            "max_conf": 0.989356,
+            "min_conf": 0.294977
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.305389,
+            "max_conf": 0.305389,
+            "min_conf": 0.305389
+        }
+    ],
+    "0000000540.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.8148992500000001,
+            "max_conf": 0.980178,
+            "min_conf": 0.477291
+        },
+        {
+            "item_name": "zebra",
+            "count": 2,
+            "avg_conf": 0.5885235,
+            "max_conf": 0.904989,
+            "min_conf": 0.272058
+        }
+    ],
+    "0000000870.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.7149891428571429,
+            "max_conf": 0.996708,
+            "min_conf": 0.294219
+        }
+    ],
+    "0000001210.jpg": [
+        {
+            "item_name": "person",
+            "count": 10,
+            "avg_conf": 0.6759948,
+            "max_conf": 0.936204,
+            "min_conf": 0.256464
+        }
+    ],
+    "0000001590.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.8865522857142858,
+            "max_conf": 0.996093,
+            "min_conf": 0.722856
+        }
+    ],
+    "0000000280.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.8341093750000002,
+            "max_conf": 0.988167,
+            "min_conf": 0.295469
+        }
+    ],
+    "0000000550.jpg": [
+        {
+            "item_name": "person",
+            "count": 4,
+            "avg_conf": 0.78476075,
+            "max_conf": 0.978966,
+            "min_conf": 0.271501
+        },
+        {
+            "item_name": "zebra",
+            "count": 2,
+            "avg_conf": 0.5716165,
+            "max_conf": 0.849552,
+            "min_conf": 0.293681
+        }
+    ],
+    "0000000880.jpg": [
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.7545482857142857,
+            "max_conf": 0.998028,
+            "min_conf": 0.307491
+        }
+    ],
+    "0000001220.jpg": [
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.6596749090909091,
+            "max_conf": 0.927161,
+            "min_conf": 0.324801
+        }
+    ]
+}
