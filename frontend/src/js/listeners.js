@@ -1,5 +1,5 @@
-let MT = new ModeToggler("ro");
-    Q = new ImageQuery("ro");
+let MT = new ModeToggler("beach");
+    Q = new ImageQuery("beach");
 
 $("button[name='submit']").click(function(e){
     console.log("submit");

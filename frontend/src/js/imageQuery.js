@@ -2,9 +2,9 @@ class ImageQuery {
     constructor(mode){
         this.mode = mode;
         this.imageContainer = $("div[id='images']");
-        this.roImageCount = [];
-        this.osImageCount = [];
-        this.poImageCount = [];
+        this.beachImageCount = [];
+        this.centralParkImageCount = [];
+        this.timesSquareImageCount = [];
     }
 
     change_mode(new_mode){
@@ -20,14 +20,14 @@ class ImageQuery {
 
     add_image_counts(count){
         switch (this.mode) {
-            case "ro":
-                this.roImageCount.push(count);
+            case "beach":
+                this.beachImageCount.push(count);
                 break;
-            case "os":
-                this.osImageCount.push(count);
+            case "times_square":
+                this.timesSquareImageCount.push(count);
                 break;
-            case "po":
-                this.poImageCount.push(count);
+            case "central_park":
+                this.centralParkImageCount.push(count);
                 break;
             default:
                 break;
@@ -36,10 +36,10 @@ class ImageQuery {
 
     add_images(){
         return ;
-        let count = 20,
+        let count = 2,
             url = 'https://storage.googleapis.com/mitribu-mobile/social/memes/',
             rowName = null;
-        for (var i=8; i<count; i++){
+        for (var i=8; i<(8+count); i++){
             let full_url = `${url}${i}.png`,
                 imageElement = `<img src=${full_url} >`,
                 modulo = i % 4;

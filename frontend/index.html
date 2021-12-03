@@ -18,36 +18,25 @@
                     <div class="col">
                         <div class="container">
                             <h2>Query</h2>
-                            <div id="ro-container">
-                                <!-- <h3>Relational + Object detections</h3> -->
-                                <label for="ro-object1">Object 1: </label> <input type="text" name="ro-object1"><br>
-                                <label for="ro-relation">Relation: </label> <input type="text" name="ro-relation"><br>
-                                <label for="ro-object2">Object 2: </label> <input type="text" name="ro-object2"><br>
-                            </div>
-                            <div id="os-container" style="display: none;">
-                                <!-- <h3>Object detection + Speech Subtitle</h3> -->
-                                <label for="os-subject">Subject: </label> <input type="text" name="os-subject"><br>
-                                <label for="os-predict">Predict: </label> <input type="text" name="os-predict"><br>
-                                <label for="os-object">Object: </label> <input type="text" name="os-object"><br>
-                            </div>
-                            <div id="po-container" style="display: none;">
-                                <!-- <h3>Place + Object detections</h3> -->
-                                <label for="po-placeAttr">PlaceAttr: </label> <input type="text" name="po-placeAttr"><br>
-                                <label for="po-placeType">PlaceType: </label> <input type="text" name="po-placeType"><br>
-                                <label for="po-labelsG">LabelsG: </label> <input type="text" name="po-labelsG"><br>
-                                <label for="po-objectsG">ObjectsG: </label> <input type="text" name="po-objectsG"><br>
+                            <div id="query-container">
+                                <label for="label1">Label 1: </label> <input type="text" name="label1"><br>
+                                <label for="temporalRelation">Temporal Relation: </label> <input type="text" name="temporalRelation"><br>
+                                <label for="spatialRelation">Spatial Relation: </label> <input type="text" name="spatialRelation"><br>
+                                <label for="label2">Label 2: </label> <input type="text" name="label2"><br>
                             </div>
                             <div>
-                                <button type="submit" name="submit">Submit</button>
+                                <button type="submit" name="submit">Search</button>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <h2>Mode</h2>
-                        <div>
-                            <input type="radio" checked="true"; id="ro"> <label for="ro">RO</label><br>
-                            <input type="radio" id="os"> <label for="os">OS</label><br>
-                            <input type="radio" id="po"> <label for="po">PO</label><br>
+                        <div class="test-container">
+                            <h2>Tests</h2>
+                            <div>
+                                <input type="radio" checked="true"; id="beach"> <label for="beach">Test #1</label><br>
+                                <input type="radio" id="central_park"> <label for="central_park">Test #2</label><br>
+                                <input type="radio" id="times_square"> <label for="times_square">Test #3</label><br>
+                            </div>
                         </div>
                         <div>
                             <a href="" download="data.json" id="download">Download Data</a>
