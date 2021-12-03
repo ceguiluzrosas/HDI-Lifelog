@@ -2,7 +2,7 @@ import json
 
 input_path = "backend"
 output_path = "data"
-filename = "beach"
+filename = "times_square"
 
 jsonData = None
 with open(f"{output_path}/{filename}.json") as f:
@@ -16,5 +16,9 @@ for imageName, labels in jsonData.items():
             label2image_map[labelName].append(imageName)
         else:
             label2image_map[labelName] = [imageName]
-    break
-print (label2image_map)
+
+# print (label2image_map)
+
+with open(f"{output_path}/map_{filename}.json", "w+") as f:
+    json.dump(label2image_map, f, indent=4)
+
