@@ -19,10 +19,33 @@
                         <div class="container">
                             <h2>Query</h2>
                             <div id="query-container">
-                                <label for="label1">Label 1: </label> <input type="text" name="label1"><br>
-                                <label for="temporalRelation">Temporal Relation: </label> <input type="text" name="temporalRelation"><br>
-                                <label for="spatialRelation">Spatial Relation: </label> <input type="text" name="spatialRelation"><br>
-                                <label for="label2">Label 2: </label> <input type="text" name="label2"><br>
+                                <div class="dropdown">
+                                    <div id="label1Dropdown" class="dropdown-content">
+                                        <label for="label1">Label 1: </label>
+                                        <input type="text" placeholder="Search.." class="searchInput" id="label1Input" >
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="dropdown">
+                                    <div id="label1Dropdown" class="dropdown-content">
+                                        <label for="temporalRelation">Temporal Relation: </label>
+                                        <input type="text" placeholder="Search.." class="searchInput" id="temporalRelationInput" >
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="dropdown">
+                                    <div id="spatialRelationDropdown" class="dropdown-content">
+                                        <label for="spatialRelation">Spatial Relation: </label>
+                                        <input type="text" placeholder="Search.." class="searchInput" id="spatialRelationInput" >
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="dropdown">
+                                    <div id="label2Dropdown" class="dropdown-content">
+                                        <label for="label2">Label 2: </label>
+                                        <input type="text" placeholder="Search.." class="searchInput" id="label2Input" >
+                                    </div>
+                                </div>
                             </div>
                             <div>
                                 <button type="submit" name="submit">Search</button>
@@ -48,10 +71,6 @@
             <div class="container">
                 <h3>Images</h3>
                 <div class="container" id="images">
-                    <div class="imageColumn" id="col-0"></div>
-                    <div class="imageColumn" id="col-1"></div>
-                    <div class="imageColumn" id="col-2"></div>
-                    <div class="imageColumn" id="col-3"></div>
                 </div>
             </div>
         </div>

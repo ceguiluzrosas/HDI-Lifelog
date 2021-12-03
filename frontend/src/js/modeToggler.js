@@ -6,40 +6,30 @@ class ModeToggler {
         this.spatialRelation = [];
         this.label2 = [];
         this.recentQuery = {};
+        this.queryTimes = []
         this.time = new Date().getTime();
     }
 
     log_time(){
         let diff = (new Date().getTime() - this.time) / 1000;
-        switch (this.mode) {
-            case "ro":
-                this.roTime.push(diff);
-                break;
-            case "os":
-                this.osTime.push(diff);
-                break;
-            case "po":
-                this.poTime.push(diff);
-                break;
-            default:
-                break;
-        }
+        this.queryTimes.push(diff);
         this.time = new Date().getTime();
     }
 
     clear_inputs(){
-        let x = $(`div[id='query-container'] > input[type='text']`).children();
+        let x = $('.searchInput').children();
         for (var i=0; i < x.prevObject.length; i++){
             x.prevObject[i].value = "";
         }
     }
 
     save_data(){
-        let x = $(`div[id='query-container'] > input[type='text']`).children(),
+        let x = $('.searchInput'),
             query = {};
-        for (var i=0; i < x.prevObject.length; i++){
-            let input_name = x.prevObject[i].name,
-                input_value = x.prevObject[i].value;
+        for (let i=0; i<x.length; i++){
+            let input_name = x[i].id.split("Input")[0],
+                input_value = x[i].value;
+            // console.log(`input_name: ${input_name}, input_value: ${input_value}`);
             switch (input_name) {
                 case "label1":
                     this.label1.push(input_value);
