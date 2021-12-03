@@ -9,6 +9,11 @@
     vertical-align: middle;
 }
 
+.queryCol {
+  max-width: 30%;
+  padding-left: 5%;
+}
+
 /* DROP DOWN MENU STYLE */
 
 .dropbtn {
