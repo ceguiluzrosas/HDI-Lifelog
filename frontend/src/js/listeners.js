@@ -4,7 +4,7 @@ let MT = new ModeToggler("beach");
 
 Q.add_options();
 
-$('.searchInput').click(function(e){
+$('.searchInput').keyup(function(e){
     let id = e.target.id,
         inputName = id.split("Input")[0],
         input = $(`#${inputName}Input`)[0],

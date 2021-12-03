@@ -7,6 +7,7 @@
 .imageRow img {
     max-width: 25%;
     vertical-align: middle;
+    padding-left: 1%;
 }
 
 .queryCol {

@@ -5,6 +5,7 @@ class ImageQuery {
         this.beachImageCount = [];
         this.centralParkImageCount = [];
         this.timesSquareImageCount = [];
+        this.query = null;
     }
 
     change_mode(new_mode){
@@ -12,9 +13,9 @@ class ImageQuery {
     }
 
     query_images(query){
-        console.log(query);
         this.delete_images();
         console.log("performing query...");
+        this.query = query;
         this.add_images();
     }
 
@@ -67,31 +68,44 @@ class ImageQuery {
             }
         }
 
-        add_images(){
-
-            // $.getJSON(`src/data/map_${this.mode}.json`, function(data){
-            //     console.log(data);
-            // })
-
-            return ;
-            let count = 10,
-                url = 'https://storage.googleapis.com/mitribu-mobile/social/memes/',
-                rowNum = 0,
-                rowName = null;
-            for (var i=8; i<(8+count); i++){
-                let full_url = `${url}${i}.png`,
+    add_images(){
+        let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/",
+            query = this.query,
+            intersect = new Set([]),
+            imageContainer = this.imageContainer,
+            mode = this.mode;
+        $.getJSON(`${githubURL}/map_${this.mode}.json`, function(data){
+            let a = new Set(data[query['label1']]),
+                b = new Set(data[query['label2']]);
+            if (query['label2'] == ''){
+                intersect = a;
+            } else {
+                intersect = new Set([...a].filter(i => b.has(i)));
+            }
+            
+            let intersect_array = Array.from(intersect);
+            console.log(intersect_array);
+            for (var i=0; i<intersect_array.length; i++){
+                console.log(intersect_array[i]);
+            }
+            let url = `https://storage.googleapis.com/hdi-final-project/frames/${mode}/`,
+            rowNum = 0,
+            rowName = null;
+            for (var i=0; i<intersect_array.length; i++){
+                let full_url = `${url}${intersect_array[i]}`,
                     imageElement = `<img src=${full_url} >`,
                     modulo = i % 4;
-    
+
                 if (modulo == 0){
                     rowName = `row-${rowNum}`;
                     let rowElement = `<div class='imageRow' name=${rowName}></div>`
-                    this.imageContainer.append(rowElement)
+                    imageContainer.append(rowElement)
                     rowNum += 1
                 }
-                this.imageContainer > $(`div[name='${rowName}']`).append(imageElement)
+                imageContainer > $(`div[name='${rowName}']`).append(imageElement)
             }
-            this.add_image_counts(count);
+            // this.add_image_counts(intersect_array.length);
             console.log("added images...")
-        }
+        });
     }
+}
