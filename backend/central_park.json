@@ -1,0 +1,1566 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000020.jpg", 
+ "objects": [ 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.437642, "center_y":0.559665, "width":0.037081, "height":0.136247}, "confidence":0.727553}, 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.438107, "center_y":0.564120, "width":0.035457, "height":0.148857}, "confidence":0.361842}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.559026, "center_y":0.610043, "width":0.065625, "height":0.386448}, "confidence":0.994279}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.456245, "center_y":0.641550, "width":0.100921, "height":0.462801}, "confidence":0.994101}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.676786, "center_y":0.561418, "width":0.064213, "height":0.275287}, "confidence":0.985410}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.745018, "center_y":0.476595, "width":0.014258, "height":0.071305}, "confidence":0.946257}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.729659, "center_y":0.493405, "width":0.016008, "height":0.040055}, "confidence":0.725535}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.707278, "center_y":0.560173, "width":0.035237, "height":0.191859}, "confidence":0.530278}
+ ] 
+}, 
+{
+ "frame_id":2, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000290.jpg", 
+ "objects": [ 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.988797, "center_y":0.533574, "width":0.022748, "height":0.068144}, "confidence":0.533632}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.767363, "center_y":0.538914, "width":0.035692, "height":0.158068}, "confidence":0.983101}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.496253, "center_y":0.497863, "width":0.021574, "height":0.126663}, "confidence":0.982500}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.469763, "center_y":0.508392, "width":0.020071, "height":0.130485}, "confidence":0.971332}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.738232, "center_y":0.539788, "width":0.035342, "height":0.174032}, "confidence":0.968935}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.899389, "center_y":0.538474, "width":0.037907, "height":0.197659}, "confidence":0.961918}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.865426, "center_y":0.556580, "width":0.036497, "height":0.158911}, "confidence":0.942813}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.820485, "center_y":0.528695, "width":0.020356, "height":0.122241}, "confidence":0.939336}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.558448, "center_y":0.528963, "width":0.027848, "height":0.140642}, "confidence":0.922409}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.706976, "center_y":0.528832, "width":0.020762, "height":0.102192}, "confidence":0.897622}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.975905, "center_y":0.566290, "width":0.049864, "height":0.254947}, "confidence":0.895034}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.799480, "center_y":0.530844, "width":0.023910, "height":0.123498}, "confidence":0.834808}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.843350, "center_y":0.531357, "width":0.020200, "height":0.112896}, "confidence":0.387255}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.639283, "center_y":0.515446, "width":0.011582, "height":0.067801}, "confidence":0.359880}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.785099, "center_y":0.533946, "width":0.018749, "height":0.131535}, "confidence":0.275257}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.300081, "center_y":0.427014, "width":0.009489, "height":0.040440}, "confidence":0.266416}
+ ] 
+}, 
+{
+ "frame_id":3, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000580.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.308143, "center_y":0.409524, "width":0.028333, "height":0.054498}, "confidence":0.765411}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.755288, "center_y":0.321441, "width":0.012868, "height":0.025324}, "confidence":0.408161}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.742647, "center_y":0.323255, "width":0.011132, "height":0.020045}, "confidence":0.316798}
+ ] 
+}, 
+{
+ "frame_id":4, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000890.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.399026, "center_y":0.590844, "width":0.040306, "height":0.176229}, "confidence":0.997250}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.590094, "center_y":0.572460, "width":0.017385, "height":0.077526}, "confidence":0.966459}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.570587, "center_y":0.580349, "width":0.014960, "height":0.055794}, "confidence":0.953756}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.633139, "center_y":0.568479, "width":0.009767, "height":0.039032}, "confidence":0.740191}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.659211, "center_y":0.567894, "width":0.006851, "height":0.035462}, "confidence":0.475176}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.161919, "center_y":0.517163, "width":0.011510, "height":0.046258}, "confidence":0.366355}
+ ] 
+}, 
+{
+ "frame_id":5, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001260.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.408993, "center_y":0.570288, "width":0.015360, "height":0.077243}, "confidence":0.967726}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.475849, "center_y":0.558199, "width":0.008186, "height":0.044986}, "confidence":0.957328}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.442344, "center_y":0.559673, "width":0.009100, "height":0.040563}, "confidence":0.911809}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.462734, "center_y":0.558057, "width":0.007502, "height":0.044279}, "confidence":0.885607}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.429471, "center_y":0.563875, "width":0.011541, "height":0.065837}, "confidence":0.854172}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.516291, "center_y":0.555925, "width":0.015537, "height":0.048359}, "confidence":0.824455}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.454513, "center_y":0.558515, "width":0.008080, "height":0.037358}, "confidence":0.711214}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.463559, "center_y":0.546955, "width":0.007023, "height":0.035316}, "confidence":0.535724}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.511345, "center_y":0.557998, "width":0.012951, "height":0.053117}, "confidence":0.511740}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.492409, "center_y":0.528270, "width":0.008793, "height":0.017376}, "confidence":0.447275}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.453873, "center_y":0.549925, "width":0.007032, "height":0.022924}, "confidence":0.373738}
+ ] 
+}, 
+{
+ "frame_id":6, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000030.jpg", 
+ "objects": [ 
+  {"class_id":65, "name":"remote", "relative_coordinates":{"center_x":0.661369, "center_y":0.575671, "width":0.020885, "height":0.012348}, "confidence":0.267276}, 
+  {"class_id":67, "name":"cell phone", "relative_coordinates":{"center_x":0.661369, "center_y":0.575671, "width":0.020885, "height":0.012348}, "confidence":0.346029}, 
+  {"class_id":67, "name":"cell phone", "relative_coordinates":{"center_x":0.558492, "center_y":0.467848, "width":0.009913, "height":0.030074}, "confidence":0.289211}, 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.513545, "center_y":0.572770, "width":0.038117, "height":0.148733}, "confidence":0.736207}, 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.792439, "center_y":0.608521, "width":0.025081, "height":0.076959}, "confidence":0.259591}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.627650, "center_y":0.624261, "width":0.097182, "height":0.420704}, "confidence":0.997515}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.532042, "center_y":0.641749, "width":0.092915, "height":0.466424}, "confidence":0.995097}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.756505, "center_y":0.575304, "width":0.090972, "height":0.303449}, "confidence":0.991683}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.792856, "center_y":0.561852, "width":0.032525, "height":0.190436}, "confidence":0.433320}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.325896, "center_y":0.471584, "width":0.018081, "height":0.031420}, "confidence":0.314582}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.777548, "center_y":0.572719, "width":0.058338, "height":0.220176}, "confidence":0.308004}
+ ] 
+}, 
+{
+ "frame_id":7, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000300.jpg", 
+ "objects": [ 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.930988, "center_y":0.511950, "width":0.030556, "height":0.080864}, "confidence":0.500883}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.468302, "center_y":0.483180, "width":0.023884, "height":0.124894}, "confidence":0.994573}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.699517, "center_y":0.520319, "width":0.036615, "height":0.186575}, "confidence":0.988857}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.438752, "center_y":0.492838, "width":0.019717, "height":0.124432}, "confidence":0.982043}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.920917, "center_y":0.544380, "width":0.057992, "height":0.240348}, "confidence":0.972630}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.731556, "center_y":0.524031, "width":0.034822, "height":0.164424}, "confidence":0.969002}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.977358, "center_y":0.541326, "width":0.047074, "height":0.246164}, "confidence":0.968982}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.821088, "center_y":0.531290, "width":0.032267, "height":0.157416}, "confidence":0.963503}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.779317, "center_y":0.510294, "width":0.021799, "height":0.109288}, "confidence":0.925607}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.665398, "center_y":0.510740, "width":0.021882, "height":0.094853}, "confidence":0.922275}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.537250, "center_y":0.505128, "width":0.022385, "height":0.119865}, "confidence":0.919602}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.852048, "center_y":0.517407, "width":0.037172, "height":0.167535}, "confidence":0.893935}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.760068, "center_y":0.513575, "width":0.025582, "height":0.114097}, "confidence":0.852907}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.798639, "center_y":0.510792, "width":0.020468, "height":0.115143}, "confidence":0.720229}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.571662, "center_y":0.493850, "width":0.014336, "height":0.054913}, "confidence":0.287046}
+ ] 
+}, 
+{
+ "frame_id":8, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000590.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.347874, "center_y":0.409007, "width":0.027233, "height":0.052250}, "confidence":0.756188}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.008782, "center_y":0.415188, "width":0.014345, "height":0.053194}, "confidence":0.935483}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.791601, "center_y":0.321440, "width":0.012365, "height":0.025227}, "confidence":0.340156}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.780378, "center_y":0.323073, "width":0.013743, "height":0.020544}, "confidence":0.258245}
+ ] 
+}, 
+{
+ "frame_id":9, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000900.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.385935, "center_y":0.598658, "width":0.047572, "height":0.189109}, "confidence":0.996690}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.584241, "center_y":0.571511, "width":0.018191, "height":0.078634}, "confidence":0.982513}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.563408, "center_y":0.580099, "width":0.016624, "height":0.052852}, "confidence":0.963967}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.625204, "center_y":0.568723, "width":0.011825, "height":0.041351}, "confidence":0.733043}
+ ] 
+}, 
+{
+ "frame_id":10, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001270.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.402417, "center_y":0.623740, "width":0.018220, "height":0.078774}, "confidence":0.988583}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.424966, "center_y":0.622193, "width":0.014849, "height":0.076716}, "confidence":0.958879}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.439613, "center_y":0.612673, "width":0.009746, "height":0.038283}, "confidence":0.893930}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.453024, "center_y":0.611487, "width":0.008981, "height":0.043138}, "confidence":0.866812}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.472138, "center_y":0.611139, "width":0.009656, "height":0.046642}, "confidence":0.858602}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.511652, "center_y":0.609748, "width":0.015738, "height":0.058454}, "confidence":0.736995}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.491302, "center_y":0.582140, "width":0.010533, "height":0.018881}, "confidence":0.339063}
+ ] 
+}, 
+{
+ "frame_id":11, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000040.jpg", 
+ "objects": [ 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.594850, "center_y":0.596935, "width":0.034682, "height":0.149364}, "confidence":0.408772}, 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.611261, "center_y":0.596703, "width":0.066124, "height":0.143287}, "confidence":0.273136}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.730381, "center_y":0.636779, "width":0.093653, "height":0.452282}, "confidence":0.995662}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.618484, "center_y":0.671371, "width":0.119037, "height":0.490129}, "confidence":0.992457}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.865318, "center_y":0.589202, "width":0.090712, "height":0.339459}, "confidence":0.983519}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.813044, "center_y":0.480948, "width":0.014049, "height":0.074496}, "confidence":0.921248}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.903110, "center_y":0.601239, "width":0.044089, "height":0.292215}, "confidence":0.749046}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.795029, "center_y":0.497881, "width":0.025427, "height":0.041419}, "confidence":0.647880}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.350172, "center_y":0.471960, "width":0.017608, "height":0.032391}, "confidence":0.395183}
+ ] 
+}, 
+{
+ "frame_id":12, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000320.jpg", 
+ "objects": [ 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.848879, "center_y":0.481828, "width":0.025240, "height":0.051360}, "confidence":0.286584}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.656309, "center_y":0.501557, "width":0.039000, "height":0.190364}, "confidence":0.995011}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.766531, "center_y":0.508460, "width":0.031687, "height":0.148532}, "confidence":0.991759}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.907391, "center_y":0.508420, "width":0.047285, "height":0.213365}, "confidence":0.991322}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.402417, "center_y":0.479038, "width":0.026505, "height":0.136425}, "confidence":0.988253}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.688145, "center_y":0.505503, "width":0.036410, "height":0.167407}, "confidence":0.986231}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.846194, "center_y":0.516800, "width":0.045173, "height":0.211575}, "confidence":0.983448}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.434169, "center_y":0.470346, "width":0.027199, "height":0.128789}, "confidence":0.972449}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.795191, "center_y":0.495510, "width":0.032693, "height":0.167001}, "confidence":0.965765}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.615072, "center_y":0.493195, "width":0.020370, "height":0.093848}, "confidence":0.965542}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.519623, "center_y":0.490351, "width":0.025098, "height":0.130501}, "confidence":0.964581}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.723165, "center_y":0.491421, "width":0.021670, "height":0.104129}, "confidence":0.928773}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.740437, "center_y":0.492270, "width":0.019156, "height":0.102039}, "confidence":0.902506}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.538715, "center_y":0.479720, "width":0.016748, "height":0.061710}, "confidence":0.601616}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.704373, "center_y":0.494080, "width":0.015491, "height":0.102961}, "confidence":0.354914}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.585301, "center_y":0.516210, "width":0.022551, "height":0.110742}, "confidence":0.286978}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.505741, "center_y":0.483222, "width":0.013371, "height":0.046250}, "confidence":0.261898}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.194058, "center_y":0.402067, "width":0.014443, "height":0.051817}, "confidence":0.253619}
+ ] 
+}, 
+{
+ "frame_id":13, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000620.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.454725, "center_y":0.414954, "width":0.029620, "height":0.053816}, "confidence":0.948000}, 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.428855, "center_y":0.419718, "width":0.014085, "height":0.025839}, "confidence":0.257382}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.117369, "center_y":0.423695, "width":0.010798, "height":0.043095}, "confidence":0.849727}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.012181, "center_y":0.424324, "width":0.019078, "height":0.072411}, "confidence":0.837850}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.128405, "center_y":0.418138, "width":0.011921, "height":0.053094}, "confidence":0.739283}
+ ] 
+}, 
+{
+ "frame_id":14, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000910.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.370519, "center_y":0.599948, "width":0.041312, "height":0.208622}, "confidence":0.992396}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.575597, "center_y":0.570585, "width":0.015962, "height":0.086189}, "confidence":0.980773}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.552015, "center_y":0.576119, "width":0.015464, "height":0.061059}, "confidence":0.859294}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.617778, "center_y":0.564081, "width":0.010368, "height":0.044777}, "confidence":0.518357}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.646345, "center_y":0.563831, "width":0.007009, "height":0.033490}, "confidence":0.327485}
+ ] 
+}, 
+{
+ "frame_id":15, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001300.jpg", 
+ "objects": [ 
+  {"class_id":20, "name":"elephant", "relative_coordinates":{"center_x":0.006191, "center_y":0.663396, "width":0.013833, "height":0.123676}, "confidence":0.496416}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.384257, "center_y":0.622959, "width":0.019296, "height":0.087972}, "confidence":0.992919}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.405914, "center_y":0.622575, "width":0.014960, "height":0.086096}, "confidence":0.932259}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.461874, "center_y":0.608673, "width":0.009041, "height":0.056328}, "confidence":0.908458}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.508573, "center_y":0.609246, "width":0.014956, "height":0.053599}, "confidence":0.864256}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.440025, "center_y":0.611894, "width":0.009204, "height":0.036937}, "confidence":0.759924}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.450289, "center_y":0.608677, "width":0.007285, "height":0.051885}, "confidence":0.735812}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.432896, "center_y":0.612380, "width":0.006720, "height":0.038688}, "confidence":0.662811}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.439535, "center_y":0.601593, "width":0.008548, "height":0.019340}, "confidence":0.333367}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.483818, "center_y":0.581492, "width":0.007867, "height":0.019158}, "confidence":0.305590}
+ ] 
+}, 
+{
+ "frame_id":16, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000050.jpg", 
+ "objects": [ 
+  {"class_id":67, "name":"cell phone", "relative_coordinates":{"center_x":0.902947, "center_y":0.597812, "width":0.019509, "height":0.018685}, "confidence":0.357993}, 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.720124, "center_y":0.597713, "width":0.076252, "height":0.132951}, "confidence":0.288971}, 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.700001, "center_y":0.590477, "width":0.037145, "height":0.139635}, "confidence":0.395330}, 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.717160, "center_y":0.597749, "width":0.075653, "height":0.166970}, "confidence":0.315865}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.851713, "center_y":0.654669, "width":0.137870, "height":0.485752}, "confidence":0.996292}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.743563, "center_y":0.669731, "width":0.135679, "height":0.529995}, "confidence":0.994760}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.965011, "center_y":0.610775, "width":0.071142, "height":0.361771}, "confidence":0.978912}
+ ] 
+}, 
+{
+ "frame_id":17, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000330.jpg", 
+ "objects": [ 
+  {"class_id":36, "name":"skateboard", "relative_coordinates":{"center_x":0.754629, "center_y":0.555223, "width":0.023815, "height":0.030467}, "confidence":0.271695}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.404096, "center_y":0.462832, "width":0.025036, "height":0.129682}, "confidence":0.991899}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.748788, "center_y":0.486499, "width":0.030380, "height":0.148172}, "confidence":0.987900}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.795559, "center_y":0.502903, "width":0.040014, "height":0.196765}, "confidence":0.986934}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.616660, "center_y":0.497037, "width":0.043340, "height":0.190049}, "confidence":0.986280}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.653580, "center_y":0.498153, "width":0.039888, "height":0.173428}, "confidence":0.986000}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.718786, "center_y":0.496581, "width":0.025002, "height":0.133153}, "confidence":0.983935}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.850378, "center_y":0.497778, "width":0.041758, "height":0.197541}, "confidence":0.972985}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.371396, "center_y":0.471124, "width":0.023994, "height":0.130917}, "confidence":0.950496}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.575734, "center_y":0.484749, "width":0.021478, "height":0.093055}, "confidence":0.920726}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.497416, "center_y":0.488539, "width":0.026702, "height":0.131584}, "confidence":0.858858}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.680425, "center_y":0.483703, "width":0.016146, "height":0.095325}, "confidence":0.826181}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.694050, "center_y":0.483806, "width":0.020327, "height":0.106805}, "confidence":0.699723}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.321661, "center_y":0.410794, "width":0.013149, "height":0.059661}, "confidence":0.671906}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.141884, "center_y":0.384446, "width":0.014754, "height":0.044586}, "confidence":0.403681}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.507844, "center_y":0.482105, "width":0.020410, "height":0.111439}, "confidence":0.326562}
+ ] 
+}, 
+{
+ "frame_id":18, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000630.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.503879, "center_y":0.414713, "width":0.028228, "height":0.055032}, "confidence":0.895770}, 
+  {"class_id":13, "name":"bench", "relative_coordinates":{"center_x":0.121145, "center_y":0.807000, "width":0.064285, "height":0.057210}, "confidence":0.263684}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.069368, "center_y":0.422375, "width":0.018009, "height":0.069654}, "confidence":0.923779}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.169473, "center_y":0.422988, "width":0.010714, "height":0.043137}, "confidence":0.817896}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.179797, "center_y":0.418863, "width":0.012458, "height":0.053058}, "confidence":0.719562}
+ ] 
+}, 
+{
+ "frame_id":19, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000920.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.345700, "center_y":0.608545, "width":0.046479, "height":0.232690}, "confidence":0.997658}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.569052, "center_y":0.574585, "width":0.019391, "height":0.086566}, "confidence":0.984561}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.547312, "center_y":0.582188, "width":0.019237, "height":0.062714}, "confidence":0.979259}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.110749, "center_y":0.519956, "width":0.012663, "height":0.065653}, "confidence":0.933139}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.612923, "center_y":0.567404, "width":0.011148, "height":0.039540}, "confidence":0.742051}
+ ] 
+}, 
+{
+ "frame_id":20, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001310.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.374536, "center_y":0.614154, "width":0.020693, "height":0.094845}, "confidence":0.990925}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.398289, "center_y":0.614028, "width":0.016335, "height":0.089496}, "confidence":0.938722}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.456941, "center_y":0.602521, "width":0.010102, "height":0.060484}, "confidence":0.893836}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.506511, "center_y":0.599223, "width":0.016636, "height":0.051662}, "confidence":0.849961}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.443714, "center_y":0.601628, "width":0.010193, "height":0.048612}, "confidence":0.791111}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.479966, "center_y":0.572704, "width":0.009891, "height":0.019283}, "confidence":0.580885}
+ ] 
+}, 
+{
+ "frame_id":21, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000060.jpg", 
+ "objects": [ 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.831220, "center_y":0.612603, "width":0.075120, "height":0.150281}, "confidence":0.438203}, 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.831220, "center_y":0.612603, "width":0.075120, "height":0.150281}, "confidence":0.301545}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.854701, "center_y":0.698952, "width":0.166493, "height":0.610661}, "confidence":0.991986}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.963523, "center_y":0.676304, "width":0.076038, "height":0.535759}, "confidence":0.989970}
+ ] 
+}, 
+{
+ "frame_id":22, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000340.jpg", 
+ "objects": [ 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.741648, "center_y":0.477937, "width":0.020725, "height":0.055400}, "confidence":0.336579}, 
+  {"class_id":13, "name":"bench", "relative_coordinates":{"center_x":0.427672, "center_y":0.515281, "width":0.050558, "height":0.050623}, "confidence":0.269287}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.574853, "center_y":0.495667, "width":0.044565, "height":0.202639}, "confidence":0.995024}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.700984, "center_y":0.486717, "width":0.029009, "height":0.143765}, "confidence":0.988621}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.739342, "center_y":0.504734, "width":0.036844, "height":0.176506}, "confidence":0.988390}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.616960, "center_y":0.497185, "width":0.036230, "height":0.174977}, "confidence":0.988183}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.365597, "center_y":0.463853, "width":0.026098, "height":0.135098}, "confidence":0.985013}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.793072, "center_y":0.495974, "width":0.035461, "height":0.175253}, "confidence":0.983029}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.670404, "center_y":0.497816, "width":0.025529, "height":0.121575}, "confidence":0.965979}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.329086, "center_y":0.475862, "width":0.023917, "height":0.142903}, "confidence":0.962112}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.529039, "center_y":0.481466, "width":0.019865, "height":0.088661}, "confidence":0.945031}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.467330, "center_y":0.489490, "width":0.027750, "height":0.140713}, "confidence":0.943532}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.647328, "center_y":0.482773, "width":0.017468, "height":0.094832}, "confidence":0.727924}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.267936, "center_y":0.406349, "width":0.018370, "height":0.063985}, "confidence":0.683329}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.634717, "center_y":0.483094, "width":0.013579, "height":0.089383}, "confidence":0.599208}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.405691, "center_y":0.465658, "width":0.012032, "height":0.045571}, "confidence":0.496933}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.415933, "center_y":0.470487, "width":0.016797, "height":0.052862}, "confidence":0.346693}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.496015, "center_y":0.470438, "width":0.012276, "height":0.025491}, "confidence":0.288228}
+ ] 
+}, 
+{
+ "frame_id":23, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000640.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.570112, "center_y":0.415398, "width":0.030138, "height":0.055083}, "confidence":0.922683}, 
+  {"class_id":13, "name":"bench", "relative_coordinates":{"center_x":0.212040, "center_y":0.825363, "width":0.067402, "height":0.063585}, "confidence":0.447966}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.143709, "center_y":0.424020, "width":0.015051, "height":0.067543}, "confidence":0.885636}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.248284, "center_y":0.418444, "width":0.012530, "height":0.045963}, "confidence":0.859871}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.244979, "center_y":0.422359, "width":0.011960, "height":0.044365}, "confidence":0.502355}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.236636, "center_y":0.419163, "width":0.011316, "height":0.035289}, "confidence":0.435712}
+ ] 
+}, 
+{
+ "frame_id":24, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000960.jpg", 
+ "objects": [ 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.206623, "center_y":0.562400, "width":0.061404, "height":0.068915}, "confidence":0.274096}, 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.042871, "center_y":0.530210, "width":0.021200, "height":0.061740}, "confidence":0.630583}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.205522, "center_y":0.665772, "width":0.123340, "height":0.425734}, "confidence":0.999359}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.551743, "center_y":0.584217, "width":0.026508, "height":0.102105}, "confidence":0.958050}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.042799, "center_y":0.523603, "width":0.023559, "height":0.070869}, "confidence":0.924742}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.524913, "center_y":0.593449, "width":0.018667, "height":0.072025}, "confidence":0.811411}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.599521, "center_y":0.573209, "width":0.011198, "height":0.044733}, "confidence":0.665487}
+ ] 
+}, 
+{
+ "frame_id":25, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001340.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.339460, "center_y":0.623297, "width":0.021393, "height":0.108542}, "confidence":0.993007}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.366970, "center_y":0.623328, "width":0.017356, "height":0.103586}, "confidence":0.981201}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.436396, "center_y":0.609017, "width":0.011211, "height":0.059230}, "confidence":0.857648}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.422015, "center_y":0.613470, "width":0.011400, "height":0.061799}, "confidence":0.787697}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.493622, "center_y":0.602715, "width":0.019457, "height":0.056562}, "confidence":0.741085}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.458050, "center_y":0.576028, "width":0.007177, "height":0.025197}, "confidence":0.400983}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.468092, "center_y":0.576720, "width":0.009813, "height":0.020783}, "confidence":0.376040}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.485597, "center_y":0.611272, "width":0.010535, "height":0.056967}, "confidence":0.292250}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.458994, "center_y":0.580316, "width":0.005371, "height":0.019374}, "confidence":0.286694}
+ ] 
+}, 
+{
+ "frame_id":26, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000070.jpg", 
+ "objects": [ 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.944699, "center_y":0.614857, "width":0.105235, "height":0.238741}, "confidence":0.420877}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.888380, "center_y":0.480431, "width":0.022524, "height":0.072399}, "confidence":0.941205}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.944031, "center_y":0.693318, "width":0.111951, "height":0.612326}, "confidence":0.806457}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.866669, "center_y":0.495089, "width":0.023454, "height":0.043830}, "confidence":0.718116}
+ ] 
+}, 
+{
+ "frame_id":27, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000350.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.627532, "center_y":0.495355, "width":0.023677, "height":0.122609}, "confidence":0.990625}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.687649, "center_y":0.504512, "width":0.035678, "height":0.167627}, "confidence":0.989782}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.653453, "center_y":0.487955, "width":0.029315, "height":0.135392}, "confidence":0.984695}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.535053, "center_y":0.501890, "width":0.043505, "height":0.200785}, "confidence":0.978330}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.440195, "center_y":0.492073, "width":0.032069, "height":0.133274}, "confidence":0.975093}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.291800, "center_y":0.477275, "width":0.030791, "height":0.149283}, "confidence":0.974882}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.738698, "center_y":0.497944, "width":0.035406, "height":0.168904}, "confidence":0.962275}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.331436, "center_y":0.470510, "width":0.027145, "height":0.134511}, "confidence":0.958988}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.577872, "center_y":0.503375, "width":0.040521, "height":0.184091}, "confidence":0.929650}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.488018, "center_y":0.484899, "width":0.017980, "height":0.081733}, "confidence":0.782855}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.218656, "center_y":0.406130, "width":0.020949, "height":0.063149}, "confidence":0.664444}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.017180, "center_y":0.375168, "width":0.022467, "height":0.045048}, "confidence":0.303086}
+ ] 
+}, 
+{
+ "frame_id":28, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000650.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.630501, "center_y":0.414256, "width":0.033051, "height":0.058188}, "confidence":0.930836}, 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.601111, "center_y":0.420092, "width":0.014762, "height":0.024832}, "confidence":0.358438}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.201569, "center_y":0.419505, "width":0.015566, "height":0.063244}, "confidence":0.903752}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.304397, "center_y":0.418379, "width":0.009602, "height":0.048844}, "confidence":0.802242}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.294490, "center_y":0.420035, "width":0.011567, "height":0.042550}, "confidence":0.784352}
+ ] 
+}, 
+{
+ "frame_id":29, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000970.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.147559, "center_y":0.678644, "width":0.107185, "height":0.462788}, "confidence":0.996734}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.549707, "center_y":0.584086, "width":0.021663, "height":0.106709}, "confidence":0.984361}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.522196, "center_y":0.588504, "width":0.026684, "height":0.073021}, "confidence":0.970563}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.018936, "center_y":0.521504, "width":0.027119, "height":0.078364}, "confidence":0.947268}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.595628, "center_y":0.571003, "width":0.011173, "height":0.046216}, "confidence":0.533471}
+ ] 
+}, 
+{
+ "frame_id":30, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001360.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.345972, "center_y":0.640131, "width":0.030171, "height":0.118888}, "confidence":0.988936}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.313648, "center_y":0.638935, "width":0.025228, "height":0.124629}, "confidence":0.988043}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.424020, "center_y":0.623435, "width":0.011070, "height":0.063475}, "confidence":0.951112}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.409669, "center_y":0.623509, "width":0.011575, "height":0.068068}, "confidence":0.773786}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.490113, "center_y":0.613441, "width":0.013224, "height":0.055562}, "confidence":0.737607}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.481018, "center_y":0.614968, "width":0.013632, "height":0.056833}, "confidence":0.620067}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.465731, "center_y":0.587153, "width":0.007035, "height":0.020196}, "confidence":0.571891}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.454279, "center_y":0.585529, "width":0.012417, "height":0.020846}, "confidence":0.415287}
+ ] 
+}, 
+{
+ "frame_id":31, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000080.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.392345, "center_y":0.471891, "width":0.019485, "height":0.032642}, "confidence":0.331912}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.890907, "center_y":0.477563, "width":0.027545, "height":0.070257}, "confidence":0.972457}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.145455, "center_y":0.533443, "width":0.023869, "height":0.113801}, "confidence":0.950351}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.872288, "center_y":0.492659, "width":0.026652, "height":0.043309}, "confidence":0.868490}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.758258, "center_y":0.390330, "width":0.012972, "height":0.024405}, "confidence":0.267960}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.770917, "center_y":0.389987, "width":0.010249, "height":0.025147}, "confidence":0.254172}
+ ] 
+}, 
+{
+ "frame_id":32, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000380.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.464418, "center_y":0.508731, "width":0.048378, "height":0.232874}, "confidence":0.989170}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.634375, "center_y":0.493803, "width":0.030843, "height":0.146400}, "confidence":0.984950}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.524123, "center_y":0.505921, "width":0.041316, "height":0.208186}, "confidence":0.978144}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.242836, "center_y":0.489084, "width":0.035177, "height":0.156266}, "confidence":0.973334}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.577184, "center_y":0.483916, "width":0.020761, "height":0.128879}, "confidence":0.971312}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.599638, "center_y":0.501983, "width":0.026805, "height":0.149486}, "confidence":0.924045}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.285532, "center_y":0.480155, "width":0.033913, "height":0.151992}, "confidence":0.907482}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.550984, "center_y":0.491485, "width":0.018837, "height":0.105779}, "confidence":0.721928}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.415459, "center_y":0.484245, "width":0.017856, "height":0.083007}, "confidence":0.694655}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.128417, "center_y":0.409276, "width":0.019958, "height":0.067506}, "confidence":0.612073}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.214577, "center_y":0.427016, "width":0.018338, "height":0.036774}, "confidence":0.539532}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.494865, "center_y":0.484209, "width":0.018337, "height":0.086433}, "confidence":0.487664}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.389397, "center_y":0.477551, "width":0.021606, "height":0.090561}, "confidence":0.480546}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.306987, "center_y":0.479836, "width":0.011332, "height":0.047499}, "confidence":0.341367}
+ ] 
+}, 
+{
+ "frame_id":33, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000670.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.708534, "center_y":0.488929, "width":0.037809, "height":0.059981}, "confidence":0.949222}, 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.675996, "center_y":0.496226, "width":0.015461, "height":0.026690}, "confidence":0.497305}, 
+  {"class_id":13, "name":"bench", "relative_coordinates":{"center_x":0.400116, "center_y":0.967296, "width":0.096195, "height":0.065331}, "confidence":0.666907}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.260043, "center_y":0.501395, "width":0.015378, "height":0.067105}, "confidence":0.966357}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.353708, "center_y":0.498266, "width":0.009472, "height":0.037814}, "confidence":0.874346}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.362348, "center_y":0.495990, "width":0.010852, "height":0.043747}, "confidence":0.683863}
+ ] 
+}, 
+{
+ "frame_id":34, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001000.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.549614, "center_y":0.581876, "width":0.022777, "height":0.119991}, "confidence":0.993871}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.522917, "center_y":0.589073, "width":0.021393, "height":0.080832}, "confidence":0.988283}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.589169, "center_y":0.567013, "width":0.010426, "height":0.045663}, "confidence":0.642723}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.615713, "center_y":0.564125, "width":0.006590, "height":0.033112}, "confidence":0.552516}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.593530, "center_y":0.567461, "width":0.009056, "height":0.041428}, "confidence":0.273828}
+ ] 
+}, 
+{
+ "frame_id":35, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001370.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.331775, "center_y":0.637623, "width":0.027398, "height":0.127062}, "confidence":0.995714}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.299185, "center_y":0.639764, "width":0.027005, "height":0.133222}, "confidence":0.995598}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.417837, "center_y":0.621565, "width":0.013673, "height":0.074322}, "confidence":0.949736}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.402834, "center_y":0.621298, "width":0.013862, "height":0.074157}, "confidence":0.804539}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.482084, "center_y":0.615120, "width":0.022407, "height":0.063012}, "confidence":0.803254}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.446319, "center_y":0.586416, "width":0.008575, "height":0.025467}, "confidence":0.634355}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.450296, "center_y":0.587414, "width":0.008762, "height":0.022995}, "confidence":0.572595}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.464273, "center_y":0.586932, "width":0.007018, "height":0.023534}, "confidence":0.560907}
+ ] 
+}, 
+{
+ "frame_id":36, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000090.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.388124, "center_y":0.475869, "width":0.017923, "height":0.030252}, "confidence":0.282939}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.134967, "center_y":0.547352, "width":0.027346, "height":0.136398}, "confidence":0.993523}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.890677, "center_y":0.479447, "width":0.026392, "height":0.070111}, "confidence":0.944023}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.871846, "center_y":0.493296, "width":0.025746, "height":0.044082}, "confidence":0.787717}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.387528, "center_y":0.472167, "width":0.016476, "height":0.032443}, "confidence":0.520238}
+ ] 
+}, 
+{
+ "frame_id":37, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000390.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.471879, "center_y":0.541378, "width":0.048720, "height":0.238477}, "confidence":0.996458}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.534773, "center_y":0.536593, "width":0.040578, "height":0.206172}, "confidence":0.992358}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.582795, "center_y":0.513213, "width":0.018959, "height":0.125866}, "confidence":0.982054}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.637483, "center_y":0.524211, "width":0.031563, "height":0.142954}, "confidence":0.979364}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.274862, "center_y":0.515864, "width":0.036726, "height":0.153826}, "confidence":0.960348}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.302591, "center_y":0.511955, "width":0.027679, "height":0.144501}, "confidence":0.952889}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.602721, "center_y":0.522766, "width":0.025564, "height":0.143443}, "confidence":0.927740}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.503664, "center_y":0.510547, "width":0.018933, "height":0.089720}, "confidence":0.878446}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.558568, "center_y":0.518217, "width":0.014444, "height":0.103173}, "confidence":0.850546}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.410128, "center_y":0.531954, "width":0.033517, "height":0.143641}, "confidence":0.747728}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.424569, "center_y":0.515779, "width":0.015012, "height":0.086772}, "confidence":0.601047}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.226126, "center_y":0.454496, "width":0.018797, "height":0.037613}, "confidence":0.569406}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.140292, "center_y":0.439439, "width":0.019660, "height":0.070546}, "confidence":0.317991}
+ ] 
+}, 
+{
+ "frame_id":38, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000680.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.757957, "center_y":0.502421, "width":0.039542, "height":0.061600}, "confidence":0.947125}, 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.722572, "center_y":0.509925, "width":0.013926, "height":0.028190}, "confidence":0.437174}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.295618, "center_y":0.511837, "width":0.014264, "height":0.063662}, "confidence":0.904312}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.388251, "center_y":0.515200, "width":0.010831, "height":0.041865}, "confidence":0.844440}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.398112, "center_y":0.511030, "width":0.009972, "height":0.049042}, "confidence":0.684005}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.025072, "center_y":0.445939, "width":0.009927, "height":0.044374}, "confidence":0.606402}
+ ] 
+}, 
+{
+ "frame_id":39, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001010.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.550362, "center_y":0.584275, "width":0.027345, "height":0.120960}, "confidence":0.981314}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.537077, "center_y":0.585885, "width":0.033282, "height":0.122079}, "confidence":0.975816}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.527955, "center_y":0.590179, "width":0.023640, "height":0.094280}, "confidence":0.911198}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.588668, "center_y":0.564770, "width":0.011602, "height":0.047150}, "confidence":0.630614}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.615768, "center_y":0.563533, "width":0.007025, "height":0.030106}, "confidence":0.540256}
+ ] 
+}, 
+{
+ "frame_id":40, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001380.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.285077, "center_y":0.646749, "width":0.027988, "height":0.139101}, "confidence":0.996127}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.319817, "center_y":0.644717, "width":0.030705, "height":0.135603}, "confidence":0.995210}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.478373, "center_y":0.624483, "width":0.024240, "height":0.074693}, "confidence":0.847482}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.411026, "center_y":0.624570, "width":0.015242, "height":0.074510}, "confidence":0.793399}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.396700, "center_y":0.627099, "width":0.014414, "height":0.077041}, "confidence":0.707737}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.442918, "center_y":0.587539, "width":0.009498, "height":0.023794}, "confidence":0.407347}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.455469, "center_y":0.590118, "width":0.008806, "height":0.023129}, "confidence":0.345535}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.456843, "center_y":0.593794, "width":0.007077, "height":0.019353}, "confidence":0.311478}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.464984, "center_y":0.587441, "width":0.009082, "height":0.023446}, "confidence":0.298083}
+ ] 
+}, 
+{
+ "frame_id":41, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000100.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.371517, "center_y":0.476276, "width":0.018415, "height":0.034851}, "confidence":0.336158}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.114524, "center_y":0.555556, "width":0.038240, "height":0.149584}, "confidence":0.991334}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.066305, "center_y":0.541265, "width":0.028770, "height":0.126688}, "confidence":0.988910}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.876561, "center_y":0.478266, "width":0.025496, "height":0.070307}, "confidence":0.945884}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.859361, "center_y":0.492340, "width":0.027165, "height":0.045266}, "confidence":0.827763}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.575914, "center_y":0.397461, "width":0.011056, "height":0.019779}, "confidence":0.396314}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.849700, "center_y":0.493255, "width":0.020257, "height":0.042775}, "confidence":0.282117}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.740781, "center_y":0.391190, "width":0.009340, "height":0.024179}, "confidence":0.261464}
+ ] 
+}, 
+{
+ "frame_id":42, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000420.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.833376, "center_y":0.511775, "width":0.030037, "height":0.147085}, "confidence":0.994588}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.793675, "center_y":0.514135, "width":0.027452, "height":0.141570}, "confidence":0.992586}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.752826, "center_y":0.532261, "width":0.057772, "height":0.232254}, "confidence":0.992282}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.663675, "center_y":0.528504, "width":0.059082, "height":0.274732}, "confidence":0.991281}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.532691, "center_y":0.503093, "width":0.031684, "height":0.133732}, "confidence":0.941899}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.624475, "center_y":0.512386, "width":0.027485, "height":0.130408}, "confidence":0.914208}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.716919, "center_y":0.501848, "width":0.015579, "height":0.085348}, "confidence":0.909177}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.700453, "center_y":0.501438, "width":0.016001, "height":0.083458}, "confidence":0.897957}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.367450, "center_y":0.435419, "width":0.015525, "height":0.061020}, "confidence":0.721244}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.590591, "center_y":0.497507, "width":0.012682, "height":0.061760}, "confidence":0.696843}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.437808, "center_y":0.444519, "width":0.014563, "height":0.032706}, "confidence":0.614149}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.598836, "center_y":0.494520, "width":0.013489, "height":0.070382}, "confidence":0.508896}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.403601, "center_y":0.444217, "width":0.012150, "height":0.025089}, "confidence":0.485798}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.727815, "center_y":0.506037, "width":0.015090, "height":0.087937}, "confidence":0.409641}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.939648, "center_y":0.469283, "width":0.015419, "height":0.024380}, "confidence":0.307117}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.688163, "center_y":0.505100, "width":0.012588, "height":0.072774}, "confidence":0.264895}
+ ] 
+}, 
+{
+ "frame_id":43, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000690.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.787969, "center_y":0.498683, "width":0.043785, "height":0.061370}, "confidence":0.854139}, 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.752188, "center_y":0.508511, "width":0.017087, "height":0.029142}, "confidence":0.848320}, 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.311082, "center_y":0.514612, "width":0.016524, "height":0.064266}, "confidence":0.375222}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.310657, "center_y":0.511721, "width":0.016690, "height":0.062578}, "confidence":0.926005}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.405961, "center_y":0.515938, "width":0.010905, "height":0.041867}, "confidence":0.845121}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.049578, "center_y":0.445840, "width":0.012453, "height":0.042650}, "confidence":0.736064}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.416212, "center_y":0.510473, "width":0.011277, "height":0.047422}, "confidence":0.642189}
+ ] 
+}, 
+{
+ "frame_id":44, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001020.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.530271, "center_y":0.588993, "width":0.024205, "height":0.109841}, "confidence":0.989565}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.553530, "center_y":0.580793, "width":0.028116, "height":0.132427}, "confidence":0.964524}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.589802, "center_y":0.563771, "width":0.009935, "height":0.045639}, "confidence":0.720017}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.594394, "center_y":0.563833, "width":0.009978, "height":0.044699}, "confidence":0.533129}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.616153, "center_y":0.560541, "width":0.006734, "height":0.030935}, "confidence":0.423205}
+ ] 
+}, 
+{
+ "frame_id":45, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001400.jpg", 
+ "objects": [ 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.283466, "center_y":0.622145, "width":0.012490, "height":0.055654}, "confidence":0.265646}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.250460, "center_y":0.650379, "width":0.035204, "height":0.168600}, "confidence":0.995732}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.295809, "center_y":0.646324, "width":0.034192, "height":0.162376}, "confidence":0.991894}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.398859, "center_y":0.626872, "width":0.014726, "height":0.077551}, "confidence":0.951335}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.468761, "center_y":0.624031, "width":0.017860, "height":0.079384}, "confidence":0.748062}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.379904, "center_y":0.628725, "width":0.014109, "height":0.080964}, "confidence":0.715680}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.431584, "center_y":0.587389, "width":0.009647, "height":0.021871}, "confidence":0.647642}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.387266, "center_y":0.626340, "width":0.013650, "height":0.077038}, "confidence":0.620964}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.478004, "center_y":0.622892, "width":0.015229, "height":0.072404}, "confidence":0.528993}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.450966, "center_y":0.590058, "width":0.009078, "height":0.023055}, "confidence":0.524874}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.440523, "center_y":0.587015, "width":0.008324, "height":0.022717}, "confidence":0.329998}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.415366, "center_y":0.584503, "width":0.009637, "height":0.015239}, "confidence":0.317587}
+ ] 
+}, 
+{
+ "frame_id":46, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000110.jpg", 
+ "objects": [ 
+  {"class_id":19, "name":"cow", "relative_coordinates":{"center_x":0.080273, "center_y":0.482585, "width":0.035604, "height":0.042960}, "confidence":0.457773}, 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.327070, "center_y":0.482483, "width":0.018202, "height":0.035373}, "confidence":0.253525}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.051062, "center_y":0.568031, "width":0.040694, "height":0.162291}, "confidence":0.995768}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.006794, "center_y":0.547321, "width":0.014229, "height":0.150773}, "confidence":0.831508}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.811049, "center_y":0.496739, "width":0.025286, "height":0.045114}, "confidence":0.787399}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.828523, "center_y":0.483505, "width":0.027645, "height":0.071854}, "confidence":0.786005}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.703908, "center_y":0.398497, "width":0.013557, "height":0.024501}, "confidence":0.288081}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.734074, "center_y":0.400041, "width":0.012688, "height":0.021652}, "confidence":0.261021}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.715187, "center_y":0.398731, "width":0.008951, "height":0.023443}, "confidence":0.254250}
+ ] 
+}, 
+{
+ "frame_id":47, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000430.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.927420, "center_y":0.518590, "width":0.064357, "height":0.265060}, "confidence":0.992795}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.821653, "center_y":0.522507, "width":0.061881, "height":0.298909}, "confidence":0.987768}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.090606, "center_y":0.455292, "width":0.042425, "height":0.150743}, "confidence":0.955677}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.033080, "center_y":0.580720, "width":0.067879, "height":0.130341}, "confidence":0.954136}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.965774, "center_y":0.496971, "width":0.031194, "height":0.134071}, "confidence":0.888128}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.503494, "center_y":0.427006, "width":0.016958, "height":0.062557}, "confidence":0.880964}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.680823, "center_y":0.492810, "width":0.034929, "height":0.137462}, "confidence":0.869162}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.776466, "center_y":0.501725, "width":0.027078, "height":0.134060}, "confidence":0.851035}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.058424, "center_y":0.418820, "width":0.021112, "height":0.080979}, "confidence":0.847964}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.874641, "center_y":0.490494, "width":0.017168, "height":0.089439}, "confidence":0.631891}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.996083, "center_y":0.494139, "width":0.008534, "height":0.140645}, "confidence":0.524421}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.569773, "center_y":0.431821, "width":0.015240, "height":0.031433}, "confidence":0.503442}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.858089, "center_y":0.488953, "width":0.020498, "height":0.100987}, "confidence":0.471304}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.600461, "center_y":0.437971, "width":0.021479, "height":0.049684}, "confidence":0.393066}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.743224, "center_y":0.483092, "width":0.014019, "height":0.080082}, "confidence":0.349923}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.755909, "center_y":0.507012, "width":0.019101, "height":0.128331}, "confidence":0.307006}
+ ] 
+}, 
+{
+ "frame_id":48, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000710.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.855268, "center_y":0.494149, "width":0.052920, "height":0.063581}, "confidence":0.569399}, 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.856354, "center_y":0.493887, "width":0.049078, "height":0.061014}, "confidence":0.655985}, 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.440476, "center_y":0.515248, "width":0.011526, "height":0.036922}, "confidence":0.278606}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.336409, "center_y":0.509849, "width":0.015250, "height":0.069147}, "confidence":0.960513}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.440394, "center_y":0.510161, "width":0.012413, "height":0.041120}, "confidence":0.877492}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.448635, "center_y":0.506044, "width":0.009665, "height":0.048494}, "confidence":0.712149}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.089474, "center_y":0.444549, "width":0.011334, "height":0.046311}, "confidence":0.601794}
+ ] 
+}, 
+{
+ "frame_id":49, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001030.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.559218, "center_y":0.587849, "width":0.027380, "height":0.132109}, "confidence":0.996593}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.535383, "center_y":0.594694, "width":0.025828, "height":0.116697}, "confidence":0.995140}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.595783, "center_y":0.567331, "width":0.009406, "height":0.042717}, "confidence":0.785478}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.616218, "center_y":0.563480, "width":0.006887, "height":0.029737}, "confidence":0.698897}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.648308, "center_y":0.563300, "width":0.009457, "height":0.039699}, "confidence":0.675614}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.625332, "center_y":0.561973, "width":0.006793, "height":0.029354}, "confidence":0.610932}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.590624, "center_y":0.567157, "width":0.009069, "height":0.044044}, "confidence":0.415985}
+ ] 
+}, 
+{
+ "frame_id":50, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001410.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.234977, "center_y":0.654541, "width":0.038959, "height":0.175207}, "confidence":0.978896}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.276452, "center_y":0.656075, "width":0.033689, "height":0.169844}, "confidence":0.978582}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.374788, "center_y":0.628366, "width":0.015976, "height":0.083958}, "confidence":0.911945}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.391537, "center_y":0.628435, "width":0.017470, "height":0.083104}, "confidence":0.843023}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.470594, "center_y":0.625292, "width":0.025844, "height":0.083988}, "confidence":0.709739}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.427013, "center_y":0.586800, "width":0.009604, "height":0.024446}, "confidence":0.636842}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.449209, "center_y":0.589590, "width":0.008954, "height":0.022867}, "confidence":0.538139}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.381072, "center_y":0.627751, "width":0.021902, "height":0.087585}, "confidence":0.361375}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.446961, "center_y":0.587132, "width":0.006365, "height":0.025721}, "confidence":0.307905}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.476345, "center_y":0.615980, "width":0.016330, "height":0.058666}, "confidence":0.284719}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.417331, "center_y":0.584070, "width":0.006684, "height":0.018073}, "confidence":0.268844}
+ ] 
+}, 
+{
+ "frame_id":51, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000120.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.732235, "center_y":0.497408, "width":0.023438, "height":0.064633}, "confidence":0.908292}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.718438, "center_y":0.511316, "width":0.023320, "height":0.045379}, "confidence":0.812315}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.950529, "center_y":0.555304, "width":0.044203, "height":0.078513}, "confidence":0.320178}
+ ] 
+}, 
+{
+ "frame_id":52, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000440.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.231151, "center_y":0.537239, "width":0.066170, "height":0.114965}, "confidence":0.974122}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.871267, "center_y":0.470991, "width":0.036680, "height":0.152363}, "confidence":0.957923}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.967455, "center_y":0.469417, "width":0.044475, "height":0.127017}, "confidence":0.927384}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.272181, "center_y":0.444246, "width":0.029204, "height":0.102555}, "confidence":0.910336}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.241113, "center_y":0.397470, "width":0.019322, "height":0.069773}, "confidence":0.896785}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.722274, "center_y":0.405653, "width":0.019075, "height":0.030863}, "confidence":0.789164}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.913165, "center_y":0.462398, "width":0.024715, "height":0.090730}, "confidence":0.673529}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.928316, "center_y":0.468062, "width":0.017291, "height":0.082908}, "confidence":0.657616}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.649399, "center_y":0.397315, "width":0.016278, "height":0.059702}, "confidence":0.591712}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.757100, "center_y":0.410713, "width":0.019843, "height":0.057072}, "confidence":0.475048}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.662898, "center_y":0.405790, "width":0.011417, "height":0.031419}, "confidence":0.458826}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.905094, "center_y":0.466278, "width":0.019436, "height":0.064881}, "confidence":0.456041}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.678329, "center_y":0.406087, "width":0.011009, "height":0.026011}, "confidence":0.366898}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.261772, "center_y":0.397778, "width":0.016067, "height":0.072699}, "confidence":0.301921}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.993710, "center_y":0.481821, "width":0.013529, "height":0.111378}, "confidence":0.292425}
+ ] 
+}, 
+{
+ "frame_id":53, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000720.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.877878, "center_y":0.483018, "width":0.052990, "height":0.066676}, "confidence":0.918527}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.456620, "center_y":0.496620, "width":0.012676, "height":0.044560}, "confidence":0.886562}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.337231, "center_y":0.501151, "width":0.020027, "height":0.078693}, "confidence":0.873976}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.097958, "center_y":0.436208, "width":0.012156, "height":0.046565}, "confidence":0.592900}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.446803, "center_y":0.497896, "width":0.011231, "height":0.034778}, "confidence":0.529395}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.450860, "center_y":0.501523, "width":0.013571, "height":0.043967}, "confidence":0.253152}
+ ] 
+}, 
+{
+ "frame_id":54, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001060.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.572817, "center_y":0.621987, "width":0.033985, "height":0.163912}, "confidence":0.997405}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.545648, "center_y":0.636035, "width":0.030231, "height":0.130724}, "confidence":0.991320}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.595187, "center_y":0.596807, "width":0.009827, "height":0.044884}, "confidence":0.729028}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.615579, "center_y":0.594113, "width":0.007197, "height":0.033752}, "confidence":0.694614}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.624191, "center_y":0.593486, "width":0.006424, "height":0.031958}, "confidence":0.472424}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.648422, "center_y":0.597086, "width":0.010202, "height":0.033117}, "confidence":0.363236}
+ ] 
+}, 
+{
+ "frame_id":55, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001420.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.267763, "center_y":0.661346, "width":0.040948, "height":0.185334}, "confidence":0.986564}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.221703, "center_y":0.659109, "width":0.039748, "height":0.195839}, "confidence":0.978907}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.371917, "center_y":0.629855, "width":0.018394, "height":0.093535}, "confidence":0.918528}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.388505, "center_y":0.628316, "width":0.019030, "height":0.096923}, "confidence":0.914135}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.471113, "center_y":0.627851, "width":0.028666, "height":0.084755}, "confidence":0.773799}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.449832, "center_y":0.589495, "width":0.007770, "height":0.024848}, "confidence":0.442031}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.446565, "center_y":0.588876, "width":0.007351, "height":0.026684}, "confidence":0.319065}
+ ] 
+}, 
+{
+ "frame_id":56, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000130.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.122271, "center_y":0.502946, "width":0.026026, "height":0.042432}, "confidence":0.702467}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.962513, "center_y":0.480252, "width":0.038421, "height":0.092703}, "confidence":0.855449}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.641328, "center_y":0.498571, "width":0.021345, "height":0.063803}, "confidence":0.723843}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.627021, "center_y":0.511740, "width":0.020125, "height":0.041003}, "confidence":0.690976}
+ ] 
+}, 
+{
+ "frame_id":57, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000450.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.397002, "center_y":0.387420, "width":0.016509, "height":0.067175}, "confidence":0.945159}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.425697, "center_y":0.431366, "width":0.023504, "height":0.093001}, "confidence":0.940839}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.807579, "center_y":0.384242, "width":0.016098, "height":0.066411}, "confidence":0.921125}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.397828, "center_y":0.515852, "width":0.054878, "height":0.106238}, "confidence":0.920191}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.886438, "center_y":0.390546, "width":0.018519, "height":0.031732}, "confidence":0.920183}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.024095, "center_y":0.440567, "width":0.048358, "height":0.128172}, "confidence":0.858272}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.414123, "center_y":0.385388, "width":0.015451, "height":0.060956}, "confidence":0.529172}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.927476, "center_y":0.398169, "width":0.016615, "height":0.052805}, "confidence":0.391168}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.938125, "center_y":0.397817, "width":0.015099, "height":0.045063}, "confidence":0.289253}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.178753, "center_y":0.371258, "width":0.016334, "height":0.047799}, "confidence":0.268358}
+ ] 
+}, 
+{
+ "frame_id":58, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000730.jpg", 
+ "objects": [ 
+  {"class_id":11, "name":"stop sign", "relative_coordinates":{"center_x":0.104446, "center_y":0.319236, "width":0.016880, "height":0.042719}, "confidence":0.365380}, 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.897088, "center_y":0.483490, "width":0.055307, "height":0.070352}, "confidence":0.941964}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.332500, "center_y":0.501999, "width":0.021027, "height":0.080525}, "confidence":0.835601}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.449493, "center_y":0.502968, "width":0.011773, "height":0.043918}, "confidence":0.806737}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.461189, "center_y":0.494063, "width":0.010598, "height":0.053715}, "confidence":0.789438}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.098320, "center_y":0.439456, "width":0.011415, "height":0.050309}, "confidence":0.698614}
+ ] 
+}, 
+{
+ "frame_id":59, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001070.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.577185, "center_y":0.624437, "width":0.041464, "height":0.173426}, "confidence":0.996794}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.543012, "center_y":0.637175, "width":0.036494, "height":0.143416}, "confidence":0.991540}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.624030, "center_y":0.590690, "width":0.006683, "height":0.031247}, "confidence":0.516476}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.642756, "center_y":0.588871, "width":0.006245, "height":0.036817}, "confidence":0.319710}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.613799, "center_y":0.593590, "width":0.007498, "height":0.033599}, "confidence":0.311938}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.650852, "center_y":0.597234, "width":0.009435, "height":0.033849}, "confidence":0.283538}
+ ] 
+}, 
+{
+ "frame_id":60, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001430.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.254846, "center_y":0.659402, "width":0.042187, "height":0.214379}, "confidence":0.991425}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.199891, "center_y":0.660394, "width":0.046393, "height":0.217770}, "confidence":0.985409}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.365225, "center_y":0.626117, "width":0.015702, "height":0.098931}, "confidence":0.925512}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.469483, "center_y":0.624072, "width":0.026326, "height":0.086036}, "confidence":0.907399}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.385503, "center_y":0.628961, "width":0.019917, "height":0.086378}, "confidence":0.839568}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.416836, "center_y":0.586247, "width":0.009051, "height":0.024845}, "confidence":0.633473}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.445813, "center_y":0.587914, "width":0.006878, "height":0.023442}, "confidence":0.495778}
+ ] 
+}, 
+{
+ "frame_id":61, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000140.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.564828, "center_y":0.509825, "width":0.021785, "height":0.059888}, "confidence":0.703512}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.871209, "center_y":0.492209, "width":0.021817, "height":0.088992}, "confidence":0.679314}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.550464, "center_y":0.524522, "width":0.016332, "height":0.039839}, "confidence":0.614952}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.861558, "center_y":0.492224, "width":0.036258, "height":0.087717}, "confidence":0.575419}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.284753, "center_y":0.429962, "width":0.011882, "height":0.021719}, "confidence":0.429323}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.556893, "center_y":0.522590, "width":0.022877, "height":0.041428}, "confidence":0.270831}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.452657, "center_y":0.431754, "width":0.016096, "height":0.024209}, "confidence":0.262349}
+ ] 
+}, 
+{
+ "frame_id":62, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000460.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.177228, "center_y":0.445035, "width":0.024660, "height":0.105092}, "confidence":0.935711}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.547086, "center_y":0.517758, "width":0.048950, "height":0.102793}, "confidence":0.919559}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.562904, "center_y":0.431806, "width":0.023253, "height":0.092101}, "confidence":0.916673}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.535328, "center_y":0.390953, "width":0.011660, "height":0.064968}, "confidence":0.825312}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.217935, "center_y":0.441051, "width":0.027095, "height":0.114496}, "confidence":0.671705}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.981293, "center_y":0.379266, "width":0.020681, "height":0.053721}, "confidence":0.491755}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.550950, "center_y":0.390339, "width":0.012670, "height":0.057721}, "confidence":0.428433}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.995320, "center_y":0.374504, "width":0.011203, "height":0.060480}, "confidence":0.422888}
+ ] 
+}, 
+{
+ "frame_id":63, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000740.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.465358, "center_y":0.519454, "width":0.011030, "height":0.027853}, "confidence":0.499339}, 
+  {"class_id":3, "name":"motorbike", "relative_coordinates":{"center_x":0.465358, "center_y":0.519454, "width":0.011030, "height":0.027853}, "confidence":0.404134}, 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.926942, "center_y":0.489824, "width":0.063067, "height":0.070553}, "confidence":0.965902}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.466238, "center_y":0.505664, "width":0.011622, "height":0.044385}, "confidence":0.881988}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.336894, "center_y":0.506722, "width":0.019632, "height":0.079181}, "confidence":0.839665}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.108402, "center_y":0.441069, "width":0.010418, "height":0.043661}, "confidence":0.639976}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.472603, "center_y":0.496882, "width":0.009325, "height":0.039180}, "confidence":0.412733}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.516398, "center_y":0.504280, "width":0.009986, "height":0.032502}, "confidence":0.268579}
+ ] 
+}, 
+{
+ "frame_id":64, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001100.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.617998, "center_y":0.641945, "width":0.049466, "height":0.221519}, "confidence":0.996884}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.570147, "center_y":0.655883, "width":0.047614, "height":0.187847}, "confidence":0.984485}
+ ] 
+}, 
+{
+ "frame_id":65, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001460.jpg", 
+ "objects": [ 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.095246, "center_y":0.716637, "width":0.023390, "height":0.074544}, "confidence":0.330107}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.120791, "center_y":0.665559, "width":0.061646, "height":0.325893}, "confidence":0.996261}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.193546, "center_y":0.666210, "width":0.063030, "height":0.307756}, "confidence":0.991050}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.353006, "center_y":0.610760, "width":0.019649, "height":0.109912}, "confidence":0.973578}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.373003, "center_y":0.615109, "width":0.018339, "height":0.100218}, "confidence":0.972429}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.470661, "center_y":0.607808, "width":0.028270, "height":0.093956}, "confidence":0.772206}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.396378, "center_y":0.600464, "width":0.010884, "height":0.049691}, "confidence":0.739104}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.442316, "center_y":0.571115, "width":0.008861, "height":0.025940}, "confidence":0.705861}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.401996, "center_y":0.568308, "width":0.010009, "height":0.024781}, "confidence":0.506179}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.450221, "center_y":0.569870, "width":0.006968, "height":0.025191}, "confidence":0.274264}
+ ] 
+}, 
+{
+ "frame_id":66, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000150.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.773529, "center_y":0.497890, "width":0.021115, "height":0.086661}, "confidence":0.679870}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.482764, "center_y":0.515982, "width":0.024026, "height":0.061799}, "confidence":0.659319}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.468162, "center_y":0.530799, "width":0.019421, "height":0.039647}, "confidence":0.567526}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.361699, "center_y":0.438437, "width":0.011488, "height":0.024585}, "confidence":0.283476}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.186627, "center_y":0.432662, "width":0.012584, "height":0.021132}, "confidence":0.279015}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.375118, "center_y":0.438842, "width":0.011085, "height":0.025418}, "confidence":0.265824}
+ ] 
+}, 
+{
+ "frame_id":67, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000470.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.360122, "center_y":0.439584, "width":0.031925, "height":0.104525}, "confidence":0.950991}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.694627, "center_y":0.513302, "width":0.053815, "height":0.105780}, "confidence":0.923791}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.335163, "center_y":0.438769, "width":0.028286, "height":0.097831}, "confidence":0.913427}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.703105, "center_y":0.426659, "width":0.026490, "height":0.090521}, "confidence":0.864376}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.685917, "center_y":0.388334, "width":0.015658, "height":0.072504}, "confidence":0.832489}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.669901, "center_y":0.385576, "width":0.012428, "height":0.067123}, "confidence":0.555817}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.326906, "center_y":0.464809, "width":0.018975, "height":0.046814}, "confidence":0.485537}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.483332, "center_y":0.360326, "width":0.013383, "height":0.037662}, "confidence":0.423559}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.180433, "center_y":0.352644, "width":0.013796, "height":0.027894}, "confidence":0.416851}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.167168, "center_y":0.351378, "width":0.014640, "height":0.028675}, "confidence":0.325575}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.203065, "center_y":0.359427, "width":0.016876, "height":0.021348}, "confidence":0.270691}
+ ] 
+}, 
+{
+ "frame_id":68, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000750.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.957504, "center_y":0.505400, "width":0.069096, "height":0.068351}, "confidence":0.938759}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.340707, "center_y":0.519272, "width":0.021097, "height":0.081225}, "confidence":0.967956}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.472085, "center_y":0.520152, "width":0.009864, "height":0.045842}, "confidence":0.935423}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.120685, "center_y":0.453603, "width":0.011895, "height":0.050212}, "confidence":0.875684}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.482801, "center_y":0.515974, "width":0.012191, "height":0.053914}, "confidence":0.795170}
+ ] 
+}, 
+{
+ "frame_id":69, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001110.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.639487, "center_y":0.641778, "width":0.062394, "height":0.240791}, "confidence":0.998203}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.589547, "center_y":0.659553, "width":0.053096, "height":0.201071}, "confidence":0.997332}
+ ] 
+}, 
+{
+ "frame_id":70, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001470.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.075812, "center_y":0.674160, "width":0.080571, "height":0.359459}, "confidence":0.995713}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.346063, "center_y":0.615309, "width":0.019281, "height":0.115268}, "confidence":0.992326}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.149363, "center_y":0.681277, "width":0.065472, "height":0.345315}, "confidence":0.989258}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.396307, "center_y":0.600848, "width":0.010423, "height":0.058582}, "confidence":0.848647}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.365770, "center_y":0.616487, "width":0.017243, "height":0.106753}, "confidence":0.739628}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.440864, "center_y":0.571872, "width":0.008857, "height":0.026553}, "confidence":0.714504}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.372243, "center_y":0.615030, "width":0.014504, "height":0.098369}, "confidence":0.661599}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.449000, "center_y":0.570736, "width":0.007168, "height":0.024382}, "confidence":0.512062}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.470553, "center_y":0.608831, "width":0.028218, "height":0.096579}, "confidence":0.475179}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.399118, "center_y":0.568055, "width":0.009879, "height":0.020913}, "confidence":0.255280}
+ ] 
+}, 
+{
+ "frame_id":71, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000180.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.338424, "center_y":0.522467, "width":0.024343, "height":0.066443}, "confidence":0.870558}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.462055, "center_y":0.452770, "width":0.009007, "height":0.039563}, "confidence":0.795693}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.324266, "center_y":0.537849, "width":0.021546, "height":0.045127}, "confidence":0.782520}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.616992, "center_y":0.482770, "width":0.047049, "height":0.122172}, "confidence":0.540260}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.620935, "center_y":0.440863, "width":0.009609, "height":0.037383}, "confidence":0.483495}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.634418, "center_y":0.503427, "width":0.020255, "height":0.079098}, "confidence":0.337855}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.990508, "center_y":0.485967, "width":0.020404, "height":0.114803}, "confidence":0.296941}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.991203, "center_y":0.463567, "width":0.020149, "height":0.068875}, "confidence":0.261737}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.938228, "center_y":0.412021, "width":0.009637, "height":0.056017}, "confidence":0.259668}
+ ] 
+}, 
+{
+ "frame_id":72, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000480.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.456891, "center_y":0.431819, "width":0.029090, "height":0.095513}, "confidence":0.950543}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.480742, "center_y":0.430972, "width":0.021906, "height":0.102075}, "confidence":0.927416}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.839236, "center_y":0.512978, "width":0.060837, "height":0.116542}, "confidence":0.921449}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.835615, "center_y":0.418547, "width":0.028508, "height":0.087600}, "confidence":0.901766}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.817107, "center_y":0.363797, "width":0.016298, "height":0.039798}, "confidence":0.304889}
+ ] 
+}, 
+{
+ "frame_id":73, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000780.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.391300, "center_y":0.537596, "width":0.021018, "height":0.093966}, "confidence":0.983599}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.548023, "center_y":0.535421, "width":0.012285, "height":0.056929}, "confidence":0.949218}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.534249, "center_y":0.538623, "width":0.014471, "height":0.044480}, "confidence":0.782176}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.183578, "center_y":0.472198, "width":0.009559, "height":0.050087}, "confidence":0.573644}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.588657, "center_y":0.531178, "width":0.011566, "height":0.037288}, "confidence":0.516521}
+ ] 
+}, 
+{
+ "frame_id":74, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001140.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.739168, "center_y":0.669137, "width":0.075756, "height":0.317610}, "confidence":0.997876}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.676275, "center_y":0.700608, "width":0.065695, "height":0.272192}, "confidence":0.996647}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.612358, "center_y":0.601554, "width":0.009715, "height":0.045614}, "confidence":0.860106}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.623043, "center_y":0.598065, "width":0.006733, "height":0.033494}, "confidence":0.813893}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.600088, "center_y":0.599119, "width":0.012050, "height":0.050008}, "confidence":0.783191}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.635679, "center_y":0.596090, "width":0.006554, "height":0.034852}, "confidence":0.576797}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.647768, "center_y":0.594883, "width":0.008581, "height":0.041016}, "confidence":0.522159}
+ ] 
+}, 
+{
+ "frame_id":75, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001500.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.326705, "center_y":0.625067, "width":0.026922, "height":0.127567}, "confidence":0.996511}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.348853, "center_y":0.629815, "width":0.021816, "height":0.119692}, "confidence":0.976649}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.391398, "center_y":0.609904, "width":0.010645, "height":0.054919}, "confidence":0.968506}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.370025, "center_y":0.611165, "width":0.011092, "height":0.051897}, "confidence":0.906317}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.469739, "center_y":0.617103, "width":0.025695, "height":0.103905}, "confidence":0.819672}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.438612, "center_y":0.576963, "width":0.011754, "height":0.027895}, "confidence":0.580878}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.477111, "center_y":0.615739, "width":0.019812, "height":0.095315}, "confidence":0.451104}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.366622, "center_y":0.611832, "width":0.010836, "height":0.044751}, "confidence":0.327970}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.383527, "center_y":0.572436, "width":0.007120, "height":0.020115}, "confidence":0.292457}
+ ] 
+}, 
+{
+ "frame_id":76, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000190.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.963818, "center_y":0.482003, "width":0.029068, "height":0.123845}, "confidence":0.990559}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.988833, "center_y":0.471483, "width":0.023126, "height":0.131674}, "confidence":0.964317}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.516950, "center_y":0.569369, "width":0.032073, "height":0.074775}, "confidence":0.883519}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.301130, "center_y":0.523291, "width":0.026602, "height":0.071115}, "confidence":0.785954}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.285381, "center_y":0.537449, "width":0.022142, "height":0.043248}, "confidence":0.757786}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.428665, "center_y":0.452778, "width":0.007481, "height":0.033418}, "confidence":0.729049}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.600124, "center_y":0.498264, "width":0.019994, "height":0.084825}, "confidence":0.639187}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.590250, "center_y":0.501742, "width":0.041964, "height":0.086184}, "confidence":0.630447}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.586116, "center_y":0.438144, "width":0.009649, "height":0.045360}, "confidence":0.621399}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.893074, "center_y":0.405853, "width":0.009118, "height":0.048288}, "confidence":0.258357}
+ ] 
+}, 
+{
+ "frame_id":77, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000490.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.587394, "center_y":0.428719, "width":0.016453, "height":0.103222}, "confidence":0.947642}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.564732, "center_y":0.428708, "width":0.024574, "height":0.099311}, "confidence":0.890935}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.551361, "center_y":0.451074, "width":0.016218, "height":0.050432}, "confidence":0.627021}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.693080, "center_y":0.347728, "width":0.008638, "height":0.034738}, "confidence":0.418001}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.398906, "center_y":0.349745, "width":0.016009, "height":0.024548}, "confidence":0.385615}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.981130, "center_y":0.514354, "width":0.039759, "height":0.127003}, "confidence":0.328192}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.981798, "center_y":0.415391, "width":0.034192, "height":0.104874}, "confidence":0.295113}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.409721, "center_y":0.351738, "width":0.009721, "height":0.023280}, "confidence":0.272001}
+ ] 
+}, 
+{
+ "frame_id":78, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000790.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.397207, "center_y":0.540118, "width":0.022886, "height":0.097992}, "confidence":0.983455}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.560670, "center_y":0.536972, "width":0.011063, "height":0.060129}, "confidence":0.964826}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.546003, "center_y":0.542473, "width":0.011971, "height":0.046219}, "confidence":0.959280}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.192429, "center_y":0.479131, "width":0.010602, "height":0.043270}, "confidence":0.639573}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.601258, "center_y":0.535026, "width":0.011619, "height":0.040153}, "confidence":0.613357}
+ ] 
+}, 
+{
+ "frame_id":79, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001150.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.722048, "center_y":0.722833, "width":0.082154, "height":0.302672}, "confidence":0.999066}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.780945, "center_y":0.692506, "width":0.073948, "height":0.372091}, "confidence":0.998405}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.635506, "center_y":0.600097, "width":0.006197, "height":0.033365}, "confidence":0.855628}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.646944, "center_y":0.598375, "width":0.007909, "height":0.043383}, "confidence":0.839960}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.658693, "center_y":0.599835, "width":0.007885, "height":0.043220}, "confidence":0.834556}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.614496, "center_y":0.609954, "width":0.009378, "height":0.047948}, "confidence":0.762154}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.624352, "center_y":0.601455, "width":0.006443, "height":0.032038}, "confidence":0.671543}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.600508, "center_y":0.606938, "width":0.011530, "height":0.055613}, "confidence":0.652482}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.681243, "center_y":0.601957, "width":0.011999, "height":0.047090}, "confidence":0.277859}
+ ] 
+}, 
+{
+ "frame_id":80, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001510.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.344014, "center_y":0.629748, "width":0.026432, "height":0.126967}, "confidence":0.985399}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.318404, "center_y":0.629438, "width":0.026275, "height":0.131747}, "confidence":0.981121}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.390395, "center_y":0.610543, "width":0.009949, "height":0.055930}, "confidence":0.966247}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.470636, "center_y":0.616755, "width":0.029780, "height":0.111224}, "confidence":0.854457}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.370006, "center_y":0.612634, "width":0.009751, "height":0.051016}, "confidence":0.847139}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.437629, "center_y":0.581654, "width":0.009883, "height":0.025411}, "confidence":0.504997}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.441223, "center_y":0.575313, "width":0.012094, "height":0.025887}, "confidence":0.402851}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.433520, "center_y":0.581858, "width":0.007223, "height":0.025725}, "confidence":0.303731}
+ ] 
+}, 
+{
+ "frame_id":81, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000220.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.783573, "center_y":0.483516, "width":0.026954, "height":0.123615}, "confidence":0.989973}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.807198, "center_y":0.476906, "width":0.025079, "height":0.117624}, "confidence":0.977431}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.837806, "center_y":0.501601, "width":0.031666, "height":0.140517}, "confidence":0.967816}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.087426, "center_y":0.531687, "width":0.033940, "height":0.074496}, "confidence":0.958232}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.864607, "center_y":0.430889, "width":0.017984, "height":0.065638}, "confidence":0.938438}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.351550, "center_y":0.580745, "width":0.040536, "height":0.084385}, "confidence":0.894471}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.439078, "center_y":0.498524, "width":0.020369, "height":0.085705}, "confidence":0.839928}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.901519, "center_y":0.442421, "width":0.021533, "height":0.034762}, "confidence":0.805464}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.066747, "center_y":0.550656, "width":0.042512, "height":0.055159}, "confidence":0.805291}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.420177, "center_y":0.439778, "width":0.010050, "height":0.042637}, "confidence":0.483313}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.247295, "center_y":0.449469, "width":0.008458, "height":0.035861}, "confidence":0.467949}
+ ] 
+}, 
+{
+ "frame_id":82, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000500.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.651878, "center_y":0.428428, "width":0.026307, "height":0.095781}, "confidence":0.988810}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.677314, "center_y":0.429297, "width":0.016745, "height":0.105312}, "confidence":0.973672}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.637474, "center_y":0.451467, "width":0.015940, "height":0.051112}, "confidence":0.859319}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.481183, "center_y":0.350549, "width":0.012567, "height":0.025289}, "confidence":0.460829}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.665876, "center_y":0.440265, "width":0.011745, "height":0.067599}, "confidence":0.277053}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.471818, "center_y":0.350714, "width":0.008631, "height":0.025957}, "confidence":0.260932}
+ ] 
+}, 
+{
+ "frame_id":83, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000800.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.410071, "center_y":0.544562, "width":0.032676, "height":0.100378}, "confidence":0.992537}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.562259, "center_y":0.544573, "width":0.013999, "height":0.051528}, "confidence":0.962826}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.207055, "center_y":0.481529, "width":0.010803, "height":0.047053}, "confidence":0.931462}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.575582, "center_y":0.541907, "width":0.013618, "height":0.060020}, "confidence":0.905395}
+ ] 
+}, 
+{
+ "frame_id":84, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001160.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.835683, "center_y":0.694433, "width":0.103827, "height":0.424425}, "confidence":0.997289}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.764046, "center_y":0.732515, "width":0.093208, "height":0.370884}, "confidence":0.996672}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.654072, "center_y":0.598555, "width":0.011041, "height":0.040686}, "confidence":0.846616}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.613513, "center_y":0.609322, "width":0.010175, "height":0.049180}, "confidence":0.831768}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.635707, "center_y":0.600455, "width":0.006954, "height":0.037237}, "confidence":0.765047}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.622824, "center_y":0.601459, "width":0.006612, "height":0.036949}, "confidence":0.686093}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.688142, "center_y":0.600448, "width":0.012790, "height":0.052111}, "confidence":0.585240}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.598094, "center_y":0.602166, "width":0.012948, "height":0.051238}, "confidence":0.550095}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.680691, "center_y":0.600865, "width":0.011160, "height":0.050627}, "confidence":0.470938}
+ ] 
+}, 
+{
+ "frame_id":85, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001540.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.326888, "center_y":0.644131, "width":0.035316, "height":0.162043}, "confidence":0.997144}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.285978, "center_y":0.644191, "width":0.040153, "height":0.168357}, "confidence":0.993074}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.362892, "center_y":0.620953, "width":0.011005, "height":0.055313}, "confidence":0.890847}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.384594, "center_y":0.619376, "width":0.011170, "height":0.058409}, "confidence":0.874279}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.471976, "center_y":0.627676, "width":0.032527, "height":0.113930}, "confidence":0.801512}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.429878, "center_y":0.586947, "width":0.008228, "height":0.026865}, "confidence":0.641323}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.439439, "center_y":0.585716, "width":0.009690, "height":0.025595}, "confidence":0.639686}
+ ] 
+}, 
+{
+ "frame_id":86, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000230.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.702942, "center_y":0.483445, "width":0.025933, "height":0.122759}, "confidence":0.991334}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.760585, "center_y":0.497021, "width":0.023571, "height":0.138286}, "confidence":0.938865}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.728433, "center_y":0.471282, "width":0.021774, "height":0.113313}, "confidence":0.891759}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.262054, "center_y":0.583241, "width":0.044893, "height":0.090453}, "confidence":0.887412}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.351805, "center_y":0.498652, "width":0.036573, "height":0.090187}, "confidence":0.834119}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.338540, "center_y":0.438352, "width":0.011346, "height":0.052037}, "confidence":0.777332}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.152291, "center_y":0.443762, "width":0.010429, "height":0.036367}, "confidence":0.706554}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.917441, "center_y":0.497277, "width":0.017358, "height":0.048523}, "confidence":0.704376}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.896924, "center_y":0.485254, "width":0.017703, "height":0.062055}, "confidence":0.666003}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.965764, "center_y":0.492218, "width":0.014826, "height":0.077745}, "confidence":0.578949}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.771639, "center_y":0.430674, "width":0.014683, "height":0.059151}, "confidence":0.478521}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.977621, "center_y":0.497097, "width":0.021398, "height":0.080912}, "confidence":0.412244}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.807333, "center_y":0.445503, "width":0.016430, "height":0.029592}, "confidence":0.381931}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.166975, "center_y":0.440848, "width":0.010861, "height":0.031784}, "confidence":0.348218}
+ ] 
+}, 
+{
+ "frame_id":87, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000510.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.726013, "center_y":0.423716, "width":0.029135, "height":0.107773}, "confidence":0.938099}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.753090, "center_y":0.423489, "width":0.019269, "height":0.109520}, "confidence":0.924997}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.709018, "center_y":0.448421, "width":0.018472, "height":0.049669}, "confidence":0.692699}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.533142, "center_y":0.345917, "width":0.015134, "height":0.023746}, "confidence":0.310421}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.036582, "center_y":0.418851, "width":0.027936, "height":0.052641}, "confidence":0.265818}
+ ] 
+}, 
+{
+ "frame_id":88, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000810.jpg", 
+ "objects": [ 
+  {"class_id":20, "name":"elephant", "relative_coordinates":{"center_x":0.642455, "center_y":0.537795, "width":0.028158, "height":0.055818}, "confidence":0.604808}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.419930, "center_y":0.556536, "width":0.024492, "height":0.106082}, "confidence":0.989568}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.574054, "center_y":0.557287, "width":0.014217, "height":0.051182}, "confidence":0.976598}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.215317, "center_y":0.495073, "width":0.010650, "height":0.046205}, "confidence":0.953345}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.587350, "center_y":0.555273, "width":0.011667, "height":0.059531}, "confidence":0.732123}
+ ] 
+}, 
+{
+ "frame_id":89, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001170.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.814848, "center_y":0.771637, "width":0.104713, "height":0.436887}, "confidence":0.998714}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.902948, "center_y":0.721796, "width":0.122889, "height":0.493452}, "confidence":0.997371}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.652463, "center_y":0.596722, "width":0.007930, "height":0.039882}, "confidence":0.934407}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.641593, "center_y":0.597040, "width":0.007023, "height":0.039883}, "confidence":0.902147}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.627847, "center_y":0.599293, "width":0.008276, "height":0.035674}, "confidence":0.888974}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.679986, "center_y":0.598883, "width":0.011158, "height":0.044107}, "confidence":0.869132}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.610273, "center_y":0.608496, "width":0.010501, "height":0.047604}, "confidence":0.793737}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.594816, "center_y":0.602231, "width":0.012806, "height":0.054696}, "confidence":0.700251}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.687654, "center_y":0.597837, "width":0.010808, "height":0.044245}, "confidence":0.650226}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.667985, "center_y":0.569076, "width":0.006138, "height":0.015635}, "confidence":0.393681}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.642910, "center_y":0.588868, "width":0.006371, "height":0.029306}, "confidence":0.327824}
+ ] 
+}, 
+{
+ "frame_id":90, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001550.jpg", 
+ "objects": [ 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.267511, "center_y":0.622800, "width":0.017065, "height":0.050530}, "confidence":0.293088}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.318706, "center_y":0.651265, "width":0.036327, "height":0.169068}, "confidence":0.994457}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.270707, "center_y":0.651277, "width":0.036220, "height":0.181714}, "confidence":0.992821}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.360494, "center_y":0.621403, "width":0.011442, "height":0.053455}, "confidence":0.917404}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.426559, "center_y":0.588923, "width":0.009571, "height":0.030187}, "confidence":0.881575}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.382391, "center_y":0.619685, "width":0.012226, "height":0.057735}, "confidence":0.794552}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.437488, "center_y":0.586258, "width":0.008087, "height":0.028690}, "confidence":0.740543}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.467850, "center_y":0.628523, "width":0.022944, "height":0.119070}, "confidence":0.716158}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.480619, "center_y":0.634280, "width":0.023919, "height":0.117083}, "confidence":0.600286}
+ ] 
+}, 
+{
+ "frame_id":91, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000240.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.674589, "center_y":0.480517, "width":0.020448, "height":0.113573}, "confidence":0.986539}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.650835, "center_y":0.487875, "width":0.022527, "height":0.118118}, "confidence":0.983930}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.193765, "center_y":0.595271, "width":0.048385, "height":0.093351}, "confidence":0.936518}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.971243, "center_y":0.522942, "width":0.032852, "height":0.126041}, "confidence":0.929960}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.273667, "center_y":0.441610, "width":0.013534, "height":0.060199}, "confidence":0.893136}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.711870, "center_y":0.507939, "width":0.024067, "height":0.136662}, "confidence":0.881897}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.929597, "center_y":0.501875, "width":0.014077, "height":0.071481}, "confidence":0.849206}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.293611, "center_y":0.503515, "width":0.025157, "height":0.097088}, "confidence":0.806481}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.072298, "center_y":0.443672, "width":0.012268, "height":0.038905}, "confidence":0.732728}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.950072, "center_y":0.498508, "width":0.014751, "height":0.077467}, "confidence":0.730579}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.992733, "center_y":0.532367, "width":0.017195, "height":0.162376}, "confidence":0.579523}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.845302, "center_y":0.498562, "width":0.014064, "height":0.048898}, "confidence":0.544785}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.089439, "center_y":0.440179, "width":0.011386, "height":0.032554}, "confidence":0.512587}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.896473, "center_y":0.501667, "width":0.017682, "height":0.069740}, "confidence":0.496348}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.742225, "center_y":0.451579, "width":0.014115, "height":0.027072}, "confidence":0.381496}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.283260, "center_y":0.504238, "width":0.048809, "height":0.099002}, "confidence":0.334850}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.943266, "center_y":0.498421, "width":0.019069, "height":0.080725}, "confidence":0.325559}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.809693, "center_y":0.489060, "width":0.014136, "height":0.049469}, "confidence":0.321852}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.825927, "center_y":0.490792, "width":0.013973, "height":0.053959}, "confidence":0.300191}
+ ] 
+}, 
+{
+ "frame_id":92, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000520.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.108214, "center_y":0.417294, "width":0.031332, "height":0.054344}, "confidence":0.541549}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.792214, "center_y":0.423200, "width":0.027857, "height":0.108836}, "confidence":0.875647}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.772460, "center_y":0.446122, "width":0.018890, "height":0.050065}, "confidence":0.870748}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.819414, "center_y":0.424673, "width":0.019670, "height":0.106268}, "confidence":0.851386}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.810191, "center_y":0.428545, "width":0.018680, "height":0.097476}, "confidence":0.705314}
+ ] 
+}, 
+{
+ "frame_id":93, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000840.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.217628, "center_y":0.529842, "width":0.010526, "height":0.029577}, "confidence":0.499300}, 
+  {"class_id":1, "name":"bicycle", "relative_coordinates":{"center_x":0.218003, "center_y":0.518065, "width":0.012110, "height":0.048391}, "confidence":0.251701}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.437005, "center_y":0.579751, "width":0.030808, "height":0.123507}, "confidence":0.983374}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.591870, "center_y":0.581612, "width":0.013814, "height":0.052835}, "confidence":0.866862}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.218064, "center_y":0.517851, "width":0.012474, "height":0.049876}, "confidence":0.705045}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.605821, "center_y":0.574181, "width":0.013770, "height":0.068022}, "confidence":0.668497}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.646743, "center_y":0.570836, "width":0.009170, "height":0.036433}, "confidence":0.467676}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.601598, "center_y":0.575263, "width":0.012834, "height":0.055834}, "confidence":0.389278}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.673946, "center_y":0.569134, "width":0.009823, "height":0.030961}, "confidence":0.313112}
+ ] 
+}, 
+{
+ "frame_id":94, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001180.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.957830, "center_y":0.721264, "width":0.085777, "height":0.577044}, "confidence":0.996828}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.875533, "center_y":0.769223, "width":0.114905, "height":0.522318}, "confidence":0.994358}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.640984, "center_y":0.595091, "width":0.008728, "height":0.039540}, "confidence":0.964122}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.599903, "center_y":0.602608, "width":0.009689, "height":0.051503}, "confidence":0.921426}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.584473, "center_y":0.602005, "width":0.012690, "height":0.059324}, "confidence":0.895857}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.676000, "center_y":0.594302, "width":0.013806, "height":0.047072}, "confidence":0.866793}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.625041, "center_y":0.596112, "width":0.007203, "height":0.035639}, "confidence":0.840184}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.609084, "center_y":0.597649, "width":0.006777, "height":0.034447}, "confidence":0.805426}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.626114, "center_y":0.590234, "width":0.006061, "height":0.034017}, "confidence":0.468985}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.623868, "center_y":0.558914, "width":0.008038, "height":0.020812}, "confidence":0.274392}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.664520, "center_y":0.567399, "width":0.011092, "height":0.014741}, "confidence":0.261579}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.585124, "center_y":0.587358, "width":0.010067, "height":0.026482}, "confidence":0.256826}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.663893, "center_y":0.563741, "width":0.011520, "height":0.015449}, "confidence":0.255864}
+ ] 
+}, 
+{
+ "frame_id":95, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001560.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.307621, "center_y":0.655922, "width":0.038256, "height":0.182278}, "confidence":0.990467}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.252463, "center_y":0.660093, "width":0.046902, "height":0.200422}, "confidence":0.987609}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.379546, "center_y":0.624493, "width":0.010605, "height":0.059094}, "confidence":0.959342}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.357821, "center_y":0.626515, "width":0.010185, "height":0.055276}, "confidence":0.933443}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.464968, "center_y":0.638208, "width":0.021575, "height":0.124561}, "confidence":0.702391}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.481815, "center_y":0.637729, "width":0.023534, "height":0.122617}, "confidence":0.467859}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.425956, "center_y":0.593975, "width":0.008970, "height":0.028005}, "confidence":0.452230}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.436478, "center_y":0.587027, "width":0.007588, "height":0.021819}, "confidence":0.388982}
+ ] 
+}, 
+{
+ "frame_id":96, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000250.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.933996, "center_y":0.522589, "width":0.042128, "height":0.182005}, "confidence":0.984679}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.608329, "center_y":0.491754, "width":0.023667, "height":0.117840}, "confidence":0.980198}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.969519, "center_y":0.524011, "width":0.038518, "height":0.162348}, "confidence":0.977516}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.219460, "center_y":0.507311, "width":0.060593, "height":0.107290}, "confidence":0.970373}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.634734, "center_y":0.483055, "width":0.023126, "height":0.112581}, "confidence":0.947269}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.674289, "center_y":0.512412, "width":0.025343, "height":0.138378}, "confidence":0.939598}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.906549, "center_y":0.523818, "width":0.025409, "height":0.125488}, "confidence":0.933451}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.126444, "center_y":0.603245, "width":0.055749, "height":0.105568}, "confidence":0.929743}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.212083, "center_y":0.441968, "width":0.014662, "height":0.059136}, "confidence":0.898781}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.873309, "center_y":0.502037, "width":0.018148, "height":0.082566}, "confidence":0.849407}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.854070, "center_y":0.507477, "width":0.011750, "height":0.061580}, "confidence":0.791355}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.785588, "center_y":0.504987, "width":0.012520, "height":0.045213}, "confidence":0.663767}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.995131, "center_y":0.522350, "width":0.011316, "height":0.142879}, "confidence":0.598874}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.687756, "center_y":0.453755, "width":0.013957, "height":0.030704}, "confidence":0.361188}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.503476, "center_y":0.428478, "width":0.006889, "height":0.034091}, "confidence":0.276464}
+ ] 
+}, 
+{
+ "frame_id":97, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000530.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.862396, "center_y":0.427771, "width":0.027847, "height":0.119245}, "confidence":0.971530}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.840547, "center_y":0.427352, "width":0.024800, "height":0.106931}, "confidence":0.935447}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.817573, "center_y":0.453214, "width":0.024798, "height":0.055041}, "confidence":0.934025}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.945839, "center_y":0.344656, "width":0.015537, "height":0.061472}, "confidence":0.536726}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.970571, "center_y":0.338251, "width":0.013902, "height":0.066298}, "confidence":0.438918}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.870477, "center_y":0.427164, "width":0.020087, "height":0.116757}, "confidence":0.415464}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.971546, "center_y":0.324950, "width":0.011701, "height":0.037450}, "confidence":0.256176}
+ ] 
+}, 
+{
+ "frame_id":98, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000860.jpg", 
+ "objects": [ 
+  {"class_id":24, "name":"backpack", "relative_coordinates":{"center_x":0.590858, "center_y":0.576461, "width":0.013416, "height":0.039553}, "confidence":0.258407}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.430523, "center_y":0.584188, "width":0.040620, "height":0.140892}, "confidence":0.997042}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.591181, "center_y":0.581040, "width":0.013904, "height":0.049210}, "confidence":0.974131}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.203343, "center_y":0.520151, "width":0.012711, "height":0.053033}, "confidence":0.957989}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.606087, "center_y":0.573865, "width":0.014864, "height":0.066277}, "confidence":0.853847}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.675424, "center_y":0.569888, "width":0.008211, "height":0.032201}, "confidence":0.315391}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.643956, "center_y":0.572728, "width":0.009869, "height":0.040937}, "confidence":0.268356}
+ ] 
+}, 
+{
+ "frame_id":99, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001200.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.545800, "center_y":0.573795, "width":0.011956, "height":0.051593}, "confidence":0.923945}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.530061, "center_y":0.571894, "width":0.011229, "height":0.058338}, "confidence":0.872899}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.574946, "center_y":0.562913, "width":0.006939, "height":0.038101}, "confidence":0.865727}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.585998, "center_y":0.563619, "width":0.008289, "height":0.039044}, "confidence":0.858447}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.622153, "center_y":0.563717, "width":0.016826, "height":0.047158}, "confidence":0.784598}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.558469, "center_y":0.564395, "width":0.007458, "height":0.034763}, "confidence":0.704815}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.600939, "center_y":0.534648, "width":0.007578, "height":0.019848}, "confidence":0.618357}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.569537, "center_y":0.568477, "width":0.004868, "height":0.029817}, "confidence":0.577392}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.975938, "center_y":0.748256, "width":0.048409, "height":0.508525}, "confidence":0.430432}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.530008, "center_y":0.560165, "width":0.009270, "height":0.034088}, "confidence":0.351504}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.567887, "center_y":0.530008, "width":0.006524, "height":0.020368}, "confidence":0.264758}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.610525, "center_y":0.519715, "width":0.008282, "height":0.017026}, "confidence":0.253510}
+ ] 
+}, 
+{
+ "frame_id":100, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001570.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.293130, "center_y":0.664853, "width":0.040838, "height":0.211881}, "confidence":0.997380}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.239040, "center_y":0.661440, "width":0.046212, "height":0.217070}, "confidence":0.996550}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.378363, "center_y":0.624291, "width":0.010573, "height":0.059961}, "confidence":0.960518}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.356167, "center_y":0.625383, "width":0.010027, "height":0.057100}, "confidence":0.852696}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.469000, "center_y":0.636365, "width":0.024354, "height":0.128068}, "confidence":0.666298}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.424442, "center_y":0.593726, "width":0.008715, "height":0.030241}, "confidence":0.629798}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.436761, "center_y":0.586817, "width":0.008941, "height":0.020901}, "confidence":0.285737}
+ ] 
+}, 
+{
+ "frame_id":101, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000260.jpg", 
+ "objects": [ 
+  {"class_id":26, "name":"handbag", "relative_coordinates":{"center_x":0.928435, "center_y":0.524583, "width":0.032719, "height":0.135834}, "confidence":0.305389}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.863678, "center_y":0.528928, "width":0.035594, "height":0.174839}, "confidence":0.989356}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.927913, "center_y":0.529500, "width":0.032336, "height":0.144388}, "confidence":0.983031}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.895843, "center_y":0.530510, "width":0.035997, "height":0.159521}, "confidence":0.983002}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.959350, "center_y":0.531065, "width":0.034496, "height":0.149427}, "confidence":0.975604}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.587124, "center_y":0.485200, "width":0.025086, "height":0.131472}, "confidence":0.971597}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.045857, "center_y":0.615402, "width":0.064695, "height":0.116051}, "confidence":0.950610}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.561316, "center_y":0.496858, "width":0.020770, "height":0.117711}, "confidence":0.926635}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.139822, "center_y":0.441885, "width":0.013964, "height":0.065626}, "confidence":0.888433}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.838580, "center_y":0.529121, "width":0.021938, "height":0.124810}, "confidence":0.884647}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.983872, "center_y":0.531270, "width":0.024843, "height":0.142489}, "confidence":0.855851}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.144642, "center_y":0.507796, "width":0.061279, "height":0.114571}, "confidence":0.832423}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.796233, "center_y":0.508320, "width":0.017206, "height":0.075634}, "confidence":0.715899}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.628939, "center_y":0.515165, "width":0.022642, "height":0.145175}, "confidence":0.707804}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.185463, "center_y":0.448293, "width":0.013162, "height":0.060255}, "confidence":0.579453}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.163325, "center_y":0.507985, "width":0.026488, "height":0.111745}, "confidence":0.555056}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.718871, "center_y":0.508793, "width":0.013170, "height":0.049036}, "confidence":0.505986}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.744890, "center_y":0.502113, "width":0.012829, "height":0.065064}, "confidence":0.452476}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.993248, "center_y":0.532109, "width":0.014975, "height":0.131210}, "confidence":0.294977}
+ ] 
+}, 
+{
+ "frame_id":102, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000540.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.178963, "center_y":0.418126, "width":0.029143, "height":0.051081}, "confidence":0.904989}, 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.154513, "center_y":0.426433, "width":0.015027, "height":0.026267}, "confidence":0.272058}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.887200, "center_y":0.424148, "width":0.024220, "height":0.111171}, "confidence":0.980178}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.911964, "center_y":0.419286, "width":0.026340, "height":0.123148}, "confidence":0.927371}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.859208, "center_y":0.448937, "width":0.025188, "height":0.054819}, "confidence":0.874757}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.985532, "center_y":0.335740, "width":0.012823, "height":0.066770}, "confidence":0.477291}
+ ] 
+}, 
+{
+ "frame_id":103, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000870.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.426084, "center_y":0.586318, "width":0.035277, "height":0.150530}, "confidence":0.996708}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.586846, "center_y":0.579977, "width":0.015629, "height":0.048848}, "confidence":0.940690}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.194354, "center_y":0.520441, "width":0.013518, "height":0.055193}, "confidence":0.912215}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.604462, "center_y":0.574703, "width":0.015562, "height":0.074272}, "confidence":0.869747}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.643607, "center_y":0.571989, "width":0.011894, "height":0.041522}, "confidence":0.616603}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.672765, "center_y":0.569607, "width":0.007839, "height":0.032870}, "confidence":0.374742}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.124636, "center_y":0.495051, "width":0.010994, "height":0.018232}, "confidence":0.294219}
+ ] 
+}, 
+{
+ "frame_id":104, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001210.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.556620, "center_y":0.555125, "width":0.007800, "height":0.040652}, "confidence":0.936204}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.516697, "center_y":0.563356, "width":0.013163, "height":0.056938}, "confidence":0.918116}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.589459, "center_y":0.557193, "width":0.013726, "height":0.052823}, "confidence":0.870670}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.534559, "center_y":0.556727, "width":0.009095, "height":0.035390}, "confidence":0.863922}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.545726, "center_y":0.554779, "width":0.007390, "height":0.041037}, "confidence":0.846526}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.501240, "center_y":0.563212, "width":0.012392, "height":0.060937}, "confidence":0.696127}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.594939, "center_y":0.555540, "width":0.013153, "height":0.046239}, "confidence":0.653976}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.571085, "center_y":0.523414, "width":0.008739, "height":0.022232}, "confidence":0.373238}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.570644, "center_y":0.527973, "width":0.008057, "height":0.017201}, "confidence":0.344705}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.557816, "center_y":0.518898, "width":0.008495, "height":0.032310}, "confidence":0.256464}
+ ] 
+}, 
+{
+ "frame_id":105, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001590.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.257168, "center_y":0.672524, "width":0.047051, "height":0.246077}, "confidence":0.996093}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.202015, "center_y":0.667632, "width":0.055738, "height":0.264760}, "confidence":0.990814}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.373903, "center_y":0.621779, "width":0.011972, "height":0.063335}, "confidence":0.956367}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.351888, "center_y":0.623422, "width":0.011192, "height":0.058120}, "confidence":0.935163}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.429633, "center_y":0.588943, "width":0.011325, "height":0.030272}, "confidence":0.829110}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.419797, "center_y":0.587913, "width":0.007809, "height":0.028036}, "confidence":0.775463}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.477529, "center_y":0.636401, "width":0.032166, "height":0.133385}, "confidence":0.722856}
+ ] 
+}, 
+{
+ "frame_id":106, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000280.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.504435, "center_y":0.504602, "width":0.022728, "height":0.126352}, "confidence":0.988167}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.962572, "center_y":0.546127, "width":0.048683, "height":0.206458}, "confidence":0.979361}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.812888, "center_y":0.537049, "width":0.028906, "height":0.161556}, "confidence":0.973241}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.784778, "center_y":0.534586, "width":0.036456, "height":0.181001}, "confidence":0.966644}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.528135, "center_y":0.496984, "width":0.020946, "height":0.122036}, "confidence":0.943782}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.857616, "center_y":0.529158, "width":0.026942, "height":0.125710}, "confidence":0.908649}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.918758, "center_y":0.555323, "width":0.042064, "height":0.173323}, "confidence":0.906824}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.755304, "center_y":0.529737, "width":0.022431, "height":0.099135}, "confidence":0.900571}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.583063, "center_y":0.522312, "width":0.023148, "height":0.130776}, "confidence":0.846565}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.074435, "center_y":0.452819, "width":0.017160, "height":0.068278}, "confidence":0.841195}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.835385, "center_y":0.532358, "width":0.022590, "height":0.138235}, "confidence":0.837753}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.878802, "center_y":0.528933, "width":0.024098, "height":0.123176}, "confidence":0.834686}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.055100, "center_y":0.515599, "width":0.027319, "height":0.121374}, "confidence":0.830525}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.027313, "center_y":0.443174, "width":0.018048, "height":0.072245}, "confidence":0.766004}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.675227, "center_y":0.517080, "width":0.011651, "height":0.054510}, "confidence":0.526314}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.721779, "center_y":0.508526, "width":0.012321, "height":0.027274}, "confidence":0.295469}
+ ] 
+}, 
+{
+ "frame_id":107, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000550.jpg", 
+ "objects": [ 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.216720, "center_y":0.405975, "width":0.028050, "height":0.051192}, "confidence":0.849552}, 
+  {"class_id":22, "name":"zebra", "relative_coordinates":{"center_x":0.191926, "center_y":0.414258, "width":0.012355, "height":0.025293}, "confidence":0.293681}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.969596, "center_y":0.409579, "width":0.034707, "height":0.128468}, "confidence":0.978966}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.944981, "center_y":0.413599, "width":0.027314, "height":0.116780}, "confidence":0.969192}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.912595, "center_y":0.436978, "width":0.028282, "height":0.059412}, "confidence":0.919384}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.806573, "center_y":0.323763, "width":0.027914, "height":0.026687}, "confidence":0.271501}
+ ] 
+}, 
+{
+ "frame_id":108, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000000880.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.417717, "center_y":0.587099, "width":0.035194, "height":0.157159}, "confidence":0.998028}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.600216, "center_y":0.572578, "width":0.015873, "height":0.079397}, "confidence":0.989431}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.580342, "center_y":0.580269, "width":0.014175, "height":0.057288}, "confidence":0.957474}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.181014, "center_y":0.518198, "width":0.012855, "height":0.054232}, "confidence":0.884241}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.639757, "center_y":0.569131, "width":0.013369, "height":0.040426}, "confidence":0.804542}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.668635, "center_y":0.569912, "width":0.006602, "height":0.030922}, "confidence":0.340631}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.113922, "center_y":0.492968, "width":0.008466, "height":0.021820}, "confidence":0.307491}
+ ] 
+}, 
+{
+ "frame_id":109, 
+ "filename":"/mydrive/CU_Year3/FALL_2021/HDI/central_park/0000001220.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.521296, "center_y":0.542169, "width":0.010384, "height":0.041068}, "confidence":0.927161}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.490331, "center_y":0.546004, "width":0.007845, "height":0.036557}, "confidence":0.903709}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.505242, "center_y":0.543927, "width":0.008029, "height":0.034543}, "confidence":0.875104}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.480868, "center_y":0.550072, "width":0.012483, "height":0.058636}, "confidence":0.862531}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.464136, "center_y":0.550407, "width":0.013109, "height":0.062825}, "confidence":0.822506}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.559270, "center_y":0.542088, "width":0.015215, "height":0.043519}, "confidence":0.774550}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.537417, "center_y":0.510154, "width":0.008620, "height":0.026624}, "confidence":0.605736}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.537579, "center_y":0.514670, "width":0.006522, "height":0.020429}, "confidence":0.410922}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.507106, "center_y":0.537125, "width":0.008076, "height":0.031588}, "confidence":0.394488}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.504365, "center_y":0.508157, "width":0.009160, "height":0.023271}, "confidence":0.354916}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.546573, "center_y":0.507668, "width":0.009975, "height":0.022141}, "confidence":0.324801}
+ ] 
+}
+]

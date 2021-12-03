@@ -1,0 +1,2453 @@
+{
+    "0000000020.jpg": [
+        {
+            "item_name": "frisbee",
+            "count": 1,
+            "avg_conf": 0.855672,
+            "max_conf": 0.855672,
+            "min_conf": 0.855672
+        },
+        {
+            "item_name": "person",
+            "count": 13,
+            "avg_conf": 0.7639530000000001,
+            "max_conf": 0.996694,
+            "min_conf": 0.376808
+        }
+    ],
+    "0000000290.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.439979,
+            "max_conf": 0.439979,
+            "min_conf": 0.439979
+        },
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.7106845882352941,
+            "max_conf": 0.983293,
+            "min_conf": 0.302646
+        }
+    ],
+    "0000000580.jpg": [
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.7290411666666665,
+            "max_conf": 0.977825,
+            "min_conf": 0.258416
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.750804,
+            "max_conf": 0.750804,
+            "min_conf": 0.750804
+        }
+    ],
+    "0000000890.jpg": [
+        {
+            "item_name": "chair",
+            "count": 1,
+            "avg_conf": 0.371613,
+            "max_conf": 0.371613,
+            "min_conf": 0.371613
+        },
+        {
+            "item_name": "car",
+            "count": 1,
+            "avg_conf": 0.520688,
+            "max_conf": 0.520688,
+            "min_conf": 0.520688
+        },
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.6021303636363636,
+            "max_conf": 0.949197,
+            "min_conf": 0.298627
+        }
+    ],
+    "0000001260.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.254916,
+            "max_conf": 0.254916,
+            "min_conf": 0.254916
+        },
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.7991869999999999,
+            "max_conf": 0.992122,
+            "min_conf": 0.275704
+        }
+    ],
+    "0000000030.jpg": [
+        {
+            "item_name": "frisbee",
+            "count": 1,
+            "avg_conf": 0.970792,
+            "max_conf": 0.970792,
+            "min_conf": 0.970792
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.779225357142857,
+            "max_conf": 0.992858,
+            "min_conf": 0.295233
+        }
+    ],
+    "0000000300.jpg": [
+        {
+            "item_name": "suitcase",
+            "count": 1,
+            "avg_conf": 0.369551,
+            "max_conf": 0.369551,
+            "min_conf": 0.369551
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.304357,
+            "max_conf": 0.329291,
+            "min_conf": 0.279423
+        },
+        {
+            "item_name": "person",
+            "count": 19,
+            "avg_conf": 0.6711175263157895,
+            "max_conf": 0.984051,
+            "min_conf": 0.254543
+        }
+    ],
+    "0000000590.jpg": [
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.8272282222222223,
+            "max_conf": 0.974877,
+            "min_conf": 0.439497
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.381661,
+            "max_conf": 0.381661,
+            "min_conf": 0.381661
+        }
+    ],
+    "0000000900.jpg": [
+        {
+            "item_name": "chair",
+            "count": 1,
+            "avg_conf": 0.29111,
+            "max_conf": 0.29111,
+            "min_conf": 0.29111
+        },
+        {
+            "item_name": "car",
+            "count": 2,
+            "avg_conf": 0.337447,
+            "max_conf": 0.385619,
+            "min_conf": 0.289275
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.579694,
+            "max_conf": 0.579694,
+            "min_conf": 0.579694
+        },
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.5757999166666666,
+            "max_conf": 0.963309,
+            "min_conf": 0.253629
+        }
+    ],
+    "0000001270.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.329938,
+            "max_conf": 0.329938,
+            "min_conf": 0.329938
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.401588,
+            "max_conf": 0.401588,
+            "min_conf": 0.401588
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.6594196875,
+            "max_conf": 0.988757,
+            "min_conf": 0.271873
+        }
+    ],
+    "0000000040.jpg": [
+        {
+            "item_name": "frisbee",
+            "count": 1,
+            "avg_conf": 0.661958,
+            "max_conf": 0.661958,
+            "min_conf": 0.661958
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.8156347857142857,
+            "max_conf": 0.993278,
+            "min_conf": 0.286784
+        }
+    ],
+    "0000000320.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.360698,
+            "max_conf": 0.360698,
+            "min_conf": 0.360698
+        },
+        {
+            "item_name": "person",
+            "count": 20,
+            "avg_conf": 0.6175260999999999,
+            "max_conf": 0.964526,
+            "min_conf": 0.255363
+        }
+    ],
+    "0000000620.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.8327052500000002,
+            "max_conf": 0.985798,
+            "min_conf": 0.514292
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.2738235,
+            "max_conf": 0.286013,
+            "min_conf": 0.261634
+        }
+    ],
+    "0000000910.jpg": [
+        {
+            "item_name": "chair",
+            "count": 2,
+            "avg_conf": 0.3230405,
+            "max_conf": 0.370633,
+            "min_conf": 0.275448
+        },
+        {
+            "item_name": "car",
+            "count": 1,
+            "avg_conf": 0.767964,
+            "max_conf": 0.767964,
+            "min_conf": 0.767964
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.595882,
+            "max_conf": 0.595882,
+            "min_conf": 0.595882
+        },
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.6106446666666666,
+            "max_conf": 0.96818,
+            "min_conf": 0.289361
+        }
+    ],
+    "0000001300.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.408384,
+            "max_conf": 0.408384,
+            "min_conf": 0.408384
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.3663,
+            "max_conf": 0.446944,
+            "min_conf": 0.285656
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.6178649375,
+            "max_conf": 0.989127,
+            "min_conf": 0.254621
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.867909,
+            "max_conf": 0.867909,
+            "min_conf": 0.867909
+        }
+    ],
+    "0000000050.jpg": [
+        {
+            "item_name": "frisbee",
+            "count": 1,
+            "avg_conf": 0.918166,
+            "max_conf": 0.918166,
+            "min_conf": 0.918166
+        },
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.8730700833333334,
+            "max_conf": 0.988398,
+            "min_conf": 0.427901
+        }
+    ],
+    "0000000330.jpg": [
+        {
+            "item_name": "horse",
+            "count": 1,
+            "avg_conf": 0.438028,
+            "max_conf": 0.438028,
+            "min_conf": 0.438028
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.29364,
+            "max_conf": 0.29364,
+            "min_conf": 0.29364
+        },
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.686868588235294,
+            "max_conf": 0.929599,
+            "min_conf": 0.323021
+        }
+    ],
+    "0000000630.jpg": [
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.8470835294117646,
+            "max_conf": 0.985855,
+            "min_conf": 0.346312
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.4473755,
+            "max_conf": 0.619162,
+            "min_conf": 0.275589
+        },
+        {
+            "item_name": "kite",
+            "count": 1,
+            "avg_conf": 0.269459,
+            "max_conf": 0.269459,
+            "min_conf": 0.269459
+        }
+    ],
+    "0000000920.jpg": [
+        {
+            "item_name": "chair",
+            "count": 1,
+            "avg_conf": 0.513445,
+            "max_conf": 0.513445,
+            "min_conf": 0.513445
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.340403,
+            "max_conf": 0.340403,
+            "min_conf": 0.340403
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.368598,
+            "max_conf": 0.368598,
+            "min_conf": 0.368598
+        },
+        {
+            "item_name": "car",
+            "count": 1,
+            "avg_conf": 0.93961,
+            "max_conf": 0.93961,
+            "min_conf": 0.93961
+        },
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.5866779999999999,
+            "max_conf": 0.971201,
+            "min_conf": 0.270544
+        }
+    ],
+    "0000001310.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.784984,
+            "max_conf": 0.784984,
+            "min_conf": 0.784984
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.6024290625,
+            "max_conf": 0.966076,
+            "min_conf": 0.264296
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.952195,
+            "max_conf": 0.952195,
+            "min_conf": 0.952195
+        }
+    ],
+    "0000000060.jpg": [
+        {
+            "item_name": "person",
+            "count": 13,
+            "avg_conf": 0.8273356923076924,
+            "max_conf": 0.977629,
+            "min_conf": 0.48222
+        }
+    ],
+    "0000000340.jpg": [
+        {
+            "item_name": "horse",
+            "count": 1,
+            "avg_conf": 0.738416,
+            "max_conf": 0.738416,
+            "min_conf": 0.738416
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.265058,
+            "max_conf": 0.265058,
+            "min_conf": 0.265058
+        },
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.6372911764705881,
+            "max_conf": 0.882608,
+            "min_conf": 0.256681
+        }
+    ],
+    "0000000640.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.8030666875,
+            "max_conf": 0.989016,
+            "min_conf": 0.318515
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.575133,
+            "max_conf": 0.575133,
+            "min_conf": 0.575133
+        }
+    ],
+    "0000000960.jpg": [
+        {
+            "item_name": "chair",
+            "count": 2,
+            "avg_conf": 0.5096205,
+            "max_conf": 0.652075,
+            "min_conf": 0.367166
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.370856,
+            "max_conf": 0.370856,
+            "min_conf": 0.370856
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.653356,
+            "max_conf": 0.653356,
+            "min_conf": 0.653356
+        },
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.5482828823529413,
+            "max_conf": 0.967116,
+            "min_conf": 0.271589
+        },
+        {
+            "item_name": "car",
+            "count": 2,
+            "avg_conf": 0.48939600000000005,
+            "max_conf": 0.603376,
+            "min_conf": 0.375416
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.33766799999999997,
+            "max_conf": 0.343451,
+            "min_conf": 0.331885
+        }
+    ],
+    "0000001340.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 3,
+            "avg_conf": 0.4508623333333333,
+            "max_conf": 0.506511,
+            "min_conf": 0.409195
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.45661399999999996,
+            "max_conf": 0.647389,
+            "min_conf": 0.265839
+        },
+        {
+            "item_name": "boat",
+            "count": 2,
+            "avg_conf": 0.5745844999999999,
+            "max_conf": 0.687163,
+            "min_conf": 0.462006
+        },
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.6503438,
+            "max_conf": 0.977442,
+            "min_conf": 0.292893
+        }
+    ],
+    "0000000070.jpg": [
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.8329059090909088,
+            "max_conf": 0.987646,
+            "min_conf": 0.381765
+        }
+    ],
+    "0000000350.jpg": [
+        {
+            "item_name": "suitcase",
+            "count": 1,
+            "avg_conf": 0.282296,
+            "max_conf": 0.282296,
+            "min_conf": 0.282296
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.342104,
+            "max_conf": 0.342104,
+            "min_conf": 0.342104
+        },
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.7327762000000001,
+            "max_conf": 0.917503,
+            "min_conf": 0.354817
+        },
+        {
+            "item_name": "horse",
+            "count": 3,
+            "avg_conf": 0.5265766666666667,
+            "max_conf": 0.709118,
+            "min_conf": 0.390809
+        }
+    ],
+    "0000000650.jpg": [
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.7670944285714285,
+            "max_conf": 0.99282,
+            "min_conf": 0.307706
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.522659,
+            "max_conf": 0.705824,
+            "min_conf": 0.339494
+        }
+    ],
+    "0000000970.jpg": [
+        {
+            "item_name": "chair",
+            "count": 2,
+            "avg_conf": 0.428973,
+            "max_conf": 0.446525,
+            "min_conf": 0.411421
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.779244,
+            "max_conf": 0.779244,
+            "min_conf": 0.779244
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.414638,
+            "max_conf": 0.414638,
+            "min_conf": 0.414638
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.5296896875000001,
+            "max_conf": 0.975984,
+            "min_conf": 0.2507
+        }
+    ],
+    "0000001360.jpg": [
+        {
+            "item_name": "boat",
+            "count": 2,
+            "avg_conf": 0.486225,
+            "max_conf": 0.487036,
+            "min_conf": 0.485414
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.32507949999999997,
+            "max_conf": 0.392628,
+            "min_conf": 0.257531
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.689777375,
+            "max_conf": 0.978015,
+            "min_conf": 0.30733
+        }
+    ],
+    "0000000080.jpg": [
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.7740594999999999,
+            "max_conf": 0.989831,
+            "min_conf": 0.298811
+        }
+    ],
+    "0000000380.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.7163735000000001,
+            "max_conf": 0.960883,
+            "min_conf": 0.25839
+        }
+    ],
+    "0000000670.jpg": [
+        {
+            "item_name": "person",
+            "count": 13,
+            "avg_conf": 0.8322370769230769,
+            "max_conf": 0.986123,
+            "min_conf": 0.424687
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.3355455,
+            "max_conf": 0.35539,
+            "min_conf": 0.315701
+        }
+    ],
+    "0000001000.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.859043,
+            "max_conf": 0.859043,
+            "min_conf": 0.859043
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.531040888888889,
+            "max_conf": 0.871989,
+            "min_conf": 0.262013
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.280581,
+            "max_conf": 0.280581,
+            "min_conf": 0.280581
+        }
+    ],
+    "0000001370.jpg": [
+        {
+            "item_name": "boat",
+            "count": 2,
+            "avg_conf": 0.5352965000000001,
+            "max_conf": 0.819759,
+            "min_conf": 0.250834
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.7022863571428574,
+            "max_conf": 0.985505,
+            "min_conf": 0.280777
+        }
+    ],
+    "0000000090.jpg": [
+        {
+            "item_name": "person",
+            "count": 13,
+            "avg_conf": 0.8221375384615386,
+            "max_conf": 0.994577,
+            "min_conf": 0.303461
+        }
+    ],
+    "0000000390.jpg": [
+        {
+            "item_name": "horse",
+            "count": 1,
+            "avg_conf": 0.305009,
+            "max_conf": 0.305009,
+            "min_conf": 0.305009
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.6844690000000001,
+            "max_conf": 0.952772,
+            "min_conf": 0.258181
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.3156615,
+            "max_conf": 0.367936,
+            "min_conf": 0.263387
+        }
+    ],
+    "0000000680.jpg": [
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.6573796,
+            "max_conf": 0.988667,
+            "min_conf": 0.276902
+        }
+    ],
+    "0000001010.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.779548,
+            "max_conf": 0.779548,
+            "min_conf": 0.779548
+        },
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.6066083333333334,
+            "max_conf": 0.942268,
+            "min_conf": 0.258461
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.258207,
+            "max_conf": 0.258207,
+            "min_conf": 0.258207
+        }
+    ],
+    "0000001380.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.538746,
+            "max_conf": 0.538746,
+            "min_conf": 0.538746
+        },
+        {
+            "item_name": "boat",
+            "count": 2,
+            "avg_conf": 0.4044835,
+            "max_conf": 0.406872,
+            "min_conf": 0.402095
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.3105245,
+            "max_conf": 0.340661,
+            "min_conf": 0.280388
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.446488,
+            "max_conf": 0.446488,
+            "min_conf": 0.446488
+        },
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.75260975,
+            "max_conf": 0.977306,
+            "min_conf": 0.383314
+        }
+    ],
+    "0000000100.jpg": [
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.7801315833333334,
+            "max_conf": 0.9936,
+            "min_conf": 0.256069
+        }
+    ],
+    "0000000420.jpg": [
+        {
+            "item_name": "bottle",
+            "count": 1,
+            "avg_conf": 0.31323,
+            "max_conf": 0.31323,
+            "min_conf": 0.31323
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.276186,
+            "max_conf": 0.276186,
+            "min_conf": 0.276186
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.47343799999999997,
+            "max_conf": 0.626454,
+            "min_conf": 0.320422
+        },
+        {
+            "item_name": "person",
+            "count": 21,
+            "avg_conf": 0.7334601428571428,
+            "max_conf": 0.986881,
+            "min_conf": 0.261005
+        },
+        {
+            "item_name": "suitcase",
+            "count": 1,
+            "avg_conf": 0.448064,
+            "max_conf": 0.448064,
+            "min_conf": 0.448064
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.529391,
+            "max_conf": 0.529391,
+            "min_conf": 0.529391
+        }
+    ],
+    "0000000690.jpg": [
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.7138914000000001,
+            "max_conf": 0.988874,
+            "min_conf": 0.28332
+        },
+        {
+            "item_name": "umbrella",
+            "count": 4,
+            "avg_conf": 0.43186775,
+            "max_conf": 0.708109,
+            "min_conf": 0.295753
+        }
+    ],
+    "0000001020.jpg": [
+        {
+            "item_name": "chair",
+            "count": 2,
+            "avg_conf": 0.3480485,
+            "max_conf": 0.379885,
+            "min_conf": 0.316212
+        },
+        {
+            "item_name": "handbag",
+            "count": 2,
+            "avg_conf": 0.522118,
+            "max_conf": 0.743445,
+            "min_conf": 0.300791
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.311294,
+            "max_conf": 0.311294,
+            "min_conf": 0.311294
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.6597232142857142,
+            "max_conf": 0.923224,
+            "min_conf": 0.418463
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.250277,
+            "max_conf": 0.250277,
+            "min_conf": 0.250277
+        }
+    ],
+    "0000001400.jpg": [
+        {
+            "item_name": "chair",
+            "count": 1,
+            "avg_conf": 0.278334,
+            "max_conf": 0.278334,
+            "min_conf": 0.278334
+        },
+        {
+            "item_name": "boat",
+            "count": 1,
+            "avg_conf": 0.323302,
+            "max_conf": 0.323302,
+            "min_conf": 0.323302
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.346194,
+            "max_conf": 0.366034,
+            "min_conf": 0.326354
+        },
+        {
+            "item_name": "cup",
+            "count": 2,
+            "avg_conf": 0.8617245,
+            "max_conf": 0.911826,
+            "min_conf": 0.811623
+        },
+        {
+            "item_name": "person",
+            "count": 13,
+            "avg_conf": 0.6778613076923077,
+            "max_conf": 0.976008,
+            "min_conf": 0.301594
+        },
+        {
+            "item_name": "surfboard",
+            "count": 1,
+            "avg_conf": 0.460266,
+            "max_conf": 0.460266,
+            "min_conf": 0.460266
+        }
+    ],
+    "0000000110.jpg": [
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.7337403333333333,
+            "max_conf": 0.993701,
+            "min_conf": 0.370089
+        }
+    ],
+    "0000000430.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.500883,
+            "max_conf": 0.500883,
+            "min_conf": 0.500883
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.36245700000000003,
+            "max_conf": 0.419098,
+            "min_conf": 0.305816
+        },
+        {
+            "item_name": "person",
+            "count": 21,
+            "avg_conf": 0.7490662380952381,
+            "max_conf": 0.983259,
+            "min_conf": 0.284479
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.67658,
+            "max_conf": 0.67658,
+            "min_conf": 0.67658
+        }
+    ],
+    "0000000710.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.700199375,
+            "max_conf": 0.961928,
+            "min_conf": 0.26502
+        },
+        {
+            "item_name": "umbrella",
+            "count": 4,
+            "avg_conf": 0.411795,
+            "max_conf": 0.685534,
+            "min_conf": 0.284652
+        }
+    ],
+    "0000001030.jpg": [
+        {
+            "item_name": "chair",
+            "count": 1,
+            "avg_conf": 0.472164,
+            "max_conf": 0.472164,
+            "min_conf": 0.472164
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.390681,
+            "max_conf": 0.390681,
+            "min_conf": 0.390681
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.6354144285714284,
+            "max_conf": 0.917102,
+            "min_conf": 0.251833
+        }
+    ],
+    "0000001410.jpg": [
+        {
+            "item_name": "chair",
+            "count": 1,
+            "avg_conf": 0.425681,
+            "max_conf": 0.425681,
+            "min_conf": 0.425681
+        },
+        {
+            "item_name": "boat",
+            "count": 1,
+            "avg_conf": 0.639039,
+            "max_conf": 0.639039,
+            "min_conf": 0.639039
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.50536,
+            "max_conf": 0.510849,
+            "min_conf": 0.499871
+        },
+        {
+            "item_name": "cup",
+            "count": 2,
+            "avg_conf": 0.807864,
+            "max_conf": 0.877225,
+            "min_conf": 0.738503
+        },
+        {
+            "item_name": "person",
+            "count": 12,
+            "avg_conf": 0.62681875,
+            "max_conf": 0.984814,
+            "min_conf": 0.261751
+        }
+    ],
+    "0000000120.jpg": [
+        {
+            "item_name": "person",
+            "count": 20,
+            "avg_conf": 0.5700563500000001,
+            "max_conf": 0.986759,
+            "min_conf": 0.275947
+        }
+    ],
+    "0000000440.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.380529,
+            "max_conf": 0.380529,
+            "min_conf": 0.380529
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.3838605,
+            "max_conf": 0.414948,
+            "min_conf": 0.352773
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.8497241250000002,
+            "max_conf": 0.978868,
+            "min_conf": 0.263871
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.30631,
+            "max_conf": 0.30631,
+            "min_conf": 0.30631
+        }
+    ],
+    "0000000720.jpg": [
+        {
+            "item_name": "person",
+            "count": 13,
+            "avg_conf": 0.700888923076923,
+            "max_conf": 0.968626,
+            "min_conf": 0.266649
+        },
+        {
+            "item_name": "umbrella",
+            "count": 8,
+            "avg_conf": 0.526841875,
+            "max_conf": 0.850559,
+            "min_conf": 0.26436
+        }
+    ],
+    "0000001060.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.279916,
+            "max_conf": 0.279916,
+            "min_conf": 0.279916
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.475327,
+            "max_conf": 0.475327,
+            "min_conf": 0.475327
+        },
+        {
+            "item_name": "person",
+            "count": 19,
+            "avg_conf": 0.656130947368421,
+            "max_conf": 0.985762,
+            "min_conf": 0.288282
+        }
+    ],
+    "0000001420.jpg": [
+        {
+            "item_name": "chair",
+            "count": 1,
+            "avg_conf": 0.428604,
+            "max_conf": 0.428604,
+            "min_conf": 0.428604
+        },
+        {
+            "item_name": "boat",
+            "count": 1,
+            "avg_conf": 0.517013,
+            "max_conf": 0.517013,
+            "min_conf": 0.517013
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.28325449999999996,
+            "max_conf": 0.287665,
+            "min_conf": 0.278844
+        },
+        {
+            "item_name": "cup",
+            "count": 2,
+            "avg_conf": 0.893058,
+            "max_conf": 0.92961,
+            "min_conf": 0.856506
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.6446460714285716,
+            "max_conf": 0.987967,
+            "min_conf": 0.294292
+        },
+        {
+            "item_name": "surfboard",
+            "count": 1,
+            "avg_conf": 0.262782,
+            "max_conf": 0.262782,
+            "min_conf": 0.262782
+        }
+    ],
+    "0000000130.jpg": [
+        {
+            "item_name": "person",
+            "count": 23,
+            "avg_conf": 0.4983989130434782,
+            "max_conf": 0.964595,
+            "min_conf": 0.261059
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.326343,
+            "max_conf": 0.326343,
+            "min_conf": 0.326343
+        }
+    ],
+    "0000000450.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.386295,
+            "max_conf": 0.386295,
+            "min_conf": 0.386295
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.7561798333333334,
+            "max_conf": 0.97197,
+            "min_conf": 0.338621
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.284952,
+            "max_conf": 0.289813,
+            "min_conf": 0.280091
+        }
+    ],
+    "0000000730.jpg": [
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.7056542727272727,
+            "max_conf": 0.984435,
+            "min_conf": 0.252612
+        },
+        {
+            "item_name": "umbrella",
+            "count": 7,
+            "avg_conf": 0.45075985714285716,
+            "max_conf": 0.694951,
+            "min_conf": 0.28729
+        }
+    ],
+    "0000001070.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 2,
+            "avg_conf": 0.33997299999999997,
+            "max_conf": 0.420597,
+            "min_conf": 0.259349
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.319407,
+            "max_conf": 0.319407,
+            "min_conf": 0.319407
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.6071095,
+            "max_conf": 0.977155,
+            "min_conf": 0.29666
+        }
+    ],
+    "0000001430.jpg": [
+        {
+            "item_name": "boat",
+            "count": 1,
+            "avg_conf": 0.440745,
+            "max_conf": 0.440745,
+            "min_conf": 0.440745
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.6128216428571428,
+            "max_conf": 0.97216,
+            "min_conf": 0.321065
+        },
+        {
+            "item_name": "cup",
+            "count": 2,
+            "avg_conf": 0.8978685,
+            "max_conf": 0.963583,
+            "min_conf": 0.832154
+        }
+    ],
+    "0000000140.jpg": [
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.6384516111111114,
+            "max_conf": 0.983674,
+            "min_conf": 0.335881
+        }
+    ],
+    "0000000460.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.255736,
+            "max_conf": 0.255736,
+            "min_conf": 0.255736
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.717745888888889,
+            "max_conf": 0.960103,
+            "min_conf": 0.278959
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.546908,
+            "max_conf": 0.581098,
+            "min_conf": 0.512718
+        }
+    ],
+    "0000000740.jpg": [
+        {
+            "item_name": "person",
+            "count": 10,
+            "avg_conf": 0.6772739999999998,
+            "max_conf": 0.943689,
+            "min_conf": 0.271653
+        },
+        {
+            "item_name": "umbrella",
+            "count": 5,
+            "avg_conf": 0.47870100000000004,
+            "max_conf": 0.722948,
+            "min_conf": 0.287249
+        }
+    ],
+    "0000001100.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.250037,
+            "max_conf": 0.250037,
+            "min_conf": 0.250037
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.6661320000000001,
+            "max_conf": 0.932303,
+            "min_conf": 0.25301
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.297648,
+            "max_conf": 0.297648,
+            "min_conf": 0.297648
+        }
+    ],
+    "0000001460.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.601999125,
+            "max_conf": 0.974811,
+            "min_conf": 0.264468
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.527124,
+            "max_conf": 0.527124,
+            "min_conf": 0.527124
+        },
+        {
+            "item_name": "cup",
+            "count": 2,
+            "avg_conf": 0.6719115,
+            "max_conf": 0.946555,
+            "min_conf": 0.397268
+        }
+    ],
+    "0000000150.jpg": [
+        {
+            "item_name": "person",
+            "count": 20,
+            "avg_conf": 0.5948086,
+            "max_conf": 0.956848,
+            "min_conf": 0.28504
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.410174,
+            "max_conf": 0.410174,
+            "min_conf": 0.410174
+        }
+    ],
+    "0000000470.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.7769475,
+            "max_conf": 0.980678,
+            "min_conf": 0.307505
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.3834305,
+            "max_conf": 0.431702,
+            "min_conf": 0.335159
+        },
+        {
+            "item_name": "bottle",
+            "count": 1,
+            "avg_conf": 0.274437,
+            "max_conf": 0.274437,
+            "min_conf": 0.274437
+        }
+    ],
+    "0000000750.jpg": [
+        {
+            "item_name": "person",
+            "count": 10,
+            "avg_conf": 0.6311392999999998,
+            "max_conf": 0.878584,
+            "min_conf": 0.277174
+        },
+        {
+            "item_name": "umbrella",
+            "count": 6,
+            "avg_conf": 0.4443265,
+            "max_conf": 0.707318,
+            "min_conf": 0.266689
+        }
+    ],
+    "0000001110.jpg": [
+        {
+            "item_name": "car",
+            "count": 1,
+            "avg_conf": 0.488974,
+            "max_conf": 0.488974,
+            "min_conf": 0.488974
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.267383,
+            "max_conf": 0.267383,
+            "min_conf": 0.267383
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.6660383888888889,
+            "max_conf": 0.928845,
+            "min_conf": 0.266189
+        }
+    ],
+    "0000001470.jpg": [
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.6627238571428571,
+            "max_conf": 0.977138,
+            "min_conf": 0.271583
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.471968,
+            "max_conf": 0.471968,
+            "min_conf": 0.471968
+        },
+        {
+            "item_name": "cup",
+            "count": 2,
+            "avg_conf": 0.7960290000000001,
+            "max_conf": 0.923718,
+            "min_conf": 0.66834
+        }
+    ],
+    "0000000180.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.76074,
+            "max_conf": 0.76074,
+            "min_conf": 0.76074
+        },
+        {
+            "item_name": "person",
+            "count": 20,
+            "avg_conf": 0.66908035,
+            "max_conf": 0.932933,
+            "min_conf": 0.254521
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.362524,
+            "max_conf": 0.362524,
+            "min_conf": 0.362524
+        }
+    ],
+    "0000000480.jpg": [
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.7261306111111111,
+            "max_conf": 0.964801,
+            "min_conf": 0.301799
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.3514485,
+            "max_conf": 0.452626,
+            "min_conf": 0.250271
+        }
+    ],
+    "0000000780.jpg": [
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.6431093333333333,
+            "max_conf": 0.943283,
+            "min_conf": 0.290996
+        },
+        {
+            "item_name": "umbrella",
+            "count": 8,
+            "avg_conf": 0.502199625,
+            "max_conf": 0.796399,
+            "min_conf": 0.258323
+        }
+    ],
+    "0000001140.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 2,
+            "avg_conf": 0.4555135,
+            "max_conf": 0.462815,
+            "min_conf": 0.448212
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.6246715,
+            "max_conf": 0.70599,
+            "min_conf": 0.543353
+        },
+        {
+            "item_name": "person",
+            "count": 21,
+            "avg_conf": 0.7098856666666665,
+            "max_conf": 0.970378,
+            "min_conf": 0.273531
+        }
+    ],
+    "0000001500.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.261664,
+            "max_conf": 0.261664,
+            "min_conf": 0.261664
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.282867,
+            "max_conf": 0.282867,
+            "min_conf": 0.282867
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.807891,
+            "max_conf": 0.807891,
+            "min_conf": 0.807891
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.273685,
+            "max_conf": 0.273685,
+            "min_conf": 0.273685
+        },
+        {
+            "item_name": "person",
+            "count": 11,
+            "avg_conf": 0.6794800909090909,
+            "max_conf": 0.975508,
+            "min_conf": 0.310942
+        }
+    ],
+    "0000000190.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.335656,
+            "max_conf": 0.335656,
+            "min_conf": 0.335656
+        },
+        {
+            "item_name": "person",
+            "count": 21,
+            "avg_conf": 0.6416111428571428,
+            "max_conf": 0.975865,
+            "min_conf": 0.269543
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.608758,
+            "max_conf": 0.608758,
+            "min_conf": 0.608758
+        }
+    ],
+    "0000000490.jpg": [
+        {
+            "item_name": "horse",
+            "count": 1,
+            "avg_conf": 0.536883,
+            "max_conf": 0.536883,
+            "min_conf": 0.536883
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.281353,
+            "max_conf": 0.281353,
+            "min_conf": 0.281353
+        },
+        {
+            "item_name": "person",
+            "count": 15,
+            "avg_conf": 0.7649292,
+            "max_conf": 0.963009,
+            "min_conf": 0.426756
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.531661,
+            "max_conf": 0.637588,
+            "min_conf": 0.425734
+        }
+    ],
+    "0000000790.jpg": [
+        {
+            "item_name": "chair",
+            "count": 1,
+            "avg_conf": 0.348942,
+            "max_conf": 0.348942,
+            "min_conf": 0.348942
+        },
+        {
+            "item_name": "person",
+            "count": 6,
+            "avg_conf": 0.8059324999999999,
+            "max_conf": 0.950538,
+            "min_conf": 0.5848
+        },
+        {
+            "item_name": "umbrella",
+            "count": 8,
+            "avg_conf": 0.52815225,
+            "max_conf": 0.786921,
+            "min_conf": 0.361556
+        }
+    ],
+    "0000001150.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 3,
+            "avg_conf": 0.32580566666666666,
+            "max_conf": 0.370966,
+            "min_conf": 0.275296
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.6114284999999999,
+            "max_conf": 0.705021,
+            "min_conf": 0.517836
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.8902539999999999,
+            "max_conf": 0.96981,
+            "min_conf": 0.629172
+        }
+    ],
+    "0000001510.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.651431,
+            "max_conf": 0.651431,
+            "min_conf": 0.651431
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.6358907857142857,
+            "max_conf": 0.965801,
+            "min_conf": 0.287977
+        },
+        {
+            "item_name": "kite",
+            "count": 1,
+            "avg_conf": 0.273114,
+            "max_conf": 0.273114,
+            "min_conf": 0.273114
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.764048,
+            "max_conf": 0.764048,
+            "min_conf": 0.764048
+        }
+    ],
+    "0000000220.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 3,
+            "avg_conf": 0.494567,
+            "max_conf": 0.676754,
+            "min_conf": 0.276797
+        },
+        {
+            "item_name": "person",
+            "count": 20,
+            "avg_conf": 0.6403751,
+            "max_conf": 0.989868,
+            "min_conf": 0.258548
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.290683,
+            "max_conf": 0.290683,
+            "min_conf": 0.290683
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.27042,
+            "max_conf": 0.27042,
+            "min_conf": 0.27042
+        }
+    ],
+    "0000000500.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.420437,
+            "max_conf": 0.420437,
+            "min_conf": 0.420437
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.7484423750000001,
+            "max_conf": 0.975257,
+            "min_conf": 0.362005
+        },
+        {
+            "item_name": "umbrella",
+            "count": 3,
+            "avg_conf": 0.48211866666666664,
+            "max_conf": 0.735016,
+            "min_conf": 0.337868
+        }
+    ],
+    "0000000800.jpg": [
+        {
+            "item_name": "chair",
+            "count": 1,
+            "avg_conf": 0.726041,
+            "max_conf": 0.726041,
+            "min_conf": 0.726041
+        },
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.6306985714285714,
+            "max_conf": 0.891505,
+            "min_conf": 0.318713
+        },
+        {
+            "item_name": "umbrella",
+            "count": 10,
+            "avg_conf": 0.4657145000000001,
+            "max_conf": 0.683083,
+            "min_conf": 0.25359
+        }
+    ],
+    "0000001160.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 2,
+            "avg_conf": 0.48466600000000004,
+            "max_conf": 0.576577,
+            "min_conf": 0.392755
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.5419365,
+            "max_conf": 0.644632,
+            "min_conf": 0.439241
+        },
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.7887763529411764,
+            "max_conf": 0.960257,
+            "min_conf": 0.284804
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.319385,
+            "max_conf": 0.319385,
+            "min_conf": 0.319385
+        }
+    ],
+    "0000001540.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.373155,
+            "max_conf": 0.373155,
+            "min_conf": 0.373155
+        },
+        {
+            "item_name": "backpack",
+            "count": 3,
+            "avg_conf": 0.30644466666666664,
+            "max_conf": 0.373959,
+            "min_conf": 0.255753
+        },
+        {
+            "item_name": "person",
+            "count": 9,
+            "avg_conf": 0.5591472222222222,
+            "max_conf": 0.976149,
+            "min_conf": 0.325603
+        }
+    ],
+    "0000000230.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.544389,
+            "max_conf": 0.544389,
+            "min_conf": 0.544389
+        },
+        {
+            "item_name": "person",
+            "count": 19,
+            "avg_conf": 0.6540373157894737,
+            "max_conf": 0.99499,
+            "min_conf": 0.252191
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.822527,
+            "max_conf": 0.822527,
+            "min_conf": 0.822527
+        }
+    ],
+    "0000000510.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.652941,
+            "max_conf": 0.652941,
+            "min_conf": 0.652941
+        },
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.764826411764706,
+            "max_conf": 0.978283,
+            "min_conf": 0.299022
+        },
+        {
+            "item_name": "umbrella",
+            "count": 3,
+            "avg_conf": 0.44117200000000006,
+            "max_conf": 0.477108,
+            "min_conf": 0.397463
+        }
+    ],
+    "0000000810.jpg": [
+        {
+            "item_name": "chair",
+            "count": 3,
+            "avg_conf": 0.3771966666666666,
+            "max_conf": 0.424886,
+            "min_conf": 0.338331
+        },
+        {
+            "item_name": "person",
+            "count": 7,
+            "avg_conf": 0.7438474285714286,
+            "max_conf": 0.935979,
+            "min_conf": 0.534312
+        },
+        {
+            "item_name": "umbrella",
+            "count": 11,
+            "avg_conf": 0.5132429090909091,
+            "max_conf": 0.850454,
+            "min_conf": 0.303883
+        }
+    ],
+    "0000001170.jpg": [
+        {
+            "item_name": "bottle",
+            "count": 1,
+            "avg_conf": 0.269378,
+            "max_conf": 0.269378,
+            "min_conf": 0.269378
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.259754,
+            "max_conf": 0.259754,
+            "min_conf": 0.259754
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.541021,
+            "max_conf": 0.646237,
+            "min_conf": 0.435805
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.257865,
+            "max_conf": 0.257865,
+            "min_conf": 0.257865
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.7692373333333333,
+            "max_conf": 0.978149,
+            "min_conf": 0.261614
+        }
+    ],
+    "0000001550.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 2,
+            "avg_conf": 0.5064225,
+            "max_conf": 0.522592,
+            "min_conf": 0.490253
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.378996,
+            "max_conf": 0.378996,
+            "min_conf": 0.378996
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.5892268125000001,
+            "max_conf": 0.98885,
+            "min_conf": 0.253334
+        }
+    ],
+    "0000000240.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.465258,
+            "max_conf": 0.465258,
+            "min_conf": 0.465258
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.6850581666666664,
+            "max_conf": 0.996437,
+            "min_conf": 0.310899
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.912126,
+            "max_conf": 0.912126,
+            "min_conf": 0.912126
+        }
+    ],
+    "0000000520.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.260932,
+            "max_conf": 0.260932,
+            "min_conf": 0.260932
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.7938371875,
+            "max_conf": 0.98194,
+            "min_conf": 0.410206
+        },
+        {
+            "item_name": "umbrella",
+            "count": 3,
+            "avg_conf": 0.4864866666666667,
+            "max_conf": 0.494099,
+            "min_conf": 0.479566
+        }
+    ],
+    "0000000840.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.688824,
+            "max_conf": 0.688824,
+            "min_conf": 0.688824
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.4934007857142858,
+            "max_conf": 0.871039,
+            "min_conf": 0.270526
+        }
+    ],
+    "0000001180.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.334749,
+            "max_conf": 0.334749,
+            "min_conf": 0.334749
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.378332,
+            "max_conf": 0.378332,
+            "min_conf": 0.378332
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.7217288888888889,
+            "max_conf": 0.983339,
+            "min_conf": 0.288105
+        }
+    ],
+    "0000001560.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 2,
+            "avg_conf": 0.414582,
+            "max_conf": 0.521881,
+            "min_conf": 0.307283
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.336537,
+            "max_conf": 0.336537,
+            "min_conf": 0.336537
+        },
+        {
+            "item_name": "person",
+            "count": 20,
+            "avg_conf": 0.5138181500000001,
+            "max_conf": 0.993341,
+            "min_conf": 0.256107
+        }
+    ],
+    "0000000250.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.271027,
+            "max_conf": 0.271027,
+            "min_conf": 0.271027
+        },
+        {
+            "item_name": "person",
+            "count": 19,
+            "avg_conf": 0.5734400526315789,
+            "max_conf": 0.985925,
+            "min_conf": 0.257921
+        }
+    ],
+    "0000000530.jpg": [
+        {
+            "item_name": "person",
+            "count": 19,
+            "avg_conf": 0.7957664210526317,
+            "max_conf": 0.992113,
+            "min_conf": 0.267136
+        },
+        {
+            "item_name": "umbrella",
+            "count": 5,
+            "avg_conf": 0.5058347999999999,
+            "max_conf": 0.63972,
+            "min_conf": 0.343883
+        }
+    ],
+    "0000000860.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.49522,
+            "max_conf": 0.49522,
+            "min_conf": 0.49522
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.716581,
+            "max_conf": 0.716581,
+            "min_conf": 0.716581
+        },
+        {
+            "item_name": "person",
+            "count": 10,
+            "avg_conf": 0.5632108,
+            "max_conf": 0.908193,
+            "min_conf": 0.280193
+        },
+        {
+            "item_name": "bottle",
+            "count": 1,
+            "avg_conf": 0.591126,
+            "max_conf": 0.591126,
+            "min_conf": 0.591126
+        }
+    ],
+    "0000001200.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.260669,
+            "max_conf": 0.260669,
+            "min_conf": 0.260669
+        },
+        {
+            "item_name": "backpack",
+            "count": 2,
+            "avg_conf": 0.4348525,
+            "max_conf": 0.583415,
+            "min_conf": 0.28629
+        },
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.691378,
+            "max_conf": 0.987907,
+            "min_conf": 0.25298
+        }
+    ],
+    "0000001570.jpg": [
+        {
+            "item_name": "frisbee",
+            "count": 1,
+            "avg_conf": 0.409375,
+            "max_conf": 0.409375,
+            "min_conf": 0.409375
+        },
+        {
+            "item_name": "kite",
+            "count": 1,
+            "avg_conf": 0.403663,
+            "max_conf": 0.403663,
+            "min_conf": 0.403663
+        },
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.603309,
+            "max_conf": 0.603309,
+            "min_conf": 0.603309
+        },
+        {
+            "item_name": "person",
+            "count": 17,
+            "avg_conf": 0.512628705882353,
+            "max_conf": 0.994718,
+            "min_conf": 0.259648
+        },
+        {
+            "item_name": "cup",
+            "count": 1,
+            "avg_conf": 0.540294,
+            "max_conf": 0.540294,
+            "min_conf": 0.540294
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.509236,
+            "max_conf": 0.509236,
+            "min_conf": 0.509236
+        }
+    ],
+    "0000000260.jpg": [
+        {
+            "item_name": "horse",
+            "count": 1,
+            "avg_conf": 0.26849,
+            "max_conf": 0.26849,
+            "min_conf": 0.26849
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.477814,
+            "max_conf": 0.477814,
+            "min_conf": 0.477814
+        },
+        {
+            "item_name": "person",
+            "count": 18,
+            "avg_conf": 0.6884004444444445,
+            "max_conf": 0.998284,
+            "min_conf": 0.261117
+        }
+    ],
+    "0000000540.jpg": [
+        {
+            "item_name": "person",
+            "count": 19,
+            "avg_conf": 0.7497155263157896,
+            "max_conf": 0.98992,
+            "min_conf": 0.257908
+        },
+        {
+            "item_name": "umbrella",
+            "count": 3,
+            "avg_conf": 0.5103333333333333,
+            "max_conf": 0.672823,
+            "min_conf": 0.416591
+        }
+    ],
+    "0000000870.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.369481,
+            "max_conf": 0.369481,
+            "min_conf": 0.369481
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.587751,
+            "max_conf": 0.587751,
+            "min_conf": 0.587751
+        },
+        {
+            "item_name": "person",
+            "count": 10,
+            "avg_conf": 0.5531236999999999,
+            "max_conf": 0.946577,
+            "min_conf": 0.313623
+        }
+    ],
+    "0000001210.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.338397,
+            "max_conf": 0.338397,
+            "min_conf": 0.338397
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.413627,
+            "max_conf": 0.413627,
+            "min_conf": 0.413627
+        },
+        {
+            "item_name": "bench",
+            "count": 1,
+            "avg_conf": 0.416503,
+            "max_conf": 0.416503,
+            "min_conf": 0.416503
+        },
+        {
+            "item_name": "car",
+            "count": 1,
+            "avg_conf": 0.391398,
+            "max_conf": 0.391398,
+            "min_conf": 0.391398
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.7221102500000001,
+            "max_conf": 0.992452,
+            "min_conf": 0.253965
+        }
+    ],
+    "0000001590.jpg": [
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.5784364375000001,
+            "max_conf": 0.976975,
+            "min_conf": 0.275931
+        },
+        {
+            "item_name": "umbrella",
+            "count": 1,
+            "avg_conf": 0.278347,
+            "max_conf": 0.278347,
+            "min_conf": 0.278347
+        }
+    ],
+    "0000000280.jpg": [
+        {
+            "item_name": "handbag",
+            "count": 1,
+            "avg_conf": 0.343246,
+            "max_conf": 0.343246,
+            "min_conf": 0.343246
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.352214,
+            "max_conf": 0.352214,
+            "min_conf": 0.352214
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.7274351250000002,
+            "max_conf": 0.975678,
+            "min_conf": 0.386805
+        }
+    ],
+    "0000000550.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.327841,
+            "max_conf": 0.327841,
+            "min_conf": 0.327841
+        },
+        {
+            "item_name": "person",
+            "count": 22,
+            "avg_conf": 0.6745559545454545,
+            "max_conf": 0.97963,
+            "min_conf": 0.283016
+        },
+        {
+            "item_name": "umbrella",
+            "count": 2,
+            "avg_conf": 0.5758795,
+            "max_conf": 0.576777,
+            "min_conf": 0.574982
+        }
+    ],
+    "0000000880.jpg": [
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.27846,
+            "max_conf": 0.27846,
+            "min_conf": 0.27846
+        },
+        {
+            "item_name": "person",
+            "count": 14,
+            "avg_conf": 0.5489037142857144,
+            "max_conf": 0.89334,
+            "min_conf": 0.27432
+        }
+    ],
+    "0000001220.jpg": [
+        {
+            "item_name": "car",
+            "count": 1,
+            "avg_conf": 0.578202,
+            "max_conf": 0.578202,
+            "min_conf": 0.578202
+        },
+        {
+            "item_name": "backpack",
+            "count": 1,
+            "avg_conf": 0.345718,
+            "max_conf": 0.345718,
+            "min_conf": 0.345718
+        },
+        {
+            "item_name": "person",
+            "count": 16,
+            "avg_conf": 0.7257362500000001,
+            "max_conf": 0.991967,
+            "min_conf": 0.291861
+        }
+    ]
+}
