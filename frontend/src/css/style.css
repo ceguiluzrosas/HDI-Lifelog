@@ -5,7 +5,7 @@
 }
 
 .imageRow img {
-    max-width: 25%;
+    max-width: 100%;
     vertical-align: middle;
     padding-left: 1%;
 }
@@ -13,6 +13,11 @@
 .queryCol {
   max-width: 30%;
   padding-left: 5%;
+}
+
+.imgTagContainer {
+  width: 25%;
+  display: inline-block;
 }
 
 /* DROP DOWN MENU STYLE */

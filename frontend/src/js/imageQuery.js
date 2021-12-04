@@ -12,11 +12,31 @@ class ImageQuery {
         this.mode = new_mode;
     }
 
-    query_images(query){
+    async query_images(query){
         this.delete_images();
         console.log("performing query...");
         this.query = query;
-        this.add_images();
+        let imageData = await this.get_image_data(),
+            image_array = this.populate_image_container(imageData);
+        console.log("fetched and added images");
+        if (image_array.length == 0){
+            this.no_results();
+        } else {
+            let tagData = await this.get_tag_data(image_array),
+                tag_array = this.populate_tag_container(image_array, tagData);
+            console.log("fetched and added tags");
+        }
+        
+    }
+
+    order_image_array(unordered_names){
+        let numbers = [];
+        for(let i=0; i<unordered_names.length; i++){
+            let number = unordered_names[i].split(".")[0];
+            numbers.push(number)
+        }
+        numbers = numbers.sort((a,b)=>a-b).map(a => a + '.jpg')
+        return numbers;
     }
 
     add_image_counts(count){
@@ -36,7 +56,7 @@ class ImageQuery {
     }
 
     delete_images(){
-        this.imageContainer > $('img').remove()
+        this.imageContainer.children().remove()
         console.log("deleted images...")
     }
 
@@ -68,44 +88,93 @@ class ImageQuery {
             }
         }
 
-    add_images(){
-        let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/",
-            query = this.query,
-            intersect = new Set([]),
-            imageContainer = this.imageContainer,
-            mode = this.mode;
-        $.getJSON(`${githubURL}/map_${this.mode}.json`, function(data){
-            let a = new Set(data[query['label1']]),
-                b = new Set(data[query['label2']]);
-            if (query['label2'] == ''){
-                intersect = a;
-            } else {
-                intersect = new Set([...a].filter(i => b.has(i)));
+    get_tag_data(array){
+        let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/";
+        return new Promise((resolve, reject) => {
+            $.getJSON(`${githubURL}/${this.mode}.json`, data => {
+                let output = {};
+                console.log(array);
+                for(let i=0; i<array.length; i++){
+                    let fileName = array[i],
+                        tags_info = data[fileName],
+                        tags = [];
+                    for(let j=0; j<tags_info.length; j++){
+                        let tag = tags_info[j]["item_name"];
+                        tags.push(tag);
+                    }
+                    output[array[i]] = tags;
+                }
+                resolve(output);
+            });
+        })
+    }
+
+    get_image_data(){
+        let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/";
+        return new Promise((resolve, reject) => {
+            $.getJSON(`${githubURL}/map_${this.mode}.json`, data => {
+                resolve(data);
+            });
+        })
+    }
+
+    populate_tag_container(array, data){
+        for(let i=0; i<array.length; i++){
+            let fileName = array[i],
+                tagString = "";
+            for(let j=0; j<data[fileName].length; j++){
+                let tag = data[fileName][j];
+                if (tag == this.query["label1"]){
+                    tagString += `<span style='background: yellow'>${tag}, </span>`;
+                } else if (tag == this.query["label2"]){
+                    tagString += `<span style='background: lightgreen'>${tag}, </span>`;
+                } else {
+                    tagString += `${tag}, `;
+                }
             }
-            
-            let intersect_array = Array.from(intersect);
-            console.log(intersect_array);
-            for (var i=0; i<intersect_array.length; i++){
-                console.log(intersect_array[i]);
-            }
-            let url = `https://storage.googleapis.com/hdi-final-project/frames/${mode}/`,
+            tagString = `<br><span class='tags'>${tagString}</span>`;
+            $(`div[name='${fileName}'`).append(tagString);
+        }
+    }
+
+    populate_image_container(data){
+        let intersect = new Set([]),
+            a = new Set(data[this.query['label1']]),
+            b = new Set(data[this.query['label2']]);
+        if (query['label2'] == ''){
+            intersect = a;
+        } else {
+            intersect = new Set([...a].filter(i => b.has(i)));
+        }
+        
+        let intersect_array = Array.from(intersect);
+        this.fetch_images(intersect_array);
+        return this.order_image_array(intersect_array);
+    }
+
+    fetch_images(array){
+        let url = `https://storage.googleapis.com/hdi-final-project/frames/${this.mode}/`,
             rowNum = 0,
             rowName = null;
-            for (var i=0; i<intersect_array.length; i++){
-                let full_url = `${url}${intersect_array[i]}`,
-                    imageElement = `<img src=${full_url} >`,
-                    modulo = i % 4;
+        for (var i=0; i<array.length; i++){
+            let full_url = `${url}${array[i]}`,
+                imageElement = `<div class='imgTagContainer align-top' name='${array[i]}'><img src='${full_url}' ></div>`,
+                modulo = i % 4;
 
-                if (modulo == 0){
-                    rowName = `row-${rowNum}`;
-                    let rowElement = `<div class='imageRow' name=${rowName}></div>`
-                    imageContainer.append(rowElement)
-                    rowNum += 1
-                }
-                imageContainer > $(`div[name='${rowName}']`).append(imageElement)
+            if (modulo == 0){
+                rowName = `row-${rowNum}`;
+                let rowElement = `<div class='imageRow' name=${rowName}></div>`
+                this.imageContainer.append(rowElement)
+                rowNum += 1
             }
-            // this.add_image_counts(intersect_array.length);
-            console.log("added images...")
-        });
+            this.imageContainer > $(`div[name='${rowName}']`).append(imageElement)
+        }
+        this.add_image_counts(array.length);
+    }
+
+    no_results(){
+        let noResultsText = "<h4>&#x1F614; No Results &#x1F614;<h4>"
+        this.imageContainer.append(noResultsText);
+        this.add_image_counts(0);
     }
 }
