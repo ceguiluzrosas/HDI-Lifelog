@@ -10,6 +10,9 @@ class ImageQuery {
 
     change_mode(new_mode){
         this.mode = new_mode;
+        this.unpopulate_menus();
+        this.delete_images();
+        this.add_options();
     }
 
     async query_images(query){
@@ -60,10 +63,15 @@ class ImageQuery {
         console.log("deleted images...")
     }
 
+    unpopulate_menus(){
+        $(`a[class='options']`).remove();
+        $(`a[class='options']`).remove();
+    }
+
     populate_menus(labels){
         for(let i=0; i<labels.length; i++){
             let labelName = labels[i],
-                ele = `<a name='${labelName}'>${labelName}</a>`;
+                ele = `<a class='options' name='${labelName}'>${labelName}</a>`;
             $(`#label1Dropdown`).append(ele);    
             $(`#label2Dropdown`).append(ele);        
         }

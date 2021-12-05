@@ -74,5 +74,9 @@
     text-decoration: none;
     display: none;
   }
+
+  .options {
+    z-index: 2;
+  }
   
   .dropdown a:hover {background-color: #ddd;}

@@ -5,6 +5,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/subset.css">
     </head>
     <body>
         <div class="">
@@ -25,9 +26,9 @@
                                     <input type="radio" id="times_square"> <label for="times_square">Test #3</label>
                                 </div>
                             </div>
-                            <div>
+                            <!-- <div>
                                 <a href="" download="data.json" id="download">Download Data</a>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="container">
                             <h2>Query</h2>
@@ -67,8 +68,15 @@
                     </div>
                     <div class="col">
                         <div class="">
+                            <h3>Selected Images</h3>
+                            <div id="subsetImages" class="grid-container">
+
+                            </div>
+                            <hr>
                             <h3>Images</h3>
                             <div class="" id="images">
+                                <!-- Test -->
+                                <div class="imageRow" name="row-0"><div class="imgTagContainer align-top" name="0000000900.jpg"><img src="https://storage.googleapis.com/hdi-final-project/frames/beach/0000000900.jpg"><br><span class="tags"><span style="background: yellow">chair, </span>car, <span style="background: lightgreen">backpack, </span>person, </span></div><div class="imgTagContainer align-top" name="0000000910.jpg"><img src="https://storage.googleapis.com/hdi-final-project/frames/beach/0000000910.jpg"><br><span class="tags"><span style="background: yellow">chair, </span>car, <span style="background: lightgreen">backpack, </span>person, </span></div><div class="imgTagContainer align-top" name="0000000920.jpg"><img src="https://storage.googleapis.com/hdi-final-project/frames/beach/0000000920.jpg"><br><span class="tags"><span style="background: yellow">chair, </span>handbag, <span style="background: lightgreen">backpack, </span>car, person, </span></div><div class="imgTagContainer align-top" name="0000000960.jpg"><img src="https://storage.googleapis.com/hdi-final-project/frames/beach/0000000960.jpg"><br><span class="tags"><span style="background: yellow">chair, </span>handbag, <span style="background: lightgreen">backpack, </span>person, car, umbrella, </span></div></div>
                             </div>
                         </div>
                     </div>
@@ -79,5 +87,6 @@
     <body>
     <script type="text/javascript" src="src/js/modeToggler.js"></script>
     <script type="text/javascript" src="src/js/imageQuery.js"></script>
+    <script type="text/javascript" src="src/js/subset.js"></script>
     <script type="text/javascript" src="src/js/listeners.js"></script>
 </html>

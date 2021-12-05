@@ -52,6 +52,7 @@ class ModeToggler {
     }
 
     change_mode(new_mode) {
+        this.clear_inputs();
         this.disable_mode();
         this.mode = new_mode;
         this.enable_mode();

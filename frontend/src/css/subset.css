@@ -1,0 +1,26 @@
+.imgTagContainer:hover {
+    border-color: red;
+    border-style: dashed;
+    border-width: thick;
+}
+
+.imgTagContClicked {
+    filter: grayscale(100%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* padding: 10px; */
+  }
+
+.grid-item {
+    /* padding: 20px; */
+    filter: grayscale(0%);
+}
+
+.grid-item > img {
+    max-width: 100%;
+    padding-left: 1%;
+    vertical-align: middle;
+}
