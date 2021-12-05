@@ -4,7 +4,7 @@
     border-width: thick;
 }
 
-.imgTagContClicked {
+.imgTagContClicked > img {
     filter: grayscale(100%);
 }
 

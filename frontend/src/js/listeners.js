@@ -1,7 +1,8 @@
 let MT = new ModeToggler("beach"),
     Q = new ImageQuery("beach"),
     SUB = new Subset("beach"),
-    CUR_INPUT = null;
+    CUR_INPUT = null,
+    CUR_IMAGE_DIV = null;
 
 Q.add_options();
 
@@ -35,9 +36,9 @@ $(".dropdown-content").click(function(e){
     }
 });
 
-$(".imgTagContainer").click(function(e){
-    let ele = $(e.target);
-    while (!ele.is('div')) {
+function hello(e){
+    let ele = $(e);
+    while (!(ele.is('div') && ele.hasClass('imgTagContainer'))) {
         ele = ele.parent();
     }
     if (ele.hasClass('imgTagContClicked')){
@@ -47,7 +48,7 @@ $(".imgTagContainer").click(function(e){
         ele.addClass('imgTagContClicked');
         SUB.add_image(ele);
     }
-})
+}
 
 $("button[name='submit']").click(function(e){
     console.log("submit");

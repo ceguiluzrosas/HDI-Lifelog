@@ -6,6 +6,10 @@ class Subset {
         this.imageContainer = $("div[id='subsetImages']");
     }
 
+    get_imageNames(){
+        return this.imageNames;
+    }
+
     change_mode(new_mode){
         this.mode = new_mode;
         this.numImages = 0;
@@ -66,6 +70,7 @@ class Subset {
         let imageDiv = target.clone();
         imageDiv.removeClass('imgTagContainer');
         imageDiv.removeClass('imgTagContClicked');
+        imageDiv.prop("onclick", null).off("click");
         imageDiv.addClass('grid-item');
         // let idName = $(imageDiv).attr('name').split(".")[0];
         // $(imageDiv).prop({'id': idName});

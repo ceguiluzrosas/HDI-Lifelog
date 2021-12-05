@@ -166,7 +166,7 @@ class ImageQuery {
             rowName = null;
         for (var i=0; i<array.length; i++){
             let full_url = `${url}${array[i]}`,
-                imageElement = `<div class='imgTagContainer align-top' name='${array[i]}'><img src='${full_url}' ></div>`,
+                imageElement = `<div class='imgTagContainer align-top' name='${array[i]}' onClick='hello(this)'><img src='${full_url}' ></div>`,
                 modulo = i % 4;
 
             if (modulo == 0){
