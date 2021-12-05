@@ -5,6 +5,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/subset.css">
     </head>
     <body>
         <div class="">
@@ -25,9 +26,9 @@
                                     <input type="radio" id="times_square"> <label for="times_square">Test #3</label>
                                 </div>
                             </div>
-                            <div>
+                            <!-- <div>
                                 <a href="" download="data.json" id="download">Download Data</a>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="container">
                             <h2>Query</h2>
@@ -38,7 +39,7 @@
                                         <input type="text" placeholder="Search.." class="searchInput" id="label1Input" >
                                     </div>
                                 </div>
-                                <br>
+                                <!-- <br>
                                 <div class="dropdown">
                                     <div id="label1Dropdown" class="dropdown-content">
                                         <label for="temporalRelation">Temporal Relation: </label>
@@ -51,7 +52,7 @@
                                         <label for="spatialRelation">Spatial Relation: </label>
                                         <input type="text" placeholder="Search.." class="searchInput" id="spatialRelationInput" >
                                     </div>
-                                </div>
+                                </div> -->
                                 <br>
                                 <div class="dropdown">
                                     <div id="label2Dropdown" class="dropdown-content">
@@ -61,23 +62,29 @@
                                 </div>
                             </div>
                             <div>
-                                <button type="submit" name="submit">Search</button>
+                                <button id="regularSearch" type="submit" name="submit">Search</button>
+                                <button id="subSearch" type="submit" name="submit">Inner Search</button>
                             </div>
                         </div>
+                        <!-- <hr>
+                        <h3>Selected Frames</h3>
+                        <div id="subsetImages" class="grid-container"></div> -->
                     </div>
                     <div class="col">
                         <div class="">
+                            <h3>Selected Frames</h3>
+                            <div id="subsetImages" class="grid-container"></div> 
+                            <hr>
                             <h3>Images</h3>
-                            <div class="" id="images">
-                            </div>
+                            <div class="" id="images"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr>
         </div>
     <body>
     <script type="text/javascript" src="src/js/modeToggler.js"></script>
     <script type="text/javascript" src="src/js/imageQuery.js"></script>
+    <script type="text/javascript" src="src/js/subset.js"></script>
     <script type="text/javascript" src="src/js/listeners.js"></script>
 </html>

@@ -1,5 +1,6 @@
-let MT = new ModeToggler("beach");
-    Q = new ImageQuery("beach");
+let MT = new ModeToggler("beach"),
+    Q = new ImageQuery("beach"),
+    SUB = new Subset("beach"),
     CUR_INPUT = null;
 
 Q.add_options();
@@ -24,20 +25,43 @@ $('.searchInput').keyup(function(e){
 $(`body`).click(function(e){
     if (e.target.type != "text"){
         $(CUR_INPUT).parent().children("a").css({"display": "none"})
-        CUR_INPUT = null;
+        // CUR_INPUT = null;
     }   
 });
 
-$(".dropdown-content > a").click(function(e){
-    let text = e.target.text;
-    CUR_INPUT.value = text;
+$(".dropdown-content").click(function(e){
+    if ($(e.target).is('a')) {
+        CUR_INPUT.value = e.target.text;
+    }
 });
 
-$("button[name='submit']").click(function(e){
-    console.log("submit");
-    MT.save_data();
+function hello(e){
+    let ele = $(e);
+    while (!(ele.is('div') && ele.hasClass('imgTagContainer'))) {
+        ele = ele.parent();
+    }
+    if (ele.hasClass('imgTagContClicked')){
+        ele.removeClass('imgTagContClicked');
+        SUB.remove_image(ele);
+    } else {
+        ele.addClass('imgTagContClicked');
+        SUB.add_image(ele);
+    }
+}
+
+$("button[id='regularSearch']").click(function(e){
+    console.log("regularSearch");
+    MT.save_data("reg");
     MT.log_time();
     Q.query_images(query=MT.recentQuery);
+});
+
+$("button[id='subSearch']").click(function(e){
+    console.log("innerSearch");
+    MT.save_data("sub");
+    MT.log_time();
+    Q.query_sub_images(query=MT.recentQuery, numArray=SUB.get_imageNames());
+    SUB.clear_everything();
 });
 
 $("a[id='download']").click(function(e){
@@ -50,8 +74,9 @@ $("a[id='download']").click(function(e){
 $("input[type='radio'").click(function(e){
     let mode = e.target.id;
     if (mode != MT.mode){
-        MT.clear_inputs();
+        // MT.clear_inputs();
         MT.change_mode(new_mode=mode);
         Q.change_mode(new_mode=mode);
+        SUB.change_mode(new_mode=mode);
     }
 });

@@ -23,9 +23,9 @@ class ModeToggler {
         }
     }
 
-    save_data(){
+    save_data(type){
         let x = $('.searchInput'),
-            query = {};
+            query = {"type": type};
         for (let i=0; i<x.length; i++){
             let input_name = x[i].id.split("Input")[0],
                 input_value = x[i].value;
@@ -52,6 +52,7 @@ class ModeToggler {
     }
 
     change_mode(new_mode) {
+        this.clear_inputs();
         this.disable_mode();
         this.mode = new_mode;
         this.enable_mode();
