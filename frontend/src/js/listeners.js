@@ -61,6 +61,7 @@ $("button[id='subSearch']").click(function(e){
     MT.save_data("sub");
     MT.log_time();
     Q.query_sub_images(query=MT.recentQuery, numArray=SUB.get_imageNames());
+    SUB.clear_everything();
 });
 
 $("a[id='download']").click(function(e){

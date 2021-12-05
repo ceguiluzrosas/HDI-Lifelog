@@ -12,10 +12,14 @@ class Subset {
         return this.imageNames;
     }
 
-    change_mode(new_mode){
-        this.mode = new_mode;
+    clear_everything(){
         this.numImages = 0;
         this.imageNames = [];
+    }
+
+    change_mode(new_mode){
+        this.mode = new_mode;
+        this.clear_everything();
         this.unpopulate_subsets();
     }
 

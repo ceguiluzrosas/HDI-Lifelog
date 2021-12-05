@@ -2,6 +2,7 @@ class ImageQuery {
     constructor(mode){
         this.mode = mode;
         this.imageContainer = $("div[id='images']");
+        this.subImageContainer = $("div[id='subsetImages']");
         this.beachImageCount = [];
         this.centralParkImageCount = [];
         this.timesSquareImageCount = [];
@@ -17,7 +18,7 @@ class ImageQuery {
 
     async query_images(query){
         this.delete_images();
-        console.log("performing query...");
+        console.log("performing reg query...");
         this.query = query;
         let imageData = await this.get_image_data(),
             image_array = this.populate_image_container(imageData);
@@ -32,6 +33,26 @@ class ImageQuery {
         
     }
 
+    async query_sub_images(query, numArray){
+        this.delete_selected_images();
+        this.delete_images();
+        console.log("performing sub query...");
+
+        this.query = query;
+        let imageData = await this.get_image_data(),
+            image_array = this.populate_image_container(imageData, true, numArray);
+        
+        console.log("fetched and added sub images");
+        console.log(`subimagearray: ${image_array}`)
+        if (image_array.length == 0){
+            this.no_results();
+        } else {
+            let tagData = await this.get_tag_data(image_array),
+                tag_array = this.populate_tag_container(image_array, tagData, true);
+            console.log("fetched and added tags");
+        }
+    }
+
     order_image_array(unordered_names){
         let numbers = [];
         for(let i=0; i<unordered_names.length; i++){
@@ -40,6 +61,30 @@ class ImageQuery {
         }
         numbers = numbers.sort((a,b)=>a-b).map(a => a + '.jpg')
         return numbers;
+    }
+
+    order_image_array_with_subset(unordered_names, subsetArray){
+        let numbers = [];
+        for(let i=0; i<unordered_names.length; i++){
+            let number = unordered_names[i].split(".")[0];
+            numbers.push(number);
+        }
+
+        let subset = [];
+        for(let i=0; i<numbers.length; i++){
+            let number = numbers[i];
+            for(let j=0; j<=subsetArray.length-1; j++){
+                if (subsetArray.length == 1 && number <= subsetArray[0]){
+                    subset.push(number);
+                }
+                else if (subsetArray[j] <= number && number <= subsetArray[j+1]){
+                    subset.push(number);
+                }
+            }
+        }
+        subset = subset.sort((a,b)=>a-b).map(a => a + '.jpg')
+        console.log(`numbers: ${numbers}, subsetArray: ${subsetArray}, subset: ${subset}`);
+        return subset;
     }
 
     add_image_counts(count){
@@ -61,6 +106,11 @@ class ImageQuery {
     delete_images(){
         this.imageContainer.children().remove()
         console.log("deleted images...")
+    }
+
+    delete_selected_images(){
+        this.subImageContainer.children().remove()
+        console.log("deleted sub images...");
     }
 
     unpopulate_menus(){
@@ -97,6 +147,8 @@ class ImageQuery {
         }
 
     get_tag_data(array){
+        console.log(this.mode);
+        console.log(`this is array: ${array}`);
         let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/";
         return new Promise((resolve, reject) => {
             $.getJSON(`${githubURL}/${this.mode}.json`, data => {
@@ -125,7 +177,7 @@ class ImageQuery {
         })
     }
 
-    populate_tag_container(array, data){
+    populate_tag_container(array, data, subset=false){
         for(let i=0; i<array.length; i++){
             let fileName = array[i],
                 tagString = "";
@@ -140,11 +192,19 @@ class ImageQuery {
                 }
             }
             tagString = `<br><span class='tags'>${tagString}</span>`;
-            $(`div[name='${fileName}'`).append(tagString);
+            let divs = $(`div[name='${fileName}']`);
+            for(let k=0; k<divs.length; k++){
+                let item = $(divs[k]);
+                if (subset && item.hasClass('grid-item') && item.is('div')) {
+                    item.append(tagString);
+                } else {
+                    item.append(tagString);
+                }
+            }
         }
     }
 
-    populate_image_container(data){
+    populate_image_container(data, subset=false, numArray=[]){
         let intersect = new Set([]),
             a = new Set(data[this.query['label1']]),
             b = new Set(data[this.query['label2']]);
@@ -153,8 +213,13 @@ class ImageQuery {
         } else {
             intersect = new Set([...a].filter(i => b.has(i)));
         }
-        
-        let intersect_array = this.order_image_array(Array.from(intersect));
+
+        let intersect_array = null;
+        if (subset){
+            intersect_array = this.order_image_array_with_subset(Array.from(intersect), numArray)
+        } else {
+            intersect_array = this.order_image_array(Array.from(intersect));
+        }
         this.fetch_images(intersect_array);
         return intersect_array;
     }
