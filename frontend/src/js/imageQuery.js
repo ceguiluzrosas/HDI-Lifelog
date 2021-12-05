@@ -101,7 +101,6 @@ class ImageQuery {
         return new Promise((resolve, reject) => {
             $.getJSON(`${githubURL}/${this.mode}.json`, data => {
                 let output = {};
-                console.log(array);
                 for(let i=0; i<array.length; i++){
                     let fileName = array[i],
                         tags_info = data[fileName],
@@ -155,9 +154,9 @@ class ImageQuery {
             intersect = new Set([...a].filter(i => b.has(i)));
         }
         
-        let intersect_array = Array.from(intersect);
+        let intersect_array = this.order_image_array(Array.from(intersect));
         this.fetch_images(intersect_array);
-        return this.order_image_array(intersect_array);
+        return intersect_array;
     }
 
     fetch_images(array){

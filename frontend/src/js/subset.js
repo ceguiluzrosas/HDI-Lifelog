@@ -17,21 +17,8 @@ class Subset {
         this.unpopulate_subsets();
     }
 
-    sort_names(unordered_names, numbers_only=false){
-        let numbers = [];
-        for(let i=0; i<unordered_names.length; i++){
-            let number = unordered_names[i].split(".")[0];
-            numbers.push(number)
-        }
-        if (numbers_only) { return numbers }
-        numbers = numbers.sort((a,b)=>a-b).map(a => a + '.jpg')
-        return numbers;
-    }
-
-    add_imageName(name){
-        this.imageNames.push(name);
-        this.imageNames = this.sort_names(this.imageNames);
-        this.numImages += 1;
+    sort_names(unordered_names){
+        return unordered_names.sort((a,b)=>a-b)
     }
 
     unpopulate_subsets(){
@@ -39,20 +26,19 @@ class Subset {
     }
 
     find_neighbor(name){
-        let curNumber = name.split(".")[0],
-            numbers = this.sort_names(this.imageNames, true);
-        for(let i=0; i<numbers.length-1; i++){
-            console.log(`${numbers[i]} <= ${curNumber}: ${numbers[i] <= curNumber} && ${curNumber} < ${numbers[i+1]}: ${curNumber < numbers[i+1]}`);
-            if (numbers[i] <= curNumber && curNumber < numbers[i+1]) {
+        let curNumber = name.split(".")[0];
+        for(let i=0; i<this.imageNames.length-1; i++){
+            if (this.imageNames[i] <= curNumber && curNumber < this.imageNames[i+1]) {
                 console.log("found it");
-                console.log(numbers[i+1])
-                return $('#subsetImages').find(`div[name='${numbers[i+1]}.jpg']`)
+                console.log(this.imageNames[i+1])
+                return $('#subsetImages').find(`div[name='${this.imageNames[i+1]}.jpg']`)
             }
         }
         return null;
     }
 
-    insert_image(imageDiv, name){
+    insert_image(imageDiv, imgName){
+        let name = imgName.split(".")[0];
         this.imageNames.push(name);
         this.imageNames = this.sort_names(this.imageNames);
         let neighborDiv = this.find_neighbor(name);
@@ -62,8 +48,8 @@ class Subset {
         } else {
             $(imageDiv).insertBefore($(neighborDiv));
         }
-
         this.numImages += 1;
+        console.log(this.imageNames);
     }
 
     add_image(target) {
@@ -72,20 +58,20 @@ class Subset {
         imageDiv.removeClass('imgTagContClicked');
         imageDiv.prop("onclick", null).off("click");
         imageDiv.addClass('grid-item');
-        // let idName = $(imageDiv).attr('name').split(".")[0];
-        // $(imageDiv).prop({'id': idName});
         this.insert_image(imageDiv, $(imageDiv).attr('name'));
     }
 
     remove_imageName(name) {
         this.imageNames = this.imageNames.filter(a => a != name)
+        console.log(this.imageNames);
         this.numImages -= 1;
     }
 
     remove_image(imageDiv) {
-        let name = $(imageDiv).attr('name');
-        $('#subsetImages').find(`div[name='${name}']`).remove();
+        let name = $(imageDiv).attr('name').split(".")[0];
+        console.log(name);
+        $('#subsetImages').find(`div[name='${name}.jpg']`).remove();
         this.remove_imageName(name);
-        
+        console.log(this.imageNames);
     }
 }
