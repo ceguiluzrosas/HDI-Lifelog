@@ -23,9 +23,9 @@ class ModeToggler {
         }
     }
 
-    save_data(){
+    save_data(type){
         let x = $('.searchInput'),
-            query = {};
+            query = {"type": type};
         for (let i=0; i<x.length; i++){
             let input_name = x[i].id.split("Input")[0],
                 input_value = x[i].value;

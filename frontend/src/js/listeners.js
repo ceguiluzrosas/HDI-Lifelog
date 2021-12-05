@@ -1,8 +1,7 @@
 let MT = new ModeToggler("beach"),
     Q = new ImageQuery("beach"),
     SUB = new Subset("beach"),
-    CUR_INPUT = null,
-    CUR_IMAGE_DIV = null;
+    CUR_INPUT = null;
 
 Q.add_options();
 
@@ -50,11 +49,18 @@ function hello(e){
     }
 }
 
-$("button[name='submit']").click(function(e){
-    console.log("submit");
-    MT.save_data();
+$("button[id='regularSearch']").click(function(e){
+    console.log("regularSearch");
+    MT.save_data("reg");
     MT.log_time();
     Q.query_images(query=MT.recentQuery);
+});
+
+$("button[id='subSearch']").click(function(e){
+    console.log("innerSearch");
+    MT.save_data("sub");
+    MT.log_time();
+    Q.query_sub_images(query=MT.recentQuery, numArray=SUB.get_imageNames());
 });
 
 $("a[id='download']").click(function(e){

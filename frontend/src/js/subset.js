@@ -4,6 +4,8 @@ class Subset {
         this.numImages = 0;
         this.imageNames = [];
         this.imageContainer = $("div[id='subsetImages']");
+        this.regSearchBttn = $("button[id='regularSearch']");
+        this.subSearchBttn = $("button[id='subSearch']");
     }
 
     get_imageNames(){
@@ -48,7 +50,7 @@ class Subset {
         } else {
             $(imageDiv).insertBefore($(neighborDiv));
         }
-        this.numImages += 1;
+        this.update_numImages(1);
         console.log(this.imageNames);
     }
 
@@ -64,7 +66,7 @@ class Subset {
     remove_imageName(name) {
         this.imageNames = this.imageNames.filter(a => a != name)
         console.log(this.imageNames);
-        this.numImages -= 1;
+        this.update_numImages(-1);
     }
 
     remove_image(imageDiv) {
@@ -73,5 +75,17 @@ class Subset {
         $('#subsetImages').find(`div[name='${name}.jpg']`).remove();
         this.remove_imageName(name);
         console.log(this.imageNames);
+    }
+
+    update_numImages(value){
+        this.numImages += value;
+        if (this.numImages == 0) {
+            this.subSearchBttn.css({'display': 'none'});
+            this.regSearchBttn.css({'display': 'block'});
+        } else {
+            this.regSearchBttn.css({'display': 'none'});
+            this.subSearchBttn.css({'display': 'block'});
+        }
+        console.log(this.numImages)
     }
 }
