@@ -29,7 +29,9 @@ class ImageQuery {
             this.no_results();
         } else {
             let tagData = await this.get_tag_data(image_array),
-                tag_array = this.populate_tag_container(image_array, tagData);
+                spatialTagData = await this.get_tag_relation_data(image_array, 'spatial'),
+                temporalTagData = await this.get_tag_relation_data(image_array, 'temporal'),
+                tag_array = this.populate_tag_container(image_array, tagData, spatialTagData, temporalTagData);
             console.log("fetched and added tags");
         }
         
@@ -51,7 +53,9 @@ class ImageQuery {
             this.no_results();
         } else {
             let tagData = await this.get_tag_data(image_array),
-                tag_array = this.populate_tag_container(image_array, tagData, true);
+                spatialTagData = await this.get_tag_relation_data(image_array, 'spatial'),
+                temporalTagData = await this.get_tag_relation_data(image_array, 'temporal'),
+                tag_array = this.populate_tag_container(image_array, tagData, spatialTagData, temporalTagData, true);
             console.log("fetched and added tags");
         }
     }
@@ -165,9 +169,31 @@ class ImageQuery {
             }
         }
 
+    get_tag_relation_data(array, type){
+        console.log(this.mode);
+        let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/";
+        return new Promise((resolve, reject) => {
+            $.getJSON(`${githubURL}/relations_${this.mode}.json`, data => {
+                let output = {};
+                console.log(data)
+                for(let i=0; i<array.length; i++){
+                    let fileName = array[i],
+                        tags_info = data[fileName],
+                        tags = [];
+                    for(let j=0; j<tags_info[`${type}`].length; j++){
+                        let tag = tags_info[`${type}`][j];
+                        tags.push(tag);
+                    }
+                    output[array[i]] = tags;
+                }
+                resolve(output);
+            });
+        })
+    }
+
     get_tag_data(array){
         console.log(this.mode);
-        console.log(`this is array: ${array}`);
+        console.log(`this is label array: ${array}`);
         let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/";
         return new Promise((resolve, reject) => {
             $.getJSON(`${githubURL}/${this.mode}.json`, data => {
@@ -196,7 +222,10 @@ class ImageQuery {
         })
     }
 
-    populate_tag_container(array, data, subset=false){
+    populate_tag_container(array, data, spatial, temporal, subset=false){
+        console.log(spatial);
+        console.log(temporal);
+        // console.log(`spatial: ${spatial.length}, temporal: ${temporal.length}`)
         for(let i=0; i<array.length; i++){
             let fileName = array[i],
                 tagString = "";
@@ -206,10 +235,22 @@ class ImageQuery {
                     tagString += `<span style='background: yellow'>${tag}, </span>`;
                 } else if (tag == this.query["label2"]){
                     tagString += `<span style='background: lightgreen'>${tag}, </span>`;
-                } else if (tag == this.query["temporalRelation"]){
-                    tagString += `<span style='background: lightblue'>${tag}, </span>`;
-                } else if (tag == this.query["spatialRelation"]){
+                } else {
+                    tagString += `${tag}, `;
+                }
+            }
+            for(let j=0; j<spatial[fileName].length; j++){
+                let tag = spatial[fileName][j];
+                if (tag == this.query["spatialRelation"]){
                     tagString += `<span style='background: orange'>${tag}, </span>`;
+                } else {
+                    tagString += `${tag}, `;
+                }
+            }
+            for(let j=0; j<temporal[fileName].length; j++){
+                let tag = temporal[fileName][j];
+                if (tag == this.query["temporalRelation"]){
+                    tagString += `<span style='background: lightblue'>${tag}, </span>`;
                 } else {
                     tagString += `${tag}, `;
                 }
