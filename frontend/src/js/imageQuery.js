@@ -20,7 +20,9 @@ class ImageQuery {
         this.delete_images();
         console.log("performing reg query...");
         this.query = query;
-        let imageData = await this.get_image_data(),
+        let imageData = await this.get_image_data(`map_${this.mode}.json`),
+            spatialData = await this.get_image_data(`map_spatialRelations_${this.mode}.json`),
+            relationData = await this.get_image_data(`map_temporalRelations_${this.mode}.json`),
             image_array = this.populate_image_container(imageData);
         console.log("fetched and added images");
         if (image_array.length == 0){
@@ -39,9 +41,10 @@ class ImageQuery {
         console.log("performing sub query...");
 
         this.query = query;
-        let imageData = await this.get_image_data(),
+        let imageData = await this.get_image_data(`map_${this.mode}.json`),
+            spatialData = await this.get_image_data(`map_spatialRelations_${this.mode}.json`),
+            relationData = await this.get_image_data(`map_temporalRelations_${this.mode}.json`),
             image_array = this.populate_image_container(imageData, true, numArray);
-        
         console.log("fetched and added sub images");
         console.log(`subimagearray: ${image_array}`)
         if (image_array.length == 0){
@@ -115,15 +118,24 @@ class ImageQuery {
 
     unpopulate_menus(){
         $(`a[class='options']`).remove();
-        $(`a[class='options']`).remove();
     }
 
-    populate_menus(labels){
+    populate_menus(labels, tr_relations, sr_relations){
         for(let i=0; i<labels.length; i++){
             let labelName = labels[i],
                 ele = `<a class='options' name='${labelName}'>${labelName}</a>`;
             $(`#label1Dropdown`).append(ele);    
             $(`#label2Dropdown`).append(ele);        
+        }
+        for(let i=0; i<tr_relations.length; i++){
+            let relation = tr_relations[i],
+                ele = `<a class='options' name='${relation}'>${relation}</a>`;
+            $(`#temporalRelationDropdown`).append(ele);    
+        }
+        for(let i=0; i<sr_relations.length; i++){
+            let relation = sr_relations[i],
+                ele = `<a class='options' name='${relation}'>${relation}</a>`;
+            $(`#spatialRelationDropdown`).append(ele);    
         }
     }
 
@@ -131,15 +143,22 @@ class ImageQuery {
         let times_square = ['cup', 'bench', 'umbrella', 'kite', 'banana', 'suitcase', 'car', 'diningtable', 'laptop', 'bus', 'teddy bear', 'toothbrush', 'horse', 'pottedplant', 'traffic light', 'backpack', 'person', 'handbag', 'cell phone', 'tvmonitor', 'bicycle', 'chair', 'bottle', 'truck', 'tie', 'motorbike'],
             beach = ['frisbee', 'bottle', 'horse', 'backpack', 'suitcase', 'person', 'umbrella', 'chair', 'kite', 'handbag', 'boat', 'cup', 'bench', 'car', 'surfboard'],
             central_park = ['person', 'motorbike', 'elephant', 'backpack', 'skateboard', 'handbag', 'stop sign', 'bench', 'cow', 'zebra', 'remote', 'cell phone', 'bicycle'];
+        let TR_times_squre = [],
+            TR_beach = ['smoking', 'laying', 'dancing', 'playing', 'standing', 'kneeling', 'crawling', 'bendingOver', 'sitting', 'talking', 'walking', 'jogging', 'running'],
+            TR_central_park = [];
+        let SR_times_squre = [],
+            SR_beach = ['leftOf', 'nextTo', 'left', 'line', 'rightOf', 'center', 'circle', 'around', 'cluster', 'along', 'alone'],
+            SR_central_park = [];
+        
         switch (this.mode) {
             case "beach":
-                this.populate_menus(beach);
+                this.populate_menus(beach, TR_beach, SR_beach);
                 break;
             case "times_square":
-                this.populate_menus(times_square);
+                this.populate_menus(times_square, TR_times_squre, SR_times_squre);
                 break;
             case "central_park":
-                this.populate_menus(central_park);
+                this.populate_menus(central_park, TR_central_park, SR_central_park);
                 break;
             default:
                 break;
@@ -168,10 +187,10 @@ class ImageQuery {
         })
     }
 
-    get_image_data(){
+    get_image_data(fileName){
         let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/";
         return new Promise((resolve, reject) => {
-            $.getJSON(`${githubURL}/map_${this.mode}.json`, data => {
+            $.getJSON(`${githubURL}/${fileName}`, data => {
                 resolve(data);
             });
         })
@@ -187,6 +206,10 @@ class ImageQuery {
                     tagString += `<span style='background: yellow'>${tag}, </span>`;
                 } else if (tag == this.query["label2"]){
                     tagString += `<span style='background: lightgreen'>${tag}, </span>`;
+                } else if (tag == this.query["temporalRelation"]){
+                    tagString += `<span style='background: lightblue'>${tag}, </span>`;
+                } else if (tag == this.query["spatialRelation"]){
+                    tagString += `<span style='background: orange'>${tag}, </span>`;
                 } else {
                     tagString += `${tag}, `;
                 }
