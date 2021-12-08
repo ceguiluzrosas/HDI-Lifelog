@@ -1,6 +1,7 @@
 let MT = new ModeToggler("beach"),
     Q = new ImageQuery("beach"),
     SUB = new Subset("beach"),
+    RATE = new RateQuery(),
     CUR_INPUT = null;
 
 Q.add_options();
@@ -62,6 +63,14 @@ $("button[id='subSearch']").click(function(e){
     MT.log_time();
     Q.query_sub_images(query=MT.recentQuery, numArray=SUB.get_imageNames());
     SUB.clear_everything();
+});
+
+$("button[id='rateSubmit']").click(function(e){
+    console.log("rateSubmit");
+    let comp = $("#compRate")[0].value,
+        sig = $("#sigRate")[0].value,
+        enjoy = $("#enjoyRate")[0].value;
+    RATE.add_rates(comp, sig, enjoy);
 });
 
 $("a[id='download']").click(function(e){

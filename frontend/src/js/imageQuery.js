@@ -17,13 +17,14 @@ class ImageQuery {
     }
 
     async query_images(query){
+        this.delete_selected_images();
         this.delete_images();
         console.log("performing reg query...");
         this.query = query;
         let imageData = await this.get_image_data(`map_${this.mode}.json`),
             spatialData = await this.get_image_data(`map_spatialRelations_${this.mode}.json`),
-            relationData = await this.get_image_data(`map_temporalRelations_${this.mode}.json`),
-            image_array = this.populate_image_container(imageData);
+            temporalData = await this.get_image_data(`map_temporalRelations_${this.mode}.json`),
+            image_array = this.populate_image_container(imageData, spatialData, temporalData);
         console.log("fetched and added images");
         if (image_array.length == 0){
             this.no_results();
@@ -45,8 +46,8 @@ class ImageQuery {
         this.query = query;
         let imageData = await this.get_image_data(`map_${this.mode}.json`),
             spatialData = await this.get_image_data(`map_spatialRelations_${this.mode}.json`),
-            relationData = await this.get_image_data(`map_temporalRelations_${this.mode}.json`),
-            image_array = this.populate_image_container(imageData, true, numArray);
+            temporalData = await this.get_image_data(`map_temporalRelations_${this.mode}.json`),
+            image_array = this.populate_image_container(imageData, spatialData, temporalData, true, numArray);
         console.log("fetched and added sub images");
         console.log(`subimagearray: ${image_array}`)
         if (image_array.length == 0){
@@ -223,8 +224,8 @@ class ImageQuery {
     }
 
     populate_tag_container(array, data, spatial, temporal, subset=false){
-        console.log(spatial);
-        console.log(temporal);
+        // console.log(spatial);
+        // console.log(temporal);
         // console.log(`spatial: ${spatial.length}, temporal: ${temporal.length}`)
         for(let i=0; i<array.length; i++){
             let fileName = array[i],
@@ -257,8 +258,11 @@ class ImageQuery {
             }
             tagString = `<br><span class='tags'>${tagString}</span>`;
             let divs = $(`div[name='${fileName}']`);
+            console.log(divs);
             for(let k=0; k<divs.length; k++){
                 let item = $(divs[k]);
+                item.remove('span');
+                console.log(item);
                 if (subset && item.hasClass('grid-item') && item.is('div')) {
                     item.append(tagString);
                 } else {
@@ -268,15 +272,43 @@ class ImageQuery {
         }
     }
 
-    populate_image_container(data, subset=false, numArray=[]){
-        let intersect = new Set([]),
-            a = new Set(data[this.query['label1']]),
-            b = new Set(data[this.query['label2']]);
-        if (query['label2'] == ''){
-            intersect = a;
-        } else {
-            intersect = new Set([...a].filter(i => b.has(i)));
+    get_top_N(a, b, c, d, N){
+        let output = [],
+            counts = {},
+            allArrays = [a,b,c,d];
+        // console.log(allArrays);
+        for (let idx=0; idx<allArrays.length; idx++){
+            let mySet = Array.from(allArrays[idx]);
+            // console.log(mySet);
+            for (let i=0; i<mySet.length; i++){
+                let num = mySet[i];
+                if (num in counts) { 
+                    counts[num] += 1
+                } else {
+                    counts[num] = 1
+                }
+            }
         }
+        let file_count_array = [];
+        for (let file in counts){
+            file_count_array.push([file, counts[file]]);
+        }
+        file_count_array = file_count_array.sort(function(a, b){ return b[1]-a[1] })
+        let myMin = Math.min(N, file_count_array.length);
+        for (let i=0; i<myMin; i++){
+            // console.log(`output: ${file_count_array[i][0]}`)
+            output.push(file_count_array[i][0])
+        }
+        return new Set(output)
+    }
+
+    populate_image_container(data, spatialData, temporalData, subset=false, numArray=[]){
+        let a = new Set(data[this.query['label1']]),
+            b = new Set(data[this.query['label2']]),
+            c = new Set(temporalData[this.query['temporalRelation']]),
+            d = new Set(spatialData[this.query['spatialRelation']]);
+
+        let intersect = this.get_top_N(a, b, c, d, 15);
 
         let intersect_array = null;
         if (subset){

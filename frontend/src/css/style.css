@@ -20,6 +20,10 @@
   display: inline-block;
 }
 
+.rateContainer {
+  padding-bottom: 5%;
+}
+
 /* DROP DOWN MENU STYLE */
 
 .dropbtn {

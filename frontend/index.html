@@ -66,6 +66,46 @@
                                 <button id="subSearch" type="submit" name="submit">Inner Search</button>
                             </div>
                         </div>
+                        <hr>
+                        <div id="rate" class="container">
+                            <h2>Rate</h2>
+                            <div class="rateContainer">
+                                <span class="rateHeader">Comprehensibility: </span>
+                                <input id="compRate" type="range" min="1" max="5" value="3" step="1" list=compTicks>
+                                <datalist id=compTicks>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </datalist>
+                            </div>
+                            <div class="rateContainer">
+                                <span class="rateHeader">Significance: </span>
+                                <input id="sigRate" type="range" min="1" max="5" value="3" step="1" list=sigTicks>
+                                <datalist id=sigTicks>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </datalist>
+                            </div>
+                            <div class="rateContainer">
+                                <span class="rateHeader">Enjoyability: </span>
+                                <input id="enjoyRate" type="range" min="1" max="5" value="3" step="1" list=enjoyTicks>
+                                <datalist id=enjoyTicks>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </datalist>
+                            </div>
+                            <div>
+                                <button id="rateSubmit" type="submit" name="submit">Submit</button>
+                            </div>
+                        </div>
                         <!-- <hr>
                         <h3>Selected Frames</h3>
                         <div id="subsetImages" class="grid-container"></div> -->
@@ -86,5 +126,6 @@
     <script type="text/javascript" src="src/js/modeToggler.js"></script>
     <script type="text/javascript" src="src/js/imageQuery.js"></script>
     <script type="text/javascript" src="src/js/subset.js"></script>
+    <script type="text/javascript" src="src/js/rateQuery.js"></script>
     <script type="text/javascript" src="src/js/listeners.js"></script>
 </html>
