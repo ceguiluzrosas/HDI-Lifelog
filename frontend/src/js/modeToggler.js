@@ -6,7 +6,8 @@ class ModeToggler {
         this.spatialRelation = [];
         this.label2 = [];
         this.recentQuery = {};
-        this.queryTimes = []
+        this.queries = [];
+        this.queryTimes = [];
         this.time = new Date().getTime();
     }
 
@@ -21,6 +22,25 @@ class ModeToggler {
         for (var i=0; i < x.prevObject.length; i++){
             x.prevObject[i].value = "";
         }
+        this.label1 = [];
+        this.temporalRelation = [];
+        this.spatialRelation = [];
+        this.label2 = [];
+        this.recentQuery = {};
+        this.queryTimes = [];
+        this.queries = [];
+    }
+
+    get_data(){
+        return {
+            "mode": this.mode,
+            "label1": this.label1,
+            "temporalRelation": this.temporalRelation,
+            "spatialRelation": this.spatialRelation,
+            "label2": this.label2,
+            "queryTimes": this.queryTimes,
+            "queries": this.queries,
+        };
     }
 
     save_data(type){
@@ -29,7 +49,6 @@ class ModeToggler {
         for (let i=0; i<x.length; i++){
             let input_name = x[i].id.split("Input")[0],
                 input_value = x[i].value;
-            // console.log(`input_name: ${input_name}, input_value: ${input_value}`);
             switch (input_name) {
                 case "label1":
                     this.label1.push(input_value);
@@ -49,6 +68,7 @@ class ModeToggler {
             query[input_name] = input_value;
         }
         this.recentQuery = query;
+        this.queries.push(query);
     }
 
     change_mode(new_mode) {

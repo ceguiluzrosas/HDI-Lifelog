@@ -1,7 +1,8 @@
 let MT = new ModeToggler("beach"),
     Q = new ImageQuery("beach"),
     SUB = new Subset("beach"),
-    RATE = new RateQuery(),
+    RATE = new RateQuery("beach"),
+    SAVE = new SaveImages("beach"),
     CUR_INPUT = null;
 
 Q.add_options();
@@ -38,6 +39,8 @@ $(".dropdown-content").click(function(e){
 
 function hello(e){
     let ele = $(e);
+    console.log("[listeners] hello")
+    console.log(ele)
     while (!(ele.is('div') && ele.hasClass('imgTagContainer'))) {
         ele = ele.parent();
     }
@@ -50,15 +53,26 @@ function hello(e){
     }
 }
 
+function bye(e){
+    let ele = $(e);
+    console.log("[listeners] bye")
+    console.log(ele)
+    if (ele.hasClass('subImgTagContClicked')){
+        ele.removeClass('subImgTagContClicked');
+        SAVE.remove_image(ele);
+    } else {
+        ele.addClass('subImgTagContClicked');
+        SAVE.add_image(ele);
+    }
+}
+
 $("button[id='regularSearch']").click(function(e){
-    console.log("regularSearch");
     MT.save_data("reg");
     MT.log_time();
     Q.query_images(query=MT.recentQuery);
 });
 
 $("button[id='subSearch']").click(function(e){
-    console.log("innerSearch");
     MT.save_data("sub");
     MT.log_time();
     Q.query_sub_images(query=MT.recentQuery, numArray=SUB.get_imageNames());
@@ -66,16 +80,28 @@ $("button[id='subSearch']").click(function(e){
 });
 
 $("button[id='rateSubmit']").click(function(e){
-    console.log("rateSubmit");
     let comp = $("#compRate")[0].value,
         sig = $("#sigRate")[0].value,
         enjoy = $("#enjoyRate")[0].value;
     RATE.add_rates(comp, sig, enjoy);
+    alert("rating submitted");
+});
+
+$("button[id='resetSearch']").click(function(e){
+    MT.clear_inputs();
+    Q.delete_images();
+    Q.delete_selected_images();
+    $("button[id='resetSearch']").css({'display': 'block'});
+    $("button[id='regularSearch']").css({'display': 'block'});
+    $("button[id='subSearch']").css({'display': 'none'});
 });
 
 $("a[id='download']").click(function(e){
-    console.log("download");
-    let data = [{"hello": "there"}], // MT.get_data() concatenate Q.get_data()
+    let MT_DATA = MT.get_data(),
+        IMG_DATA = Q.get_data(),
+        RATE_DATA = RATE.get_data(),
+        SAVE_DATA = SAVE.get_data();
+    let data = [MT_DATA, IMG_DATA, RATE_DATA, SAVE_DATA],
         encodedUri = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));;
     $("a[id='download']").attr("href", encodedUri);
 });
@@ -86,6 +112,8 @@ $("input[type='radio'").click(function(e){
         // MT.clear_inputs();
         MT.change_mode(new_mode=mode);
         Q.change_mode(new_mode=mode);
+        RATE.change_mode(new_mode=mode);
         SUB.change_mode(new_mode=mode);
+        SAVE.change_mode(new_mode=mode)
     }
 });

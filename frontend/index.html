@@ -26,10 +26,11 @@
                                     <input type="radio" id="times_square"> <label for="times_square">Test #3</label>
                                 </div>
                             </div>
-                            <!-- <div>
+                            <div>
                                 <a href="" download="data.json" id="download">Download Data</a>
-                            </div> -->
+                            </div>
                         </div>
+                        <hr>
                         <div class="container">
                             <h2>Query</h2>
                             <div id="query-container">
@@ -64,6 +65,7 @@
                             <div>
                                 <button id="regularSearch" type="submit" name="submit">Search</button>
                                 <button id="subSearch" type="submit" name="submit">Inner Search</button>
+                                <button id="resetSearch" type="submit" name="submit">Reset</button>
                             </div>
                         </div>
                         <hr>
@@ -112,6 +114,9 @@
                     </div>
                     <div class="col">
                         <div class="">
+                            <h3>Saved Frames</h3>
+                            <div id="savedImages" class="grid-container"></div> 
+                            <hr>
                             <h3>Selected Frames</h3>
                             <div id="subsetImages" class="grid-container"></div> 
                             <hr>
@@ -127,5 +132,6 @@
     <script type="text/javascript" src="src/js/imageQuery.js"></script>
     <script type="text/javascript" src="src/js/subset.js"></script>
     <script type="text/javascript" src="src/js/rateQuery.js"></script>
+    <script type="text/javascript" src="src/js/saveImages.js"></script>
     <script type="text/javascript" src="src/js/listeners.js"></script>
 </html>

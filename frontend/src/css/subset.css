@@ -8,6 +8,16 @@
     filter: grayscale(100%);
 }
 
+.imgTagContainer:hover {
+    border-color: red;
+    border-style: dashed;
+    border-width: thick;
+}
+
+.subImgTagContClicked > img {
+    filter: sepia();
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;

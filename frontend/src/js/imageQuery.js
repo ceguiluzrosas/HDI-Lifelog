@@ -3,17 +3,47 @@ class ImageQuery {
         this.mode = mode;
         this.imageContainer = $("div[id='images']");
         this.subImageContainer = $("div[id='subsetImages']");
+        this.saveImageContainer = $("div[id='savedImages']");
         this.beachImageCount = [];
         this.centralParkImageCount = [];
         this.timesSquareImageCount = [];
         this.query = null;
     }
 
+    reset(){
+        this.beachImageCount = [];
+        this.centralParkImageCount = [];
+        this.timesSquareImageCount = [];
+        this.query = null;
+    }
+
+    get_data(){
+        let data = {
+            "mode": this.mode,
+            "counts": 0
+        };
+        switch (this.mode) {
+            case "beach":
+                data["counts"] = this.beachImageCount;
+                break;
+            case "times_square":
+                data["counts"] = this.timesSquareImageCount;
+                break;
+            case "central_park":
+                data["counts"] = this.centralParkImageCount;
+                break;
+            default:
+                break;
+        }
+        return data;
+    }
+    
     change_mode(new_mode){
         this.mode = new_mode;
         this.unpopulate_menus();
         this.delete_images();
         this.add_options();
+        this.reset();
     }
 
     async query_images(query){
@@ -171,12 +201,10 @@ class ImageQuery {
         }
 
     get_tag_relation_data(array, type){
-        console.log(this.mode);
         let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/";
         return new Promise((resolve, reject) => {
             $.getJSON(`${githubURL}/relations_${this.mode}.json`, data => {
                 let output = {};
-                console.log(data)
                 for(let i=0; i<array.length; i++){
                     let fileName = array[i],
                         tags_info = data[fileName],
@@ -193,8 +221,6 @@ class ImageQuery {
     }
 
     get_tag_data(array){
-        console.log(this.mode);
-        console.log(`this is label array: ${array}`);
         let githubURL = "https://raw.githubusercontent.com/ceguiluzrosas/HDI-Lifelog/main/data/";
         return new Promise((resolve, reject) => {
             $.getJSON(`${githubURL}/${this.mode}.json`, data => {
@@ -224,9 +250,6 @@ class ImageQuery {
     }
 
     populate_tag_container(array, data, spatial, temporal, subset=false){
-        // console.log(spatial);
-        // console.log(temporal);
-        // console.log(`spatial: ${spatial.length}, temporal: ${temporal.length}`)
         for(let i=0; i<array.length; i++){
             let fileName = array[i],
                 tagString = "";
@@ -257,15 +280,15 @@ class ImageQuery {
                 }
             }
             tagString = `<br><span class='tags'>${tagString}</span>`;
-            let divs = $(`div[name='${fileName}']`);
-            console.log(divs);
+            let divs = $(`div[id='${fileName}']`);
             for(let k=0; k<divs.length; k++){
                 let item = $(divs[k]);
                 item.remove('span');
-                console.log(item);
                 if (subset && item.hasClass('grid-item') && item.is('div')) {
                     item.append(tagString);
                 } else {
+                    item.children("span").remove()
+                    item.children("br").remove()
                     item.append(tagString);
                 }
             }
@@ -276,10 +299,8 @@ class ImageQuery {
         let output = [],
             counts = {},
             allArrays = [a,b,c,d];
-        // console.log(allArrays);
         for (let idx=0; idx<allArrays.length; idx++){
             let mySet = Array.from(allArrays[idx]);
-            // console.log(mySet);
             for (let i=0; i<mySet.length; i++){
                 let num = mySet[i];
                 if (num in counts) { 
@@ -296,7 +317,6 @@ class ImageQuery {
         file_count_array = file_count_array.sort(function(a, b){ return b[1]-a[1] })
         let myMin = Math.min(N, file_count_array.length);
         for (let i=0; i<myMin; i++){
-            // console.log(`output: ${file_count_array[i][0]}`)
             output.push(file_count_array[i][0])
         }
         return new Set(output)
@@ -326,7 +346,7 @@ class ImageQuery {
             rowName = null;
         for (var i=0; i<array.length; i++){
             let full_url = `${url}${array[i]}`,
-                imageElement = `<div class='imgTagContainer align-top' name='${array[i]}' onClick='hello(this)'><img src='${full_url}' ></div>`,
+                imageElement = `<div class='imgTagContainer align-top' id='${array[i]}' onClick='hello(this)'><img src='${full_url}' ></div>`,
                 modulo = i % 4;
 
             if (modulo == 0){
