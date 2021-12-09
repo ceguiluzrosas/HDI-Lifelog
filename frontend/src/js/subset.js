@@ -32,53 +32,53 @@ class Subset {
     }
 
     find_neighbor(name){
+        console.log(`[subset] find_neighbor:${name}`)
         let curNumber = name.split(".")[0];
         for(let i=0; i<this.imageNames.length-1; i++){
             if (this.imageNames[i] <= curNumber && curNumber < this.imageNames[i+1]) {
-                console.log("found it");
-                console.log(this.imageNames[i+1])
-                return $('#subsetImages').find(`div[name='${this.imageNames[i+1]}.jpg']`)
+                return $('#subsetImages').find(`div[id='sub.${this.imageNames[i+1]}.jpg']`)
             }
         }
         return null;
     }
 
     insert_image(imageDiv, imgName){
-        let name = imgName.split(".")[0];
+        console.log(`[subset] insert_image: ${imgName}`)
+        let name = imgName.split(".")[1];
         this.imageNames.push(name);
         this.imageNames = this.sort_names(this.imageNames);
         let neighborDiv = this.find_neighbor(name);
-        console.log(neighborDiv);
         if (neighborDiv == null){
             this.imageContainer.append(imageDiv);
         } else {
             $(imageDiv).insertBefore($(neighborDiv));
         }
         this.update_numImages(1);
-        console.log(this.imageNames);
     }
 
     add_image(target) {
-        let imageDiv = target.clone();
+        let imageDiv = target.clone(),
+            name = `sub.${$(imageDiv).attr('id')}`;
         imageDiv.removeClass('imgTagContainer');
         imageDiv.removeClass('imgTagContClicked');
-        imageDiv.prop("onclick", null).off("click");
+        imageDiv.removeAttr("onclick");
+        imageDiv.attr("onclick", "bye(this)");
+        imageDiv.attr("id", name)
         imageDiv.addClass('grid-item');
-        this.insert_image(imageDiv, $(imageDiv).attr('name'));
+        this.insert_image(imageDiv, name);
     }
 
     remove_imageName(name) {
         this.imageNames = this.imageNames.filter(a => a != name)
-        console.log(this.imageNames);
         this.update_numImages(-1);
     }
 
     remove_image(imageDiv) {
-        let name = $(imageDiv).attr('name').split(".")[0];
-        console.log(name);
-        $('#subsetImages').find(`div[name='${name}.jpg']`).remove();
+        console.log(`[save_image] remove_image: ${$(imageDiv).attr('id')}`)
+        let name = $(imageDiv).attr('id').split(".")[0];
+        $('#subsetImages').find(`div[id='sub.${name}.jpg']`).remove();
+        console.log(`[subset] remove image: ${name}`)
         this.remove_imageName(name);
-        console.log(this.imageNames);
     }
 
     update_numImages(value){
@@ -90,6 +90,5 @@ class Subset {
             this.regSearchBttn.css({'display': 'none'});
             this.subSearchBttn.css({'display': 'block'});
         }
-        console.log(this.numImages)
     }
 }
