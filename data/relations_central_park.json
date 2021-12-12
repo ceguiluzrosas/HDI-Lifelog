@@ -1,0 +1,438 @@
+{
+    "0000000020.jpg": {
+        "spatial": ["center", "behind", "nextTo", "sideOf", "leftOf", "rightOf"],
+        "temporal": ["walking", "strolling", "sitting"]
+    },
+    "0000000030.jpg": {
+        "spatial": ["center", "behind", "nextTo", "sideOf", "leftOf", "rightOf", "underneath"],
+        "temporal": ["walking", "strolling", "sitting"]
+    },
+    "0000000040.jpg": {
+        "spatial": ["behind", "nextTo", "sideOf", "leftOf", "rightOf"],
+        "temporal": ["walking", "strolling", "sitting"]
+    },
+    "0000000050.jpg": {
+        "spatial": ["nextTo", "leftOf", "rightOf", "behind"],
+        "temporal": ["walking", "sitting"]
+    },
+    "0000000060.jpg": {
+        "spatial": ["nextTo", "leftOf", "rightOf", "behind"],
+        "temporal": ["walking", "sitting"]
+    },
+    "0000000070.jpg": {
+        "spatial": ["nextTo", "leftOf", "rightOf", "behind"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000080.jpg": {
+        "spatial": ["together", "cluster"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000090.jpg": {
+        "spatial": ["together", "cluster", "alone"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000100.jpg": {
+        "spatial": ["together", "cluster", "alone"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000110.jpg": {
+        "spatial": ["together", "cluster", "alone"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000120.jpg": {
+        "spatial": ["together", "cluster", "alone", "underneath"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000130.jpg": {
+        "spatial": ["together", "cluster", "alone", "behind", "underneath"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000140.jpg": {
+        "spatial": ["together", "cluster", "alone", "behind", "underneath", "center"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000150.jpg": {
+        "spatial": ["together", "cluster", "alone", "leftOf", "rightOf", "nextTo", "behind", "underneath", "center"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000180.jpg": {
+        "spatial": ["together", "cluster", "alone", "leftOf", "rightOf", "nextTo", "behind", "underneath", "center"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000190.jpg": {
+        "spatial": ["together", "cluster", "alone", "leftOf", "rightOf", "nextTo", "behind", "underneath", "center"],
+        "temporal": ["sitting", "standing"]
+    },
+    "0000000220.jpg": {
+        "spatial": ["together", "cluster", "alone", "leftOf", "rightOf", "nextTo", "behind", "underneath", "center"],
+        "temporal": ["sitting", "standing", "running", "walking"]
+    },
+    "0000000230.jpg": {
+        "spatial": ["together", "cluster", "alone", "leftOf", "rightOf", "nextTo", "behind", "underneath"],
+        "temporal": ["sitting", "standing", "running", "walking"]
+    },
+    "0000000240.jpg": {
+        "spatial": ["together", "cluster", "alone", "leftOf", "rightOf", "nextTo", "behind", "underneath"],
+        "temporal": ["sitting", "standing", "running", "walking"]
+    },
+    "0000000250.jpg": {
+        "spatial": ["together", "cluster", "alone", "leftOf", "rightOf", "nextTo", "behind", "underneath"],
+        "temporal": ["sitting", "standing", "running", "walking"]
+    },
+    "0000000260.jpg": {
+        "spatial": ["together", "cluster", "alone", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["sitting", "standing", "running", "walking"]
+    },
+    "0000000280.jpg": {
+        "spatial": ["together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["strolling", "standing", "running", "walking"]
+    },
+    "0000000290.jpg": {
+        "spatial": ["together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["strolling", "walking"]
+    },
+    "0000000300.jpg": {
+        "spatial": ["together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["strolling", "walking"]
+    },
+    "0000000320.jpg": {
+        "spatial": ["together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000000330.jpg": {
+        "spatial": ["center", "together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000000340.jpg": {
+        "spatial": ["center", "together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000000350.jpg": {
+        "spatial": ["center", "together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000000380.jpg": {
+        "spatial": ["center", "together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000000390.jpg": {
+        "spatial": ["center", "together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000000420.jpg": {
+        "spatial": ["together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000000430.jpg": {
+        "spatial": ["together", "cluster", "leftOf", "rightOf", "nextTo", "inFrontOf", "behind", "underneath"],
+        "temporal": ["walking", "sitting"]
+    },
+    "0000000440.jpg": {
+        "spatial": ["together", "leftOf", "rightOf", "nextTo", "behind", "underneath"],
+        "temporal": ["walking", "sitting"]
+    },
+    "0000000450.jpg": {
+        "spatial": ["nextTo", "behind", "underneath"],
+        "temporal": ["standing", "sitting"]
+    },
+    "0000000460.jpg": {
+        "spatial": ["center", "nextTo", "behind", "underneath"],
+        "temporal": ["standing", "sitting"]
+    },
+    "0000000470.jpg": {
+        "spatial": ["nextTo", "behind", "underneath"],
+        "temporal": ["standing", "sitting"]
+    },
+    "0000000480.jpg": {
+        "spatial": ["center", "behind", "underneath"],
+        "temporal": ["standing", "sitting"]
+    },
+    "0000000490.jpg": {
+        "spatial": ["center", "underneath"],
+        "temporal": ["standing"]
+    },
+    "0000000500.jpg": {
+        "spatial": ["center", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000000510.jpg": {
+        "spatial": ["center", "cluster", "alone"],
+        "temporal": ["standing"]
+    },
+    "0000000520.jpg": {
+        "spatial": ["center", "cluster", "alone"],
+        "temporal": ["standing"]
+    },
+    "0000000530.jpg": {
+        "spatial": ["cluster", "alone"],
+        "temporal": ["standing"]
+    },
+    "0000000540.jpg": {
+        "spatial": ["cluster", "alone"],
+        "temporal": ["standing"]
+    },
+    "0000000550.jpg": {
+        "spatial": ["cluster", "alone"],
+        "temporal": ["standing"]
+    },
+    "0000000580.jpg": {
+        "spatial": ["alone"],
+        "temporal": ["sitting"]
+    },
+    "0000000590.jpg": {
+        "spatial": ["alone"],
+        "temporal": ["sitting"]
+    },
+    "0000000620.jpg": {
+        "spatial": ["alone", "center"],
+        "temporal": ["sitting"]
+    },
+    "0000000630.jpg": {
+        "spatial": ["alone", "center", "leftOf", "rightOf"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000640.jpg": {
+        "spatial": ["alone", "center", "leftOf", "rightOf"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000650.jpg": {
+        "spatial": ["alone", "center", "leftOf", "rightOf"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000670.jpg": {
+        "spatial": ["alone", "leftOf", "rightOf"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000680.jpg": {
+        "spatial": ["alone", "leftOf", "rightOf"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000690.jpg": {
+        "spatial": ["alone", "leftOf", "rightOf", "center", "behind"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000710.jpg": {
+        "spatial": ["alone", "leftOf", "rightOf", "center", "behind"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000720.jpg": {
+        "spatial": ["alone", "leftOf", "rightOf", "center", "behind"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000730.jpg": {
+        "spatial": ["alone", "leftOf", "rightOf", "center", "behind"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000740.jpg": {
+        "spatial": ["alone", "leftOf", "rightOf", "center", "behind"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000750.jpg": {
+        "spatial": ["alone", "leftOf", "rightOf", "center", "behind"],
+        "temporal": ["sitting", "walking"]
+    },
+    "0000000780.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000790.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000800.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000810.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000840.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000860.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000870.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000880.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000890.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000900.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000910.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000920.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind"],
+        "temporal": ["walking"]
+    },
+    "0000000960.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind", "nextTo"],
+        "temporal": ["walking", "looking"]
+    },
+    "0000000970.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "behind", "nextTo"],
+        "temporal": ["walking", "looking"]
+    },
+    "0000001000.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "nextTo"],
+        "temporal": ["walking"]
+    },
+    "0000001010.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "nextTo"],
+        "temporal": ["walking"]
+    },
+    "0000001020.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "nextTo"],
+        "temporal": ["walking"]
+    },
+    "0000001030.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "nextTo", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000001060.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "nextTo", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000001070.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "nextTo", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000001100.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "nextTo", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000001110.jpg": {
+        "spatial": ["leftOf", "rightOf", "center", "nextTo", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000001140.jpg": {
+        "spatial": ["leftOf", "rightOf", "nextTo", "underneath"],
+        "temporal": ["walking"]
+    },
+    "0000001150.jpg": {
+        "spatial": ["leftOf", "rightOf", "nextTo", "underneath", "behind", "cluster"],
+        "temporal": ["walking"]
+    },
+    "0000001160.jpg": {
+        "spatial": ["leftOf", "rightOf", "nextTo", "underneath", "behind", "cluster"],
+        "temporal": ["walking"]
+    },
+    "0000001170.jpg": {
+        "spatial": ["leftOf", "rightOf", "nextTo", "underneath", "behind", "cluster"],
+        "temporal": ["walking"]
+    },
+    "0000001180.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["walking"]
+    },
+    "0000001200.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000001210.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000001220.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000001260.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000001270.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000001300.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000001310.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000001340.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000001360.jpg": {
+        "spatial": ["underneath", "behind", "cluster"],
+        "temporal": ["standing"]
+    },
+    "0000001370.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "leftOf", "rightOf"],
+        "temporal": ["standing", "walking"]
+    },
+    "0000001380.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "leftOf", "rightOf"],
+        "temporal": ["standing", "walking"]
+    },
+    "0000001400.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "leftOf", "rightOf"],
+        "temporal": ["standing", "walking"]
+    },
+    "0000001410.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "leftOf", "rightOf"],
+        "temporal": ["standing", "walking"]
+    },
+    "0000001420.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "leftOf", "rightOf"],
+        "temporal": ["walking"]
+    },
+    "0000001430.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "leftOf", "rightOf"],
+        "temporal": ["walking"]
+    },
+    "0000001460.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "leftOf", "rightOf"],
+        "temporal": ["walking"]
+    },
+    "0000001470.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "leftOf", "rightOf"],
+        "temporal": ["walking"]
+    },
+    "0000001500.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "center", "leftOf", "rightOf"],
+        "temporal": ["walking"]
+    },
+    "0000001510.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "center", "leftOf", "rightOf"],
+        "temporal": ["walking"]
+    },
+    "0000001540.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "center", "leftOf", "rightOf"],
+        "temporal": ["walking", "standing"]
+    },
+    "0000001550.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "center", "leftOf", "rightOf"],
+        "temporal": ["walking", "standing"]
+    },
+    "0000001560.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "center", "leftOf", "rightOf"],
+        "temporal": ["walking", "standing"]
+    },
+    "0000001570.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "center", "leftOf", "rightOf"],
+        "temporal": ["walking", "standing"]
+    },
+    "0000001590.jpg": {
+        "spatial": ["underneath", "behind", "cluster", "center", "leftOf", "rightOf"],
+        "temporal": ["walking", "standing"]
+    }
+}
