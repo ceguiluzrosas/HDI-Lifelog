@@ -1,7 +1,9 @@
 import json
 
+######################################
+
 data = None
-file = "beach"
+file = "times_square"
 with open(f"/Users/carloseguiluzrosas/SchoolDir/HDI/Research/data/relations_{file}.json") as f:
     data = json.load(f)
 
@@ -39,6 +41,10 @@ print (spatial_set)
 
 ######################################
 
+# data = None
+# file = "times_square"
+# with open(f"/Users/carloseguiluzrosas/SchoolDir/HDI/Research/data/{file}.json") as f:
+#     data = json.load(f)
 # filenames = []
 # for filename in data:
 #     name = filename.split(".")[0]
@@ -55,5 +61,5 @@ print (spatial_set)
 #         "temporal": [],
 #     }
 
-# with open(f"relations_{file}.json", "w+") as f:
+# with open(f"./data/relations_{file}.json", "w+") as f:
 #     json.dump(data, f, indent=4)
